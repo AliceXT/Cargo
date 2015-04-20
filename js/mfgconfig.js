@@ -1,0 +1,1 @@
+﻿var mfg_apidomain = { uc: 'http://user.mofangge.com', web: 'http://www.mofangge.com' ,bxt:'http://bxt.mofangge.com'};
