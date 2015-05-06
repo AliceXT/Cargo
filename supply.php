@@ -2,9 +2,9 @@
 	
 	define(THINK_PATH,"./ThinkPHP/");
 
-	define(APP_HOME,"home");
+	define(APP_HOME,"supply");
 
-	define(APP_PATH,"./home/");
+	define(APP_PATH,"./supply/");
 	/*配合SAE所设置的常量，打包前把这段代码删掉*/
 /*
 	define(SAE_MYSQL_HOST_M,"localhost");
