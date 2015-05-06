@@ -22,7 +22,7 @@ class Adv{
     }
 }
 
-$adv1 = new Adv("group","ttlx","答题兼打怪，十分理由抢走爸妈电脑。"
+$adv1 = new Adv("group","abc","答题兼打怪，十分理由抢走爸妈电脑。"
 	,"image/61.png","天天练习","bgB","A1","");
 $adv2 = new Adv("change","rxfx","直面惨淡的人生，正视自己的“弱项”。"
 	,"image/61.png","弱项分析","bgR","A2","");
