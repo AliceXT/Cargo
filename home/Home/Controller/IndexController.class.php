@@ -5,47 +5,61 @@ class IndexController extends Controller {
 
     public function index(){
 
-    	$adv1 = new Adv("group","abc","答题兼打怪，十分理由抢走爸妈电脑。"
+    	/*$adv1 = new Adv("group","abc","答题兼打怪，十分理由抢走爸妈电脑。"
 	,"image/61.png","天天练习","bgB","A1","");
 $adv2 = new Adv("change","rxfx","直面惨淡的人生，正视自己的“弱项”。"
 	,"image/61.png","弱项分析","bgR","A2","");
 
-$adv = array($adv1,$adv2);
+$adv = array($adv1,$adv2);*/
 //echo json_encode($adv);
 
 	
-		//$url = "http://localhost/cargo/json.php";
-        //$json = file_get_contents($url);
-        //$arr = json_decode($json);
+		$url = "http://".BACK_IP."/CarGo/ads";
+        $json = file_get_contents($url);
+        $arr = json_decode($json);
 
-        //var_dump($arr);
-        $arr = $adv;
+        //dump($arr);
+        //$arr = $adv;
         $n = count($arr);
                                 
         for($i = 0;$i < $n;++$i){
+            if($i % 4 == 0 || $i % 4 == 3){
+                $type = "group";
+            }else{
+                $type = "change";
+            }
+            if($i % 6 == 0){
+                $class = "bgB";
+            }else if($i % 6 == 1){
+                $class = "bgG";
+            }else if($i % 6 == 2){
+                $class = "bgR";
+            }else if($i % 6 == 3){
+                $class = "bgY";
+            }else if($i % 6 == 4){
+                $class = "bgP";
+            }else{
+                $class = "bgO";
+            }
             $strs[$i] = $this->makeBox(
-                $box_type=$arr[$i]->{"box_type"},
-                $id_name=$arr[$i]->{"id_name"},
-                $hiddenword=$arr[$i]->{"hiddenword"},
-                $bg_image=$arr[$i]->{"bg_image"},
-                $bottom_title=$arr[$i]->{"bottom_title"},
-                $color_class=$arr[$i]->{"color_class"},
-                $locate_class=$arr[$i]->{"locate_class"}
+                $box_type = $type,
+                $id_name=$arr[$i]->{"id"},
+                $hiddenword=$arr[$i]->{"word"},
+                $bg_image=$arr[$i]->{"picture"},
+                $bottom_title="",
+                $color_class = $class,
+                $locate_class=""
             );
         }
         $this->assign("strs",$strs);
-        //dump($str);
+        //dump($strs);
     	$this->display();
     }
 
-    public function json(){
-    	$data['name']="Already a name";
-    	$data['password']="Pa55word";
-
-    }
 
     function makeBox($box_type,$id_name,$hiddenword,$bg_image,
         $bottom_title,$color_class,$locate_class,$link){
+        $str = "nothing";
         if($box_type == "group"){
             $str='
             <div class="group '.$color_class.' A_group" id="div1_'.$id_name.'" onclick="window.location.href='.$link.'">

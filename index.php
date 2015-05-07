@@ -5,6 +5,8 @@
 	define(APP_HOME,"home");
 
 	define(APP_PATH,"./home/");
+
+	define(BACK_IP,"10.10.211.80:8080");
 	/*配合SAE所设置的常量，打包前把这段代码删掉*/
 /*
 	define(SAE_MYSQL_HOST_M,"localhost");

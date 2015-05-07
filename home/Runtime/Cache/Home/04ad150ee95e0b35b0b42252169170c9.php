@@ -31,14 +31,14 @@
 </head>
 <body>
     <div>
-                <div class="header" id="top">
+        <div class="header" id="top">
             <!--header开始-->
             <div class="headercenter">
                 <div class="headerlog">
                     <div style="float: left; vertical-align: text-bottom;">
-                        <img id="indexlogo" src="/cargo/home/Home/Common/adv/image//changeskinlogo.png" title="logo"></div>
-                    <!--<a style="margin-left: 30px" target="_blank" href="App/Download">
-                        <img id="img_logo_right" src="image/mfgappadv.gif"></a>  -->
+                        <img id="indexlogo" src="/cargo/home/Home/Common/adv/image/changeskinlogo.png" title="logo"></div>
+                    <a style="margin-left: 30px" target="_blank" href="/cargo/index.php/Home/Main/index">
+                        <img id="img_logo_right" src="/cargo/home/Home/Common/adv/image/main.gif"></a>
                 </div>
             </div>
         </div>
