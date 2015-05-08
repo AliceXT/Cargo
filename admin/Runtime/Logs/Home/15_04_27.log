@@ -1,0 +1,234 @@
+[ 2015-04-27T15:58:19+08:00 ] 127.0.0.1 /cyc2.8/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' D:\xampp\htdocs\cyc2.8\admin\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' D:\xampp\htdocs\cyc2.8\admin\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' D:\xampp\htdocs\cyc2.8\admin\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' D:\xampp\htdocs\cyc2.8\admin\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' D:\xampp\htdocs\cyc2.8\admin\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-27T15:58:19+08:00 ] 127.0.0.1 /cyc2.8/admin.php/Home/Admin/showVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' D:\xampp\htdocs\cyc2.8\admin\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' D:\xampp\htdocs\cyc2.8\admin\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' D:\xampp\htdocs\cyc2.8\admin\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' D:\xampp\htdocs\cyc2.8\admin\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' D:\xampp\htdocs\cyc2.8\admin\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-27T15:58:31+08:00 ] 127.0.0.1 /cyc2.8/admin.php/Home/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' D:\xampp\htdocs\cyc2.8\admin\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' D:\xampp\htdocs\cyc2.8\admin\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' D:\xampp\htdocs\cyc2.8\admin\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' D:\xampp\htdocs\cyc2.8\admin\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' D:\xampp\htdocs\cyc2.8\admin\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] mysql_connect():  D:\xampp\htdocs\cyc2.8\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+NOTIC: [2] mysql_connect():  D:\xampp\htdocs\cyc2.8\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+ERR: php_network_getaddresses: getaddrinfo failed: ��֪�������������� 
+
+[ 2015-04-27T15:59:15+08:00 ] 127.0.0.1 /cyc2.8/admin.php/Home/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' D:\xampp\htdocs\cyc2.8\admin\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' D:\xampp\htdocs\cyc2.8\admin\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' D:\xampp\htdocs\cyc2.8\admin\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' D:\xampp\htdocs\cyc2.8\admin\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' D:\xampp\htdocs\cyc2.8\admin\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-27T15:59:18+08:00 ] 127.0.0.1 /cyc2.8/admin.php/Home/Admin/showVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' D:\xampp\htdocs\cyc2.8\admin\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' D:\xampp\htdocs\cyc2.8\admin\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' D:\xampp\htdocs\cyc2.8\admin\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' D:\xampp\htdocs\cyc2.8\admin\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' D:\xampp\htdocs\cyc2.8\admin\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-27T15:59:24+08:00 ] 127.0.0.1 /cyc2.8/admin.php/Home/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' D:\xampp\htdocs\cyc2.8\admin\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' D:\xampp\htdocs\cyc2.8\admin\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' D:\xampp\htdocs\cyc2.8\admin\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' D:\xampp\htdocs\cyc2.8\admin\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' D:\xampp\htdocs\cyc2.8\admin\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] mysql_connect():  D:\xampp\htdocs\cyc2.8\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+NOTIC: [2] mysql_connect():  D:\xampp\htdocs\cyc2.8\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+ERR: php_network_getaddresses: getaddrinfo failed: ��֪�������������� 
+
+[ 2015-04-27T16:00:43+08:00 ] 127.0.0.1 /cyc2.8/admin.php/Home/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-27T16:00:46+08:00 ] 127.0.0.1 /cyc2.8/admin.php/Home/Admin/showVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-27T16:00:59+08:00 ] 127.0.0.1 /cyc2.8/admin.php/Home/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.109375s ]
+SQL: SELECT * FROM `admin` WHERE `admin_Name` = '方雪婷' LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-27T16:01:00+08:00 ] 127.0.0.1 /cyc2.8/admin.php/Home/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-27T16:02:05+08:00 ] 127.0.0.1 /cyc2.8/admin.php/Home/Car/checkCar/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Undefined index: day D:\xampp\htdocs\cyc2.8\admin\Home\Controller\CarController.class.php 第 414 行.
+SQL: SELECT car_id,car_time,S.place_name start_add,E.place_name end_add
+		        ,car_seats-sum(booktic_num) as remain_ticket,car_plate
+	                from booktic,car,place S,place E
+	                where booktic_car = car_id 
+	                and car_startP = S.place_id 
+	                and car_endP = E.place_id
+					group by car_id
+					union
+                    SELECT car_id,car_time,S.place_name start_add,E.place_name end_add
+		            ,car_seats as remain_ticket,car_plate
+				    from car,place S,place E
+                    where NOT EXISTS (select *
+                    from booktic
+                    where car_id = booktic_car)
+                    and car_startP = S.place_id and car_endP = E.place_id 
+	                order by car_time [ RunTime:0.203125s ]
+SQL: SELECT car_id,car_time,S.place_name start_add,E.place_name end_add
+		        ,car_seats-sum(booktic_num) as remain_ticket,car_plate
+	                from booktic,car,place S,place E
+	                where booktic_car = car_id 
+	                and car_startP = S.place_id 
+	                and car_endP = E.place_id
+					group by car_id
+					union
+                    SELECT car_id,car_time,S.place_name start_add,E.place_name end_add
+		            ,car_seats as remain_ticket,car_plate
+				    from car,place S,place E
+                    where NOT EXISTS (select *
+                    from booktic
+                    where car_id = booktic_car)
+                    and car_startP = S.place_id and car_endP = E.place_id 
+	                order by car_time limit 0,3  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
