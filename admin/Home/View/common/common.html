@@ -136,7 +136,17 @@
         
     
   }
+
 </script>
+<script language="JavaScript" type="text/javascript">
+<!--
+$(button).click=function deleteCookie(name){
+var date=new Date();
+date.setTime(date.getTime()-10000);
+document.cookie=name+"=cookiestr; expires="+date.toGMTString();
+}
+//-->
+</script> 
 </head>
 <body>
 <div id="body-wrapper">
@@ -150,7 +160,7 @@
       <!-- Sidebar Profile links -->
       <div id="profile-links"> 你好, <a href="#" title="Edit your profile">后台管理员</a><br />
         <br />
-        <a href="__ROOT__" title="View the Site">View the Site</a> | <a href="__APP__/Home/Admin/login" title="Sign Out">退出</a> </div>
+        <a href="__ROOT__" title="View the Site">View the Site</a> | <button onclick="deleteCookie('admin')" title="Sign Out">退出</button> </div>
         <ul id="main-nav">
         <!-- Accordion Menu -->
         <li> <a href="#" class="nav-top-item" id="dpgl">订票管理 </a>

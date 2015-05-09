@@ -5,25 +5,25 @@
 <title>后台管理|奔驰快线</title>
 <!--                       CSS                       -->
 <!-- Reset Stylesheet -->
-<link rel="stylesheet" href="/cyc2.8/admin/Home/Common/resources/css/reset.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/cargo/admin/Home/Common/resources/css/reset.css" type="text/css" media="screen" />
 <!-- Main Stylesheet -->
-<link rel="stylesheet" href="/cyc2.8/admin/Home/Common/resources/css/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/cargo/admin/Home/Common/resources/css/style.css" type="text/css" media="screen" />
 <!-- Invalid Stylesheet. This makes stuff look pretty. Remove it if you want the CSS completely valid -->
-<link rel="stylesheet" href="/cyc2.8/admin/Home/Common/resources/css/invalid.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/cargo/admin/Home/Common/resources/css/invalid.css" type="text/css" media="screen" />
 <!--                       Javascripts                       -->
 <!-- jQuery -->
-<script type="text/javascript" src="/cyc2.8/admin/Home/Common/resources/scripts/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="/cargo/admin/Home/Common/resources/scripts/jquery-1.3.2.min.js"></script>
 <!-- jQuery Configuration -->
-<script type="text/javascript" src="/cyc2.8/admin/Home/Common/resources/scripts/simpla.jquery.configuration.js"></script>
+<script type="text/javascript" src="/cargo/admin/Home/Common/resources/scripts/simpla.jquery.configuration.js"></script>
 <!-- Facebox jQuery Plugin -->
-<script type="text/javascript" src="/cyc2.8/admin/Home/Common/resources/scripts/facebox.js"></script>
+<script type="text/javascript" src="/cargo/admin/Home/Common/resources/scripts/facebox.js"></script>
 <!-- jQuery WYSIWYG Plugin -->
-<script type="text/javascript" src="/cyc2.8/admin/Home/Common/resources/scripts/jquery.wysiwyg.js"></script>
+<script type="text/javascript" src="/cargo/admin/Home/Common/resources/scripts/jquery.wysiwyg.js"></script>
 <!-- jQuery Datepicker Plugin -->
-<script type="text/javascript" src="/cyc2.8/admin/Home/Common/resources/scripts/jquery.datePicker.js"></script>
-<script type="text/javascript" src="/cyc2.8/admin/Home/Common/resources/scripts/jquery.date.js"></script>
+<script type="text/javascript" src="/cargo/admin/Home/Common/resources/scripts/jquery.datePicker.js"></script>
+<script type="text/javascript" src="/cargo/admin/Home/Common/resources/scripts/jquery.date.js"></script>
 <!--xt 导入 prototype.js-->
-<!--<script type="text/javascript" src="/cyc2.8/admin/Home/Common/script/prototype-1.5.1.js"></script>-->
+<!--<script type="text/javascript" src="/cargo/admin/Home/Common/script/prototype-1.5.1.js"></script>-->
 <script type="text/javascript">
   
   function getName(url,i){
@@ -57,12 +57,12 @@
     }  
 
 	if(type == 1){
-	   var url = "/cyc2.8/admin.php/Home/Ticket/download/startDate/"+start+"/endDate/"+end;
+	   var url = "/cargo/admin.php/Home/Ticket/download/startDate/"+start+"/endDate/"+end;
 	}
 	else if(type == 2){
-	   var url = "/cyc2.8/admin.php/Home/Car/download/startDate/"+start+"/endDate/"+end;
+	   var url = "/cargo/admin.php/Home/Car/download/startDate/"+start+"/endDate/"+end;
 	}
-    //var url = "/cyc2.8/admin.php/Home/Ticket/download/startDate/2015-04-21/endDate/2015-04-22";
+    //var url = "/cargo/admin.php/Home/Ticket/download/startDate/2015-04-21/endDate/2015-04-22";
     //$("#toExcel").attr("href",url);
     //alert(url);
     window.location.assign(url);
@@ -136,7 +136,17 @@
         
     
   }
+
 </script>
+<script language="JavaScript" type="text/javascript">
+<!--
+$(button).click=function deleteCookie(name){
+var date=new Date();
+date.setTime(date.getTime()-10000);
+document.cookie=name+"=cookiestr; expires="+date.toGMTString();
+}
+//-->
+</script> 
 </head>
 <body>
 <div id="body-wrapper">
@@ -146,41 +156,41 @@
       <!-- Sidebar with logo and menu -->
       <h1 id="sidebar-title"><a href="#">Simpla Admin</a></h1>
       <!-- Logo (221px wide) -->
-      <a href="http://www.865171.cn"><img id="logo" src="/cyc2.8/admin/Home/Common/resources/images/logo.png" alt="Simpla Admin logo" /></a>
+      <a href="http://www.865171.cn"><img id="logo" src="/cargo/admin/Home/Common/resources/images/logo.png" alt="Simpla Admin logo" /></a>
       <!-- Sidebar Profile links -->
       <div id="profile-links"> 你好, <a href="#" title="Edit your profile">后台管理员</a><br />
         <br />
-        <a href="/cyc2.8" title="View the Site">View the Site</a> | <a href="/cyc2.8/admin.php/Home/Admin/login" title="Sign Out">退出</a> </div>
+        <a href="/cargo" title="View the Site">View the Site</a> | <button onclick="deleteCookie('admin')" title="Sign Out">退出</button> </div>
         <ul id="main-nav">
         <!-- Accordion Menu -->
         <li> <a href="#" class="nav-top-item" id="dpgl">订票管理 </a>
           <!-- Add the class "current" to current menu item -->
           
           <ul id="ul_dpgl">
-            <li><a href="/cyc2.8/admin.php/Home/Ticket/checkToday/p/1" id="dpgl_jtjzh">今天及之后</a></li>
-            <li><a href="/cyc2.8/admin.php/Home/Ticket/checkRes/p/1" id="dpgl_qbdp">全部订票</a></li>
-			<li><a href="/cyc2.8/admin.php/Home/Ticket/checkPast/p/1" id="dpgl_cjgqp">处理过期票</a></li>
+            <li><a href="/cargo/admin.php/Home/Ticket/checkToday/p/1" id="dpgl_jtjzh">今天及之后</a></li>
+            <li><a href="/cargo/admin.php/Home/Ticket/checkRes/p/1" id="dpgl_qbdp">全部订票</a></li>
+			<li><a href="/cargo/admin.php/Home/Ticket/checkPast/p/1" id="dpgl_cjgqp">处理过期票</a></li>
           </ul>
         </li>
         <li> <a href="#" class="nav-top-item" id="cxgl">车讯管理 </a>
           <ul id="ul_cxgl">
-            <li><a href="/cyc2.8/admin.php/Home/Car/checkToday/p/1" id="cxgl_jtjzh">今天及之后</a></li>
-            <li><a href="/cyc2.8/admin.php/Home/Car/checkCar/p/1" id="cxgl_qbdp">全部车讯</a></li>
-			<li><a href="/cyc2.8/admin.php/Home/Car/checkPast/p/1" id="cxgl_cjgqp">处理过期车讯</a></li>
-            <li><a href="/cyc2.8/admin.php/Home/Car/newCar" id="cxgl_tjcx">添加车讯</a></li>
+            <li><a href="/cargo/admin.php/Home/Car/checkToday/p/1" id="cxgl_jtjzh">今天及之后</a></li>
+            <li><a href="/cargo/admin.php/Home/Car/checkCar/p/1" id="cxgl_qbdp">全部车讯</a></li>
+			<li><a href="/cargo/admin.php/Home/Car/checkPast/p/1" id="cxgl_cjgqp">处理过期车讯</a></li>
+            <li><a href="/cargo/admin.php/Home/Car/newCar" id="cxgl_tjcx">添加车讯</a></li>
 
           </ul>
         </li>
         <li> <a href="#" class="nav-top-item" id="yhgl">用户管理</a>
           <ul id="ul_yhgl">
-            <li><a href="/cyc2.8/admin.php/Home/Admin/newUser" id="tjgly">添加管理员</a></li>
-            <li><a href="/cyc2.8/admin.php/Home/Admin/checkUser/p/1" id="ckyh">查看用户</a></li>
+            <li><a href="/cargo/admin.php/Home/Admin/newUser" id="tjgly">添加管理员</a></li>
+            <li><a href="/cargo/admin.php/Home/Admin/checkUser/p/1" id="ckyh">查看用户</a></li>
           </ul>
         </li>
         <li> <a href="#" class="nav-top-item" id="ddgl">地点管理</a>
           <ul id="ul_ddgl">
-            <li><a href="/cyc2.8/admin.php/Home/Place/newPlace" id="tjdd">添加地点</a></li>
-            <li><a href="/cyc2.8/admin.php/Home/Place/checkPlace/p/1" id="ckdd">查看地点</a></li>
+            <li><a href="/cargo/admin.php/Home/Place/newPlace" id="tjdd">添加地点</a></li>
+            <li><a href="/cargo/admin.php/Home/Place/checkPlace/p/1" id="ckdd">查看地点</a></li>
           </ul>
         </li>
         

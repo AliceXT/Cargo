@@ -19,6 +19,39 @@
 <script type="text/javascript" src="/cargo/admin/Home/Common/resources/scripts/facebox.js"></script>
 <!-- jQuery WYSIWYG Plugin -->
 <script type="text/javascript" src="/cargo/admin/Home/Common/resources/scripts/jquery.wysiwyg.js"></script>
+
+<!--Ajax-->
+<!--解决方法1:fall
+<script type="text/javascript">
+$(document).ready(function(){
+  var url="http://localhost/test/";
+  $("button").click(function(){
+    $.post(url,
+    {
+      name:"Donald Duck",
+      password:"Duckburg"
+    },
+    function(data,status){
+      alert("数据：" + data + "\n状态：" + status);
+    });
+  });
+});
+</script>-->
+
+<!--解决方法2-->
+<script type="text/javascript" src="/cargo/admin/Home/Common/script/prototype-1.5.1.js"></script>
+<script type="text/javascript">
+  function submitclick(){
+
+    alert('submitcilck');
+    //window.location.assign("http://localhost/test");
+    successTo("a");
+  }
+  function successTo(r){
+    document.cookie="admin=cookiestr";
+    window.location.assign("/cargo/admin.php/Home/Admin/index/id/"+r.responseText());
+  }
+</script>
 </head>
 <body id="login">
 <div id="login-wrapper" class="png_bg">
@@ -28,26 +61,32 @@
     <a href="http://www.865171.cn"><img id="logo" src="/cargo/admin/Home/Common/resources/images/logo.png" alt="Simpla Admin logo" /></a> </div>
   <!-- End #logn-top -->
   <div id="login-content">
-    <form action="/cargo/admin.php/Home/Admin/login" method="post" >
+    <!--
+    <form method="post" id="login_form">
       
       <p>
         <label>账号：</label>
-        <input class="text-input" type="text" name="username" />
+        <input class="text-input" type="text" name="username" id="username">
       </p>
       <div class="clear"></div>
       <p>
         <label>密码：</label>
-        <input class="text-input" type="password"  name="password" />
+        <input class="text-input" type="password"  name="password" id="password">
       </p>
       <div class="clear"></div>
       <p>
         <label>验证码</label>
-        <input class="text-input" type="text" name="verify"/>
+        <input class="text-input" type="text" name="verify" id="verify">
         <img style="height: 60%; width: 60%;" src="/cargo/admin.php/Home/Admin/showVerify" onclick="">
       </p>
       <p>
-        <input class="button" type="submit" value="登录" name="signin" />
+        <button class="button" name="signin" >登录</button>
       </p>
+    </form>-->
+    <form method="post" id="login_form">
+      <input type="text" id="name" name="name" value="name">
+      <input type="password" id="password" name="password" value="password">
+      <input type="button" value="提交" onclick="submitclick()">
     </form>
   </div>
   <!-- End #login-content -->
