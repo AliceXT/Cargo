@@ -1820,3 +1820,153 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 
+[ 2015-05-09T16:26:28+08:00 ] 127.0.0.1 /cargo/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' D:\xampp\htdocs\cargo\admin\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' D:\xampp\htdocs\cargo\admin\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' D:\xampp\htdocs\cargo\admin\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' D:\xampp\htdocs\cargo\admin\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' D:\xampp\htdocs\cargo\admin\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2015-05-09T16:28:43+08:00 ] 127.0.0.1 /cargo/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' D:\xampp\htdocs\cargo\admin\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' D:\xampp\htdocs\cargo\admin\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' D:\xampp\htdocs\cargo\admin\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' D:\xampp\htdocs\cargo\admin\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' D:\xampp\htdocs\cargo\admin\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-09T16:28:51+08:00 ] 127.0.0.1 /cargo/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' D:\xampp\htdocs\cargo\admin\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' D:\xampp\htdocs\cargo\admin\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' D:\xampp\htdocs\cargo\admin\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' D:\xampp\htdocs\cargo\admin\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' D:\xampp\htdocs\cargo\admin\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2015-05-09T16:40:53+08:00 ] 127.0.0.1 /cargo/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' D:\xampp\htdocs\cargo\admin\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' D:\xampp\htdocs\cargo\admin\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' D:\xampp\htdocs\cargo\admin\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' D:\xampp\htdocs\cargo\admin\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' D:\xampp\htdocs\cargo\admin\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-09T16:44:23+08:00 ] 127.0.0.1 /cargo/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' D:\xampp\htdocs\cargo\admin\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' D:\xampp\htdocs\cargo\admin\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' D:\xampp\htdocs\cargo\admin\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' D:\xampp\htdocs\cargo\admin\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' D:\xampp\htdocs\cargo\admin\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-09T17:16:46+08:00 ] 127.0.0.1 /cargo/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' D:\xampp\htdocs\cargo\admin\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' D:\xampp\htdocs\cargo\admin\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' D:\xampp\htdocs\cargo\admin\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' D:\xampp\htdocs\cargo\admin\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' D:\xampp\htdocs\cargo\admin\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

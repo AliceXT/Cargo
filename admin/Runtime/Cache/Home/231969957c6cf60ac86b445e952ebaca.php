@@ -38,20 +38,33 @@ $(document).ready(function(){
 });
 </script>-->
 
-<!--解决方法2-->
+<!--解决方法2:因为重定向的问题导致失效
 <script type="text/javascript" src="/cargo/admin/Home/Common/script/prototype-1.5.1.js"></script>
 <script type="text/javascript">
   function submitclick(){
 
     alert('submitcilck');
     //window.location.assign("http://localhost/test");
-    successTo("a");
+    var url = "http://localhost/test";
+    new Ajax.Request(
+      url,
+      {
+        method:'post',
+        parameters:"name="+$('name').value+"&password="+$('password').value,
+        onSuccess:successTo,
+        onFailture:function(r) {
+              alert 'Updates sizes failed: ' + r.statusText );
+            }
+      }
+    );
+    //successTo("a");
   }
   function successTo(r){
     document.cookie="admin=cookiestr";
     window.location.assign("/cargo/admin.php/Home/Admin/index/id/"+r.responseText());
   }
-</script>
+</script>-->
+
 </head>
 <body id="login">
 <div id="login-wrapper" class="png_bg">
@@ -83,10 +96,10 @@ $(document).ready(function(){
         <button class="button" name="signin" >登录</button>
       </p>
     </form>-->
-    <form method="post" id="login_form">
+    <form method="post" id="login_form" action="http://localhost/test/">
       <input type="text" id="name" name="name" value="name">
       <input type="password" id="password" name="password" value="password">
-      <input type="button" value="提交" onclick="submitclick()">
+      <input type="submit" value="提交" onclick="submitclick()">
     </form>
   </div>
   <!-- End #login-content -->
