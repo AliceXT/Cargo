@@ -74,8 +74,8 @@ $(document).ready(function(){
     <a href="http://www.865171.cn"><img id="logo" src="/cargo/admin/Home/Common/resources/images/logo.png" alt="Simpla Admin logo" /></a> </div>
   <!-- End #logn-top -->
   <div id="login-content">
-    <!--
-    <form method="post" id="login_form">
+    
+    <form method="post" id="login_form" action="/cargo/admin.php/Home/Index/makePost">
       
       <p>
         <label>账号：</label>
@@ -93,13 +93,8 @@ $(document).ready(function(){
         <img style="height: 60%; width: 60%;" src="/cargo/admin.php/Home/Admin/showVerify" onclick="">
       </p>
       <p>
-        <button class="button" name="signin" >登录</button>
+        <input class="button" name="signin" type="submit" value="登录">
       </p>
-    </form>-->
-    <form method="post" id="login_form" action="http://localhost/test/">
-      <input type="text" id="name" name="name" value="name">
-      <input type="password" id="password" name="password" value="password">
-      <input type="submit" value="提交" onclick="submitclick()">
     </form>
   </div>
   <!-- End #login-content -->
