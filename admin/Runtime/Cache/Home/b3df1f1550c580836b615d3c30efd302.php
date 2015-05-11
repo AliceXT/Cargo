@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>后台管理|奔驰快线</title>
+<title>管理员管理|Cargo</title>
 <!--                       CSS                       -->
 <!-- Reset Stylesheet -->
 <link rel="stylesheet" href="/cargo/admin/Home/Common/resources/css/reset.css" type="text/css" media="screen" />
@@ -67,69 +67,65 @@
     //alert(url);
     window.location.assign(url);
   }
+
+  //控制li ul导航栏的展示
+  function getID(model,action){
+    var id1,id2,id3;
+    //alert("ingetID model = "+model+" action = "+ action);
+    //if(model == "Admin")
+    if(model == "User"){
+      //alert("in User");
+      id1="#li_user";
+      id2="#ul_user";
+      if(action == "user"){
+        id3 = "#user_check";
+      }else if(action == "supply"){
+        id3 = "#user_supply";
+      }
+    }
+    //alert(id1+id2+id3);
+    if(model == "Adv"){
+      id1="#li_adv";
+      id2="#ul_adv";
+      if(action == "wait"){
+        id3 = "#adv_wait";
+      }else if(action == "check"){
+        id3 = "#adv_check";
+      }
+    }
+    //alert("Adv");
+    if(model == "Car"){
+      id1="#li_car";
+      id2="#ul_car";
+      if(action == "check"){
+        id3 = "#adv_check";
+      }
+    }
+    //alert("car");
+    var str = id1+","+id2+","+id3;
+    return (str);
+
+  }
   /*********************end****订票管理、车讯管理下载工具*********************/
   window.onload = function(){
 
     /****************下面是导航菜单的js代码****************/
-    var url = window.location.pathname;
+    var url = "/cargo/admin.php/Home/Admin/index";
+    
 
-    var model = getName(url,3);
-    var action = getName(url,4);
-
+    var model = getName(url,4);
+    var action = getName(url,5);
+    //alert(model + action);
     //ok();
-    var id0,id1,idul;
+    var ids = new Array();
 
-    if(model == "Ticket"){
-      id0="#dpgl";
-      idul = "#ul_dpgl";
-      if(action == "checkToday"){
-        id1=id0+"_jtjzh";
-      }else if (action == "checkRes"){
-        id1=id0+"_qbdp";
-      }else if(action  == "checkPast"){
-		id1=id0+"_cjgqp";
-	  }
-    }
-    if(model == "Car"){
-      id0="#cxgl";
-      idul="#ul_cxgl";
-      
-      if(action == "newCar"){
-        id1 = id0+"_tjcx";
-      }else if (action == "checkPast"){
-        id1=id0+"_cjgqp";
-      }else if(action  == "checkCar"){
-		id1=id0+"_qbdp";
-	  }else if(action  == "checkToday"){
-		id1=id0+"_jtjzh";
-	  }
-    }
-    if(model == "Admin"){
-      if(action == "index")
-      {
-        return;
-      }
-      id0 = "#yhgl";
-      idul="#ul_yhgl";
-      if(action == "newUser"){
-        id1="#tjgly";
-      }else{
-        id1 = "#ckyh";
-      }
-    }
-    if(model == "Place"){
-      id0="#ddgl";
-      idul="#ul_ddgl";
-      if(action == "newPlace"){
-        id1="#tjdd";
-      }else{
-        id1="#ckdd";
-      }
-    }
+    //得到id的名字
+    ids = getID(model,action).split(",");
+    //alert("outgetID"+model+","+action+","+ids[0]+ids[1]+ids[2]);
     //alert(id0+id1+idul);
-    $(id0).addClass("nav-top-item current");
-    $(idul).css("display","block");
-    $(id1).addClass("current");
+    $(ids[0]).addClass("nav-top-item current");
+    $(ids[1]).css("display","block");
+    $(ids[2]).addClass("current");
 
     /****************上面是导航菜单的js代码****************/
 
@@ -158,39 +154,28 @@ document.cookie=name+"=cookiestr; expires="+date.toGMTString();
       <!-- Logo (221px wide) -->
       <a href="http://www.865171.cn"><img id="logo" src="/cargo/admin/Home/Common/resources/images/logo.png" alt="Simpla Admin logo" /></a>
       <!-- Sidebar Profile links -->
-      <div id="profile-links"> 你好, <a href="#" title="Edit your profile">后台管理员</a><br />
+      <div id="profile-links"> 你好, <a href="#" title="Edit your profile">管理员</a><br />
         <br />
-        <a href="/cargo" title="View the Site">View the Site</a> | <button onclick="deleteCookie('admin')" title="Sign Out">退出</button> </div>
+        <a href="/cargo" title="View the Site">View the Site</a> | <a href="/cargo/admin.php/Home/Admin/logout"title="Sign Out">退出</a> </div>
         <ul id="main-nav">
         <!-- Accordion Menu -->
-        <li> <a href="#" class="nav-top-item" id="dpgl">订票管理 </a>
+        <li> <a href="#" class="nav-top-item" id="li_user">用户管理 </a>
           <!-- Add the class "current" to current menu item -->
           
-          <ul id="ul_dpgl">
-            <li><a href="/cargo/admin.php/Home/Ticket/checkToday/p/1" id="dpgl_jtjzh">今天及之后</a></li>
-            <li><a href="/cargo/admin.php/Home/Ticket/checkRes/p/1" id="dpgl_qbdp">全部订票</a></li>
-			<li><a href="/cargo/admin.php/Home/Ticket/checkPast/p/1" id="dpgl_cjgqp">处理过期票</a></li>
+          <ul id="ul_user">
+            <li><a href="/cargo/admin.php/Home/User/user" id="user_check">查看普通用户</a></li>
+            <li><a href="/cargo/admin.php/Home/User/supply" id="user_supply">查看供销商用户</a></li>
           </ul>
         </li>
-        <li> <a href="#" class="nav-top-item" id="cxgl">车讯管理 </a>
-          <ul id="ul_cxgl">
-            <li><a href="/cargo/admin.php/Home/Car/checkToday/p/1" id="cxgl_jtjzh">今天及之后</a></li>
-            <li><a href="/cargo/admin.php/Home/Car/checkCar/p/1" id="cxgl_qbdp">全部车讯</a></li>
-			<li><a href="/cargo/admin.php/Home/Car/checkPast/p/1" id="cxgl_cjgqp">处理过期车讯</a></li>
-            <li><a href="/cargo/admin.php/Home/Car/newCar" id="cxgl_tjcx">添加车讯</a></li>
-
+        <li> <a href="#" class="nav-top-item" id="li_adv">广告位管理</a>
+          <ul id="ul_adv">
+            <li><a href="/cargo/admin.php/Home/Adv/wait" id="adv_wait">待批准申请</a></li>
+            <li><a href="/cargo/admin.php/Home/Adv/check" id="adv_check">查看现有广告</a></li>
           </ul>
         </li>
-        <li> <a href="#" class="nav-top-item" id="yhgl">用户管理</a>
-          <ul id="ul_yhgl">
-            <li><a href="/cargo/admin.php/Home/Admin/newUser" id="tjgly">添加管理员</a></li>
-            <li><a href="/cargo/admin.php/Home/Admin/checkUser/p/1" id="ckyh">查看用户</a></li>
-          </ul>
-        </li>
-        <li> <a href="#" class="nav-top-item" id="ddgl">地点管理</a>
-          <ul id="ul_ddgl">
-            <li><a href="/cargo/admin.php/Home/Place/newPlace" id="tjdd">添加地点</a></li>
-            <li><a href="/cargo/admin.php/Home/Place/checkPlace/p/1" id="ckdd">查看地点</a></li>
+        <li> <a href="#" class="nav-top-item" id="li_car">车辆管理</a>
+          <ul id="ul_car">
+            <li><a href="/cargo/admin.php/Home/Car/check" id="car_check">查看车辆</a></li>
           </ul>
         </li>
         
@@ -213,7 +198,7 @@ document.cookie=name+"=cookiestr; expires="+date.toGMTString();
 
     <div id="footer"> <small>
       <!-- Remove this notice or replace it with whatever you want -->
-      &#169; Copyright 2015 ZSSYS | Powered by AliceXT| <a href="#">Top</a> </small> </div>
+      &#169; Copyright 2015 CARGO | Powered by AliceXT| <a href="#">Top</a> </small> </div>
     <!-- End #footer -->
   </div>
   <!-- End #main-content -->
