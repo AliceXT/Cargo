@@ -9,7 +9,7 @@
     </div>
     </noscript>
         <!-- Page Head -->
-    <h2>车讯管理</h2>
+    <h2>{$Title}</h2>
 
     <!-- End .shortcut-buttons-set -->
     <div class="clear"></div>
@@ -18,26 +18,10 @@
       <!-- Start Content Box -->
       <div class="content-box-header">
         <h3>{$title}</h3>
-        <?php if($title == "全部车讯") {?>
-        <div style="padding-top: 7px;float: left;">
-        <form action="__APP__/Home/Car/checkCar/p/1" method="post" id="timeForm">
-          <input type="text" name="startTime" id="startTime" pattern="[0-9]{4}[-][0-9]{2}[-][0-9]{2}" placeholder="日期(xxxx-xx-xx)" value="<?=session('startdate')?>">到
-          <input type="text" name="endTime" id="endTime" pattern="[0-9]{4}[-][0-9]{2}[-][0-9]{2}" placeholder="日期(xxxx-xx-xx)" value="<?=session('enddate')?>">
-          <input type="submit" class="button" value="筛选">
+        <form id="search_form" action="__APP__/Home/Car/search" method="get">
+          <input type="text" patten="输入关键词" id="key" name="key">
+          <input type="submit" value="搜索">
         </form>
-        </div>
-        <?php }?>
-    
-    <?php if($title != "处理过期车讯") {?>
-        <a class="button" style="float: left;margin-top: 7px;margin-left: 15px;line-height: 15px;" id="toExcel" onclick="ok(2)">导出成Excel
-        </a>
-    <?php }?>
-    
-    <?php if($title == "处理过期车讯") {?>
-        <a class="button" style="float: left;margin-top: 7px;margin-left: 15px;line-height: 15px;" id="deletePass" 
-    href=<?="__APP__/Home/Car/deletePass"; ?>>一键删除
-        </a>
-    <?php }?>
         <ul class="content-box-tabs">
           <!--<li><a href="#tab1" class="default-tab">Table</a></li>-->
           <!-- href must be unique and match the id of target div -->
@@ -53,14 +37,17 @@
             <thead>
               <tr>
                 <th>
-                  <input class="check-all" type="checkbox"  />
+                  <input class="check-all" type="checkbox">
                 </th>
-                <th>车讯ID</th>
-                <th>时间</th>
-                <th>起点</th> 
-                <th>终点</th>
-                <th>余票</th>
-                <th>车牌号</th>
+                <th>车辆代号</th>
+                <th>品牌</th>
+                <th>型号</th>
+                <th>描述</th>
+                <th>图片地址</th>
+                <th>价格</th>
+                <th>库存</th>
+                <th>车辆类型</th>
+                <th>所属供销商</th>
               </tr>
             </thead>
             <tfoot>
@@ -78,17 +65,20 @@
               <volist name="requests" id="request"> 
               <tr>
                 <td>
-                  <input type="checkbox" id="{$request['car_id']}" name="{$request['car_id']}" value="{$request['car_id']}"/>
+                  <input type="checkbox" id="{$request['id']}" name="{$request['id']}" value="{$request['id']}" >
                 </td>
-                <td>{$request['car_id']}</td>
-                <td>{$request['car_time']}</td>
-                <td>{$request['start_add']}</td>
-                <td>{$request['end_add']}</td>
-                <td>{$request['remain_ticket']}</td>
-                <td>{$request['car_plate']}</td>
+                <td>{$request['id']}</td>
+                <td>{$request['brand']}</td>
+                <td>{$request['model']}</td>
+                <td>{$request['description']}</td>
+                <td>{$request['picture']}</td>
+                <td>{$request['price']}</td>
+                <td>{$request['stock']}</td>
+                <td>{$request['type']}</td>
+                <td>{$request['owner']}</td>
                 <td>
                   <!-- Icons -->
-                  <a href=<?="__APP__/Home/Car/modifyCar/id/".$request['car_id']; ?> title="Edit"><img src="__ROOT__/admin/Home/Common/resources/images/icons/pencil.png" alt="Edit" /></a><a href=<?="__APP__/Home/Car/delete/id/".$request['car_id'];?> title="Delete"><img src="__ROOT__/admin/Home/Common/resources/images/icons/cross.png" alt="Delete" /></a></td>
+                  <a href=<?="__APP__/Home/Car/delete/id/".$request['id'];?> title="Delete"><img src="__ROOT__/admin/Home/Common/resources/images/icons/cross.png" alt="Delete"></a></td>
               </tr>
               </volist>
             </tbody>

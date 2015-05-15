@@ -15,7 +15,7 @@ class IndexController extends Controller {
         $action = A("Admin");
        // $action->checkVerify($_POST['verify']);
 
-        $url = "http://127.0.0.1/test/index.php";
+        $url = BACK_URL."/index.php";
         $post_data = array("name"=>$_POST['username'],
             "password"=>$_POST['password']);
 

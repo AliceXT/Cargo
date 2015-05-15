@@ -7,6 +7,8 @@
 	define(APP_PATH,"./admin/");
 
 	define(ADMIN_TOKEN,"s98f34hif23fv0yefu4==");
+
+	define(BACK_URL,"http://localhost/test");
 	/*配合SAE所设置的常量，打包前把这段代码删掉*/
 /*
 	define(SAE_MYSQL_HOST_M,"localhost");
