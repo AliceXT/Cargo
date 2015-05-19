@@ -9,7 +9,7 @@
     </div>
     </noscript>
         <!-- Page Head -->
-    <h2>订票管理</h2>
+    <h2>{$Title}</h2>
 
     <!-- End .shortcut-buttons-set -->
     <div class="clear"></div>
@@ -27,17 +27,17 @@
         </form>
         </div>
         <?php }?>
-		
-		<?php if($title != "处理过期票") {?>
+    
+    <?php if($title != "处理过期票") {?>
         <a class="button" style="float: left;margin-top: 7px;margin-left: 15px;line-height: 15px;" id="toExcel" onclick="ok(1)">导出成Excel
         </a>
-		<?php }?>
-		
-		<?php if($title == "处理过期票") {?>
+    <?php }?>
+    
+    <?php if($title == "处理过期票") {?>
         <a class="button" style="float: left;margin-top: 7px;margin-left: 15px;line-height: 15px;" id="deletePass" 
-		href=<?="__APP__/Home/Ticket/deletePass"; ?>>一键删除
+    href=<?="__APP__/Home/Ticket/deletePass"; ?>>一键删除
         </a>
-		<?php }?>
+    <?php }?>
         <ul class="content-box-tabs">
           <!--<li><a href="#tab1" class="default-tab">Table</a></li>-->
           <!-- href must be unique and match the id of target div -->
@@ -48,21 +48,18 @@
       <div class="content-box-content">
         <div class="tab-content default-tab" id="tab1">
           <!-- This is the target div. id must match the href of this div's tab -->
-          <form action="__APP__/Home/Ticket/delete" method="post">
+          <form action="__APP__/Home/User/delete" method="post">
           <table>
             <thead>
               <tr>
                 <th>
                   <input class="check-all" type="checkbox"  />
                 </th>
-                <th>车票ID</th>
-                <th>车讯ID</th>
+                <th>用户ID</th>
                 <th>姓名</th>
                 <th>手机</th> 
-                <th>上车人数</th>
-                <th>上车时间</th>
-                <th>地点</th>
-                <th>终点</th>
+                <th>Email</th>
+                <th>地址</th>
               </tr>
             </thead>
             <tfoot>
@@ -82,17 +79,14 @@
                 <td>
                   <input type="checkbox" id="{$request['booktic_id']}" name="{$request['booktic_id']}" value="{$request['booktic_id']}"/>
                 </td>
-                <td>{$request['booktic_id']}</td>
-                <td>{$request['car_id']}</td>
-                <td>{$request['booktic_Name']}</td>
-                <td>{$request['booktic_tel']}</td>
-                <td>{$request['booktic_num']}</td>
-                <td>{$request['car_time']}</td>
-                <td>{$request['start_add']}</td>
-                <td>{$request['end_add']}</td>
+                <td>{$request['id']}</td>
+                <td>{$request['name']}</td>
+                <td>{$request['type']}</td>
+                <td>{$request['email']}</td>
+                <td>{$request['address']}</td>
                 <td>
                   <!-- Icons -->
-                  <a href=<?="__APP__/Home/Ticket/delete/id/".$request['booktic_id']; ?> title="Edit"><img src="__ROOT__/admin/Home/Common/resources/images/icons/pencil.png" alt="Edit" /></a><a href=<?="__APP__/Home/Ticket/delete/id/".$request['booktic_id'];?> title="Delete"><img src="__ROOT__/admin/Home/Common/resources/images/icons/cross.png" alt="Delete" /></a></td>
+                  <!--<a href=<?="__APP__/Home/Ticket/modify/id/".$request['booktic_id']; ?> title="Edit"><img src="__ROOT__/admin/Home/Common/resources/images/icons/pencil.png" alt="Edit" /></a>--><a href=<?="__APP__/Home/Ticket/delete/id/".$request['booktic_id'];?> title="Delete"><img src="__ROOT__/admin/Home/Common/resources/images/icons/cross.png" alt="Delete" /></a></td>
               </tr>
               </volist>
             </tbody>

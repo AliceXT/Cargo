@@ -81,6 +81,8 @@
         id3 = "#user_check";
       }else if(action == "supply"){
         id3 = "#user_supply";
+      }else if(action == "admin"){
+        id3 = "#user_admin";
       }
     }
     //alert(id1+id2+id3);
@@ -165,6 +167,7 @@ document.cookie=name+"=cookiestr; expires="+date.toGMTString();
           <ul id="ul_user">
             <li><a href="/cargo/admin.php/Home/User/user" id="user_check">查看普通用户</a></li>
             <li><a href="/cargo/admin.php/Home/User/supply" id="user_supply">查看供销商用户</a></li>
+            <li><a href="/cargo/admin.php/Home/User/admin" id="user_admin">查看管理员用户</a></li>
           </ul>
         </li>
         <li> <a href="#" class="nav-top-item" id="li_adv">广告位管理</a>
