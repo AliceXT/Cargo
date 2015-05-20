@@ -1,0 +1,97 @@
+<include file="common:common" />
+  <div id="main-content">
+    <!-- Main Content Section with everything -->
+    <noscript>
+    <!-- Show a notification if the user has disabled javascript -->
+    <div class="notification error png_bg">
+      <div> Javascript is disabled or is not supported by your browser. Please <a href="http://browsehappy.com/" title="Upgrade to a better browser">upgrade</a> your browser or <a href="http://www.google.com/support/bin/answer.py?answer=23852" title="Enable Javascript in your browser">enable</a> Javascript to navigate the interface properly.
+        Download From <a href="http://www.exet.tk">exet.tk</a></div>
+    </div>
+    </noscript>
+        <!-- Page Head -->
+    <h2>{$Title}</h2>
+
+    <!-- End .shortcut-buttons-set -->
+    <div class="clear"></div>
+    <!-- End .clear -->
+    <div class="content-box">
+      <!-- Start Content Box -->
+      <div class="content-box-header">
+        <h3>{$title}</h3>
+        <form id="search_form" action="__APP__/Home/Car/search" method="get">
+          <input type="text" patten="输入关键词" id="key" name="key">
+          <input type="submit" value="搜索">
+        </form>
+        <ul class="content-box-tabs">
+          <!--<li><a href="#tab1" class="default-tab">Table</a></li>-->
+          <!-- href must be unique and match the id of target div -->
+        </ul>
+        <div class="clear"></div>
+      </div>
+      <!-- End .content-box-header -->
+      <div class="content-box-content">
+        <div class="tab-content default-tab" id="tab1">
+          <!-- This is the target div. id must match the href of this div's tab -->
+          <form action="__APP__/Home/Car/delete" method="post">
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  <input class="check-all" type="checkbox">
+                </th>
+                <th>车辆代号</th>
+                <th>品牌</th>
+                <th>型号</th>
+                <th>描述</th>
+                <th>图片地址</th>
+                <th>价格</th>
+                <th>库存</th>
+                <th>车辆类型</th>
+                <th>所属供销商</th>
+              </tr>
+            </thead>
+            <tfoot>
+              <tr>
+                <td colspan="6">
+                  <div class="pagination">
+                    {$show}
+                  </div>
+                  <!-- End .pagination -->
+                  <div class="clear"></div>
+                </td>
+              </tr>
+            </tfoot>
+            <tbody>
+              <volist name="requests" id="request"> 
+              <tr>
+                <td>
+                  <input type="checkbox" id="{$request['id']}" name="{$request['id']}" value="{$request['id']}" >
+                </td>
+                <td>{$request['id']}</td>
+                <td>{$request['brand']}</td>
+                <td>{$request['model']}</td>
+                <td>{$request['description']}</td>
+                <td>{$request['picture']}</td>
+                <td>{$request['price']}</td>
+                <td>{$request['stock']}</td>
+                <td>{$request['type']}</td>
+                <td>{$request['owner']}</td>
+                <td>
+                  <!-- Icons -->
+                  <a href=<?="__APP__/Home/Car/delete/id/".$request['id'];?> title="Delete"><img src="__ROOT__/admin/Home/Common/resources/images/icons/cross.png" alt="Delete"></a></td>
+              </tr>
+              </volist>
+            </tbody>
+          </table>
+          <input class="button" type="submit" value="批量删除">
+        </form>
+        </div>
+        <!-- End #tab1 -->
+        
+      </div>
+
+
+      <!-- End .content-box-content -->
+    </div><div>{$snow}</div>
+    <!-- End .content-box -->
+<include file="common:footer" />
