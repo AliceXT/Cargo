@@ -1,0 +1,261 @@
+<include file="common:common" />
+  <div id="main-content">
+    <!-- Main Content Section with everything -->
+    <noscript>
+    <!-- Show a notification if the user has disabled javascript -->
+    <div class="notification error png_bg">
+      <div> Javascript is disabled or is not supported by your browser. Please <a href="http://browsehappy.com/" title="Upgrade to a better browser">upgrade</a> your browser or <a href="http://www.google.com/support/bin/answer.py?answer=23852" title="Enable Javascript in your browser">enable</a> Javascript to navigate the interface properly.
+        Download From <a href="http://www.exet.tk">exet.tk</a></div>
+    </div>
+    </noscript>
+        <!-- Page Head -->
+    <h2>{$Title}</h2>
+
+    <!-- End .shortcut-buttons-set -->
+    <div class="clear"></div>
+    <!-- End .clear -->
+    <div class="content-box">
+      <!-- Start Content Box -->
+      <div class="content-box-header">
+        <h3>{$title}</h3>
+        <ul class="content-box-tabs">
+          <!--<li><a href="#tab1" class="default-tab">Table</a></li>-->
+          <!-- href must be unique and match the id of target div -->
+        </ul>
+        <div class="clear"></div>
+      </div>
+      <!-- End .content-box-header -->
+      <div class="content-box-content">
+        <div class="tab-content default-tab" id="tab1">
+          <!-- This is the target div. id must match the href of this div's tab -->
+          <form action="__APP__/Home/Car/{$action}" method="post" class="contentform">
+          <!--<h4>添加管理员</h4>-->
+          <fieldset>
+            <p>
+            <h4>车辆基本信息</h4>
+            </p>
+            <div class="clear"></div>
+            <p>
+            <label>车辆品牌：</label>
+            <input class="text-input" required="required" type="text" name="brand" id="brand" value="{$request['brand']}">
+            </p>
+            <div class="clear"></div>
+            <p>
+            <label>新车：</label>
+            <!--<input class="text-input" required="required" type="text" name="type" id="type" value="{$request['type']}">-->
+            <select name="type" id="type">
+              <option value="两厢">两厢</option>
+              <option value="三厢">三厢</option>
+              <option value="微面车">微面车</option>
+              <option value="新能源车">新能源车</option>
+              <option value="SUV越野车">SUV越野车</option>
+              <option value="MPV商务车">MPV商务车</option>
+            </select>
+            </p>
+            <div class="clear"></div>
+            <p>
+            <label>车辆型号：</label>
+            <input class="text-input" required="required" type="text" name="model" id="model" value="{$request['model']}">
+            </p>
+            <div class="clear"></div>
+            <p>
+            <label>车辆描述：</label>
+            <input class="text-input" required="required" type="text" name="description" id="description" value="{$request['description']}">
+            </p>
+            <div class="clear"></div>
+            <p>
+            <label>车辆图片地址：</label>
+            <input class="text-input" required="required" type="text" name="picture" id="picture" value="{$request['picture']}">
+            </p>
+            <div class="clear"></div>
+            <p>
+            <label>车辆价格：</label>
+            <input class="text-input" required="required" type="number" min="1"name="price" id="price" value="{$request['price']}">
+            </p>
+            <div class="clear"></div>
+            <p>
+            <label>车辆折扣：</label>
+            <input class="text-input" type="number" min="1" name="discount" id="discount" value="{$request['discount']}">
+            </p>
+            <div class="clear"></div>
+            <p>
+            <label>车辆库存：</label>
+            <input class="text-input" required="required" type="number" min="1" name="stock" id="stock" value="{$request['stock']}">
+            </p>
+            <div class="clear"></div>
+
+
+
+
+            <p>
+            <h4>车身参数</h4>
+            </p>
+            <div class="clear"></div>
+            <p>
+            <?php 
+              function get_number_inputs($arr,$len){
+                foreach($arr as $name=>$value){/*
+            ?>
+            <p>
+            <label><?=$value?></label>
+            <input class="text-input" required="required" type="number"
+            <?php
+                if($len[$name]){
+                  $str = ' min="'.$len[$name]['min'].'" max="'.$len[$name]['max'].'"';
+                  echo $str;
+
+                }else{
+                  $str = ' min="1"';
+                  echo $str;
+                }
+            ?>
+            name="<?=$name?>" id="<?=$name?>" value="{$request[<?=$name?>]}">
+            </p>
+            <div class="clear"></div>
+            <p>
+            <?php */
+              }
+
+              }//get_number_input
+              function get_text_inputs($arr){
+                foreach($arr as $name=>$value){
+                  $str = $str = '
+            <p>
+            <label>'.$value.'</label>
+            <input class="text-input" required="required" type="text" name="'.$name.'" id="'.$name.'" value="'.$request[$name].'" >
+            </p>
+            <div class="clear"></div>
+            <p>';
+                  echo $str;
+                }
+              }
+              $arr = array(
+                'length'=>'长（mm）',
+                'width'=>'宽',
+                'height'=>'高',
+                'door'=>'车身结构（X门X座）',
+                'wheelbase'=>'轴距（2040-3500mm）',
+                'weight'=>'车重（kg）',
+                'fuelTank'=>'油箱容积（L）',
+                'trunkSpace'=>'行李箱容积（L）',
+                'groundClearance'=>'最小离地间隙(100～250mm)');
+              $len = array(
+                'wheelbase'=>array('min'=>'2040','max'=>'3500'),
+                'groundClearance'=>array('min'=>'100','max'=>'250')
+                );
+
+              get_number_inputs($arr,$len);
+
+              $arr = array('guarantee'=>'保修政策（X年X万公里）');
+              get_text_inputs($arr);
+
+
+            ?>
+
+
+
+            <p>
+            <h4>技术参数</h4>
+            </p>
+            <div class="clear"></div>
+            <?php 
+              function get_select_inputs($arr,$option){
+                foreach($arr as $name=>$value){
+                  $str = '
+            <p>
+            <label>'.$value.'</label>
+            <select name="'.$name.'" id="'.$name.'">';
+                  foreach($option[$name] as $v){
+                    if($v == $reuqest[$name]){
+                      $str .='<option value="'.$v.'" selected="selected">'.$v.'</option>';
+                      continue;
+                    }
+                    $str .='<option value="'.$v.'">'.$v.'</option>';
+                  } 
+                  $str .='</select>
+            </p>
+            <div class="clear"></div>';
+                  echo $str;
+                }
+              }
+              $arr = array(
+                'gearbox'=>'变速箱（MT,AT,CVT,DSG）',
+                'driveType'=>'驱动方式',
+                'resistanceType'=>'助力类型（电动助力,液压助力）'
+                );
+              $option = array(
+                'gearbox'=>array('MT', 'AT', 'CVT', 'DSG'),
+                'driveType'=>array('前置前驱', '前置后驱', '前置四驱', '中置后驱', '中置四驱', '后置后驱', '后置四驱'),
+                'resistanceType'=>array('电动阻力', '液压助力')
+                );
+              get_select_inputs($arr,$option);
+
+              $arr = array(
+                'tyre' =>'轮胎规格');
+              get_text_inputs($arr);
+
+              $arr = array(
+                'maxSpeed'=>'最高车速（180-210Km/h）',
+                'gearNum'=>'挡位个数（4-8挡）'
+                );
+              $len = array(
+                'maxSpeed'=>array('min'=>'180','max'=>'210'),
+                'gearNum'=>array('min'=>'4','max'=>'8')
+                );
+              get_number_inputs($arr,$len);
+            ?>
+
+
+            <p>
+            <h4>发动机参数</h4>
+            </p>
+            <div class="clear"></div>
+            <?php 
+$arr = array(
+  'displacement'=>  '排量（L）',
+  'maxPower'=>'最大功率（80-120kw）',
+  'maxTorque'=>  '最大扭矩（100-150Nm）'
+  );
+$len = array( 
+  'maxPower'=>array('min'=>'80','max'=>'120'),
+  'maxTorque'=> array('min'=>'100','max'=>'150')
+  );
+get_number_inputs($arr,$len);
+
+$arr = array(
+  'cylinder'=>'汽缸数',
+  'fuelLabel;'=>'燃油标号',
+  'intake'=>'进气形式',
+  'oilFeed'=>'供油方式' ,
+  'environmental'=>'环保标准'
+);
+$option = array(
+  'cylinder'=>array('3','4','5','6','8','10','12'),
+  'fuelLabel;'=>array('90','93','97','98'),
+  'intake'=>array('机械增压', '涡轮增压', '自然吸气'),
+  'oilFeed'=>array('化油器', '单点电喷', '多点电喷', '直喷'),
+  'environmental'=>array('国I','国Ⅱ','国Ⅲ','国IV')
+  );
+get_select_inputs($arr,$option);
+
+            ?>
+
+
+            <p>
+              <label>验证码:</label>
+              <img style="height: 30%; width: 30%;" src="__APP__/Home/Admin/showVerify" onclick="">
+              <input class="text-input small-input" type="text" name="verify" id="verify">   
+            </p>
+            <div class="clear"></div>
+            
+          <input class="button" type="submit" value="{$submitName}" />
+          </fieldset>
+        </form>
+        </div>
+        <!-- End #tab1 -->
+        
+      </div>
+      <!-- End .content-box-content -->
+    </div>
+    <!-- End .content-box -->
+<include file="common:footer" />

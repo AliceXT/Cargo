@@ -48,14 +48,18 @@ class IndexController extends Controller {
         //dump($output);
         //dump($status);
         
-        if($status =="200"){
+        if($status =="200" && $data['type'] == "Solder"){
             //验证用户的cookie
             session(array('name'=>'cargo_session','expire'=>3600));//初始化cargo_session
-            session('cargo_session',$data['auth_token']);//将cargo_session赋值为id的值
+            session(array('name'=>'name_session','expire'=>3600));//初始化name_session
+            session(array('name'=>'id_session','expire'=>3600));//初始化name_session
+            session('cargo_session',$data['auth_token']);//将cargo_session赋值为token的值
+            session('name_session',$data['name']);//将name_session赋值为用户名
+            session('id_session',$data['id']);//将id_session赋值为用户id
             $url = U("Admin/index");
             $this->success("登录成功",$url);
         }else{
-            $this->error('该用户没有管理员功能');
+            $this->error('该用户没有管理员功能,错误代码'.$status);
         }
         
     }

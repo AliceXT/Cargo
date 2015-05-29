@@ -296,13 +296,13 @@ a.remove-link:hover {
                 float: left;
                 }
 /*****************xt add form**********************/
-.content-box-header form {
+/*.content-box-header form {
                 padding: 8px 15px 10px;
                 float: right;
                 }
 /*****************xt add form**********************/               
 
-ul.content-box-tabs {
+/*ul.content-box-tabs {
                 float: right;
                 padding: 12px 15px 0 0 !important;
 				margin: 0 !important;
@@ -507,6 +507,88 @@ form input[type="radio"] {
 				padding: 0;
                 background: none;
 				border: 0;
+                }
+
+/*************** xt Forms ***************/
+.contentform{
+                text-align: left;
+                width: 300px;
+                margin: 0 auto;
+                margin-bottom: 30px;
+                padding-top: 30px;
+}
+
+.contentform label {
+                font-weight: bold;
+                font-family: Helvetica, Arial, sans-serif;
+                float: left;
+                width: 110px;
+                padding: 0;
+                font-size: 14px;
+                }
+             
+.contentform fieldset legend {
+                font-weight: bold;
+                margin-bottom: 50px;
+                padding-top: 50px;
+                }
+                
+.contentform p small {
+                font-size: 0.75em;
+                color: #777;
+                padding: 0;
+                }
+                                
+                                
+.contentform input.text-input,
+.contentform select,
+.contentform textarea,
+.contentform .wysiwyg {
+                padding: 6px;
+                font-size: 13px;
+                background: #fff url('../images/bg-form-field.gif') top left repeat-x;
+                border: 1px solid #d5d5d5;
+                                color: #333;
+                float:right;
+                margin-bottom: 10px;
+                }
+            
+.contentform .small-input {
+                width: 25% !important;
+                }
+                
+.contentform .medium-input {
+                width: 50% !important;
+                }
+                
+.contentform .large-input {
+                width: 97.5% !important;
+                                font-size: 16px !important;
+                                padding: 8px !important;
+                }
+                
+.contentform textarea {
+                width: 97.5% !important;
+                font-family: Arial, Helvetica, sans-serif;
+                }
+                
+.contentform select {
+                padding: 4px;
+                background: #fff;
+                }
+                                
+.contentform input[type="checkbox"],
+.contentform input[type="radio"] {
+                                padding: 0;
+                background: none;
+                                border: 0;
+                }
+
+.contentform input[type="submit"] {
+                float:right;
+                                padding: 0;
+                background: none;
+                                border: 0;
                 }
 
 /*************** Notifications ***************/

@@ -6,7 +6,8 @@
 
 	define(APP_PATH,"./supply/");
 
-	define(SUPPLY_TOKEN,"s98f34hif23fv0yefu4==");
+	define(NUM_PER_PAGE, 10);//每页显示的数据条数
+	define(BACK_URL,"http://10.10.211.68:8080/CarGo");
 	/*配合SAE所设置的常量，打包前把这段代码删掉*/
 /*
 	define(SAE_MYSQL_HOST_M,"localhost");

@@ -48,10 +48,11 @@ class IndexController extends Controller {
         //dump($output);
         //dump($status);
         
-        if($status =="200"){
+        if($status =="200" && $data['type'] == "Admin"){
             //验证用户的cookie
             session(array('name'=>'cargo_session','expire'=>3600));//初始化cargo_session
             session('cargo_session',$data['auth_token']);//将cargo_session赋值为id的值
+            
             $url = U("Admin/index");
             $this->success("登录成功",$url);
         }else{

@@ -2,28 +2,28 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>管理员管理|Cargo</title>
+<title>供应商|Cargo</title>
 <!--                       CSS                       -->
 <!-- Reset Stylesheet -->
-<link rel="stylesheet" href="__ROOT__/admin/Home/Common/resources/css/reset.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="__ROOT__/supply/Home/Common/resources/css/reset.css" type="text/css" media="screen" />
 <!-- Main Stylesheet -->
-<link rel="stylesheet" href="__ROOT__/admin/Home/Common/resources/css/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="__ROOT__/supply/Home/Common/resources/css/style.css" type="text/css" media="screen" />
 <!-- Invalid Stylesheet. This makes stuff look pretty. Remove it if you want the CSS completely valid -->
-<link rel="stylesheet" href="__ROOT__/admin/Home/Common/resources/css/invalid.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="__ROOT__/supply/Home/Common/resources/css/invalid.css" type="text/css" media="screen" />
 <!--                       Javascripts                       -->
 <!-- jQuery -->
-<script type="text/javascript" src="__ROOT__/admin/Home/Common/resources/scripts/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="__ROOT__/supply/Home/Common/resources/scripts/jquery-1.3.2.min.js"></script>
 <!-- jQuery Configuration -->
-<script type="text/javascript" src="__ROOT__/admin/Home/Common/resources/scripts/simpla.jquery.configuration.js"></script>
+<script type="text/javascript" src="__ROOT__/supply/Home/Common/resources/scripts/simpla.jquery.configuration.js"></script>
 <!-- Facebox jQuery Plugin -->
-<script type="text/javascript" src="__ROOT__/admin/Home/Common/resources/scripts/facebox.js"></script>
+<script type="text/javascript" src="__ROOT__/supply/Home/Common/resources/scripts/facebox.js"></script>
 <!-- jQuery WYSIWYG Plugin -->
-<script type="text/javascript" src="__ROOT__/admin/Home/Common/resources/scripts/jquery.wysiwyg.js"></script>
+<script type="text/javascript" src="__ROOT__/supply/Home/Common/resources/scripts/jquery.wysiwyg.js"></script>
 <!-- jQuery Datepicker Plugin -->
-<script type="text/javascript" src="__ROOT__/admin/Home/Common/resources/scripts/jquery.datePicker.js"></script>
-<script type="text/javascript" src="__ROOT__/admin/Home/Common/resources/scripts/jquery.date.js"></script>
+<script type="text/javascript" src="__ROOT__/supply/Home/Common/resources/scripts/jquery.datePicker.js"></script>
+<script type="text/javascript" src="__ROOT__/supply/Home/Common/resources/scripts/jquery.date.js"></script>
 <!--xt 导入 prototype.js-->
-<!--<script type="text/javascript" src="__ROOT__/admin/Home/Common/script/prototype-1.5.1.js"></script>-->
+<!--<script type="text/javascript" src="__ROOT__/supply/Home/Common/script/prototype-1.5.1.js"></script>-->
 <script type="text/javascript">
   
   function getName(url,i){
@@ -77,16 +77,12 @@
       id2 = "";
       id3 = "";
     //}
-    if(model == "User"){
-      //alert("in User");
-      id1="#li_user";
-      id2="#ul_user";
-      if(action == "user"){
-        id3 = "#user_check";
-      }else if(action == "supply"){
-        id3 = "#user_supply";
-      }else if(action == "admin"){
-        id3 = "#user_admin";
+    if(model == "Order"){
+      //alert("in Order");
+      id1="#li_order";
+      id2="#ul_order";
+      if(action == "order"){
+        id3 = "#order_check";
       }
     }
     //alert(id1+id2+id3);
@@ -104,7 +100,9 @@
       id1="#li_car";
       id2="#ul_car";
       if(action == "check"){
-        id3 = "#adv_check";
+        id3 = "#car_check";
+      }else if(action == "add"){
+        id3 = "#car_add";
       }
     }
     //alert("car");
@@ -158,31 +156,28 @@ document.cookie=name+"=cookiestr; expires="+date.toGMTString();
       <!-- Sidebar with logo and menu -->
       <h1 id="sidebar-title"><a href="#">Simpla Admin</a></h1>
       <!-- Logo (221px wide) -->
-      <a href="http://www.865171.cn"><img id="logo" src="__ROOT__/admin/Home/Common/resources/images/logo.png" alt="Simpla Admin logo" /></a>
+      <a href="http://www.865171.cn"><img id="logo" src="__ROOT__/supply/Home/Common/resources/images/logo.png" alt="Simpla Admin logo" /></a>
       <!-- Sidebar Profile links -->
-      <div id="profile-links"> 你好, <a href="#" title="Edit your profile">管理员</a><br />
+      <div id="profile-links"> 你好, <a href="#" title="Edit your profile">{$account_name}</a><br />
         <br />
         <a href="__ROOT__" title="View the Site">View the Site</a> | <a href="__APP__/Home/Admin/logout"title="Sign Out">退出</a> </div>
         <ul id="main-nav">
         <!-- Accordion Menu -->
-        <li> <a href="#" class="nav-top-item" id="li_user">用户管理 </a>
-          <!-- Add the class "current" to current menu item -->
-          
-          <ul id="ul_user">
-            <li><a href="__APP__/Home/User/user" id="user_check">查看普通用户</a></li>
-            <li><a href="__APP__/Home/User/supply" id="user_supply">查看供销商用户</a></li>
-            <li><a href="__APP__/Home/User/admin" id="user_admin">查看管理员用户</a></li>
-          </ul>
-        </li>
         <li> <a href="#" class="nav-top-item" id="li_adv">广告位管理</a>
           <ul id="ul_adv">
-            <li><a href="__APP__/Home/Adv/wait" id="adv_wait">待批准申请</a></li>
-            <li><a href="__APP__/Home/Adv/check" id="adv_check">查看现有广告</a></li>
+            <li><a href="__APP__/Home/Adv/check" id="adv_check">在线广告</a></li>
+            <li><a href="__APP__/Home/Adv/wait" id="adv_wait">未上线广告</a></li>
           </ul>
         </li>
         <li> <a href="#" class="nav-top-item" id="li_car">车辆管理</a>
           <ul id="ul_car">
             <li><a href="__APP__/Home/Car/check" id="car_check">查看车辆</a></li>
+            <li><a href="__APP__/Home/Car/add" id="car_add">增加车辆</a></li>
+          </ul>
+        </li>
+        <li> <a href="#" class="nav-top-item" id="li_order">订单管理</a>
+          <ul id="ul_order">
+            <li><a href="__APP__/Home/Order/check" id="order_check">查看订单</a></li>
           </ul>
         </li>
         
