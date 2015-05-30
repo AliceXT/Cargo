@@ -6,7 +6,7 @@ class AdvController extends Controller{
 
 	public $Title = "广告管理";
 
-	function func_begin($curl,$type){
+	function func_begin($curl,$id){
 		header("Content-Type:text/html; charset=utf-8");
 		$admin = A('Admin');
 		$admin->checkLegal();
@@ -18,7 +18,8 @@ class AdvController extends Controller{
 		$requests = json_decode($output,true);
 
 		foreach($requests as $r){
-			if($r['type'] == $type){
+			if($r['account_id'] == $id){
+			//if(1){
 				$arr[] = $r;
 			}
 		}
@@ -33,15 +34,49 @@ class AdvController extends Controller{
 	}
 	function wait(){
 		$url = BACK_URL."/ads/";
-		$this->func_begin($url);
-		$this->assign("title","带批准申请");
+		$this->func_begin($url,session('id_session'));
+		$this->assign("title","未上线广告");
 		$this->func_end("check");
 	}
 
 	function check(){
 		$url = BACK_URL."/ads/";
-		$this->func_begin($url);
-		$this->assign("title","查看现有广告");
+		$this->func_begin($url,session('id_session'));
+		$this->assign("title","在线广告");
 		$this->func_end();
+	}
+
+	function add(){
+		$admin = $this->func_begin();
+
+		$this->assign("action","post");
+		$this->assign("title","申请广告");
+		$this->assign("submitName","提交申请");
+		$this->func_end();
+	}
+
+	function post(){
+		$admin = $this->func_begin();
+
+		//$admin->checkVerify($_POST['verify']);
+
+		//创建POST对象
+		$_POST['state'] = "Apply";
+		$json = $this->make_json($_POST);
+		//dump($json);
+		
+		//POST数据
+		$url = BACK_URL."/ads";
+		$output = $admin->post_curl($url,$json);//得到返回结果
+		
+		//返回操作提示
+		if($output){
+			$url = U('Car/check');
+			$this->success("添加成功",$url);
+		}else{
+			$this->error("添加失败");
+		}
+		
+		
 	}
 }

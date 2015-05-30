@@ -31,6 +31,14 @@
           <form action="__APP__/Home/Car/{$action}" method="post" class="contentform">
           <!--<h4>添加管理员</h4>-->
           <fieldset>
+            <?php
+            if(isset($request)){
+            ?>  
+
+            <input type="hidden" name="id" id="id" value="{$request['id']}">
+            <?php
+            }
+            ?>
             <p>
             <h4>车辆基本信息</h4>
             </p>
@@ -93,39 +101,37 @@
             <div class="clear"></div>
             <p>
             <?php 
-              function get_number_inputs($arr,$len){
-                foreach($arr as $name=>$value){/*
-            ?>
+              function get_number_inputs($arr,$len,$request){
+                foreach($arr as $name=>$value){
+                  $str = '
             <p>
-            <label><?=$value?></label>
-            <input class="text-input" required="required" type="number"
-            <?php
+            <label>'.$value.'</label>
+            <input class="text-input" required="required" type="number"';
+            
                 if($len[$name]){
-                  $str = ' min="'.$len[$name]['min'].'" max="'.$len[$name]['max'].'"';
-                  echo $str;
+                  $str .= ' min="'.$len[$name]['min'].'" max="'.$len[$name]['max'].'"';
 
                 }else{
-                  $str = ' min="1"';
-                  echo $str;
+                  $str .= ' min="1"';
                 }
-            ?>
-            name="<?=$name?>" id="<?=$name?>" value="{$request[<?=$name?>]}">
+            
+                $str .= ' name="'.$name.'" id="'.$name.'" value="'.$request[$name].'">
             </p>
             <div class="clear"></div>
-            <p>
-            <?php */
-              }
+            ';
+                echo $str;
+                }
 
               }//get_number_input
-              function get_text_inputs($arr){
+              function get_text_inputs($arr,$request){
                 foreach($arr as $name=>$value){
-                  $str = $str = '
+                  $str = '
             <p>
             <label>'.$value.'</label>
             <input class="text-input" required="required" type="text" name="'.$name.'" id="'.$name.'" value="'.$request[$name].'" >
             </p>
             <div class="clear"></div>
-            <p>';
+            ';
                   echo $str;
                 }
               }
@@ -144,10 +150,10 @@
                 'groundClearance'=>array('min'=>'100','max'=>'250')
                 );
 
-              get_number_inputs($arr,$len);
+              get_number_inputs($arr,$len,$request);
 
               $arr = array('guarantee'=>'保修政策（X年X万公里）');
-              get_text_inputs($arr);
+              get_text_inputs($arr,$request);
 
 
             ?>
@@ -159,7 +165,7 @@
             </p>
             <div class="clear"></div>
             <?php 
-              function get_select_inputs($arr,$option){
+              function get_select_inputs($arr,$option,$request){
                 foreach($arr as $name=>$value){
                   $str = '
             <p>
@@ -188,11 +194,11 @@
                 'driveType'=>array('前置前驱', '前置后驱', '前置四驱', '中置后驱', '中置四驱', '后置后驱', '后置四驱'),
                 'resistanceType'=>array('电动阻力', '液压助力')
                 );
-              get_select_inputs($arr,$option);
+              get_select_inputs($arr,$option,$request);
 
               $arr = array(
-                'tyre' =>'轮胎规格');
-              get_text_inputs($arr);
+                'trye' =>'轮胎规格');
+              get_text_inputs($arr,$request);
 
               $arr = array(
                 'maxSpeed'=>'最高车速（180-210Km/h）',
@@ -202,7 +208,7 @@
                 'maxSpeed'=>array('min'=>'180','max'=>'210'),
                 'gearNum'=>array('min'=>'4','max'=>'8')
                 );
-              get_number_inputs($arr,$len);
+              get_number_inputs($arr,$len,$request);
             ?>
 
 
@@ -220,7 +226,7 @@ $len = array(
   'maxPower'=>array('min'=>'80','max'=>'120'),
   'maxTorque'=> array('min'=>'100','max'=>'150')
   );
-get_number_inputs($arr,$len);
+get_number_inputs($arr,$len,$request);
 
 $arr = array(
   'cylinder'=>'汽缸数',
@@ -236,7 +242,7 @@ $option = array(
   'oilFeed'=>array('化油器', '单点电喷', '多点电喷', '直喷'),
   'environmental'=>array('国I','国Ⅱ','国Ⅲ','国IV')
   );
-get_select_inputs($arr,$option);
+get_select_inputs($arr,$option,$request);
 
             ?>
 

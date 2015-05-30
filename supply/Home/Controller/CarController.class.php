@@ -42,7 +42,7 @@ class CarController extends Controller{
 		$this->assign("requests",$requests);
 		//$this->assign("title","查看车辆");//小标题
 		$this->assign("title","查看车辆");
-		$this->assign("snow",session("cargo_session"));
+		//$this->assign("snow",session("cargo_session"));
 		//dump($requests);
 		$this->func_end();
 	}
@@ -118,7 +118,7 @@ class CarController extends Controller{
 		//dump($combine);
 
 		$this->assign("request",$combine);
-		$this->assign("action","patch");
+		$this->assign("action","patch/id/".$_GET['id']);
 		$this->assign("title","修改车辆");
 		$this->assign("submitName","保存修改");
 
@@ -203,4 +203,29 @@ class CarController extends Controller{
 		
 	}
 	
+	function patch(){
+		$admin = $this->func_begin();
+
+		//$admin->checkVerify($_POST['verify']);
+
+		//创建POST对象
+		$_POST['owner']=session('id_session');
+		$json = $this->make_json($_POST);
+		
+		
+		//POST数据
+		$url = BACK_URL."/cars/".$_GET['id'];
+		//dump($url);
+		$output = $admin->patch_curl($url,$json);//得到返回结果
+		
+		//返回操作提示
+		if($output){
+			$url = U('Car/check');
+			$this->success("修改成功",$url);
+		}else{
+			$this->error("修改失败");
+		}
+		
+		
+	}
 }

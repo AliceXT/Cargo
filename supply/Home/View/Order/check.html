@@ -18,26 +18,10 @@
       <!-- Start Content Box -->
       <div class="content-box-header">
         <h3>{$title}</h3>
-        <?php if($title == "全部订票") {?>
-        <div style="padding-top: 7px;float: left;">
-        <form action="__APP__/Home/Ticket/checkRes/p/1" method="post" id="timeForm">
-          <input type="text" name="startTime" id="startTime" pattern="[0-9]{4}[-][0-9]{2}[-][0-9]{2}" placeholder="日期(xxxx-xx-xx)" value="<?=session('startdate')?>">到
-          <input type="text" name="endTime" id="endTime" pattern="[0-9]{4}[-][0-9]{2}[-][0-9]{2}" placeholder="日期(xxxx-xx-xx)" value="<?=session('enddate')?>">
-          <input type="submit" class="button" value="筛选">
-        </form>
-        </div>
-        <?php }?>
-    
-    <?php if($title != "处理过期票") {?>
-        <a class="button" style="float: left;margin-top: 7px;margin-left: 15px;line-height: 15px;" id="toExcel" onclick="ok(1)">导出成Excel
-        </a>
-    <?php }?>
-    
-    <?php if($title == "处理过期票") {?>
-        <a class="button" style="float: left;margin-top: 7px;margin-left: 15px;line-height: 15px;" id="deletePass" 
-    href=<?="__APP__/Home/Ticket/deletePass"; ?>>一键删除
-        </a>
-    <?php }?>
+        <!--<form id="search_form" action="__APP__/Home/Car/search" method="get">
+          <input type="text" patten="输入关键词" id="key" name="key">
+          <input type="submit" value="搜索">
+        </form>-->
         <ul class="content-box-tabs">
           <!--<li><a href="#tab1" class="default-tab">Table</a></li>-->
           <!-- href must be unique and match the id of target div -->
@@ -48,18 +32,22 @@
       <div class="content-box-content">
         <div class="tab-content default-tab" id="tab1">
           <!-- This is the target div. id must match the href of this div's tab -->
-          <form action="__APP__/Home/User/delete" method="post">
+          <form action="__APP__/Home/Order/delete" method="post">
           <table>
             <thead>
               <tr>
                 <th>
-                  <input class="check-all" type="checkbox"  />
+                  <input class="check-all" type="checkbox">
                 </th>
-                <th>用户ID</th>
-                <th>姓名</th>
-                <th>手机</th> 
-                <th>Email</th>
-                <th>地址</th>
+                <th>订单代号</th>
+                <th>购买日期</th>
+                <th>购买结果</th>
+                <th>车辆代号</th>
+                <th>买主姓名</th>
+                <th>买主电话</th>
+                <th>买主邮件</th>
+                <th>买主城市</th>
+                <!--<th>所属供销商</th>-->
               </tr>
             </thead>
             <tfoot>
@@ -77,21 +65,24 @@
               <volist name="requests" id="request"> 
               <tr>
                 <td>
-                  <input type="checkbox" id="{$request['booktic_id']}" name="{$request['booktic_id']}" value="{$request['booktic_id']}"/>
+                  <input type="checkbox" id="{$request['id']}" name="{$request['id']}" value="{$request['id']}" >
                 </td>
                 <td>{$request['id']}</td>
-                <td>{$request['name']}</td>
-                <td>{$request['type']}</td>
-                <td>{$request['email']}</td>
-                <td>{$request['address']}</td>
+                <td>{$request['book_time']}</td>
+                <td>{$request['result']}</td>
+                <td>{$request['car']['id']}</td>
+                <td>{$request['buyer']['name']}</td>
+                <td>{$request['buyer']['telephone']}</td>
+                <td>{$request['buyer']['Email']}</td>
+                <td>{$request['buyer']['city']}</td>
                 <td>
                   <!-- Icons -->
-                  <!--<a href=<?="__APP__/Home/Ticket/modify/id/".$request['booktic_id']; ?> title="Edit"><img src="__ROOT__/admin/Home/Common/resources/images/icons/pencil.png" alt="Edit" /></a>--><a href=<?="__APP__/Home/Ticket/delete/id/".$request['booktic_id'];?> title="Delete"><img src="__ROOT__/admin/Home/Common/resources/images/icons/cross.png" alt="Delete" /></a></td>
+                  <a href=<?="__APP__/Home/Order/modify/id/".$request['id']."/result/".$request['result']?> title="Edit"><img src="__ROOT__/admin/Home/Common/resources/images/icons/pencil.png" alt="Edit" /></a>
               </tr>
               </volist>
             </tbody>
           </table>
-          <input class="button" type="submit" value="批量删除">
+          <!--<input class="button" type="submit" value="批量删除">-->
         </form>
         </div>
         <!-- End #tab1 -->

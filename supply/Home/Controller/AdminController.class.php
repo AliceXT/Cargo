@@ -137,7 +137,34 @@ class AdminController extends Controller{
             $this->error("前端与后台数据传输错误".$status);
         }else{
             return $output;
-        }
+        }    
+    }
+
+    public function patch_curl($url,$json){
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt ( $ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt ( $ch, CURLOPT_FILETIME, true );
+        curl_setopt ( $ch, CURLOPT_FRESH_CONNECT, false );
+        curl_setopt ( $ch, CURLOPT_NOSIGNAL, true );
+        curl_setopt ( $ch, CURLOPT_CUSTOMREQUEST, 'PATCH' );
+
+        //说明是json内容
+        $aHeader[] = "Content-Type:application/json;charset=UTF-8";
+        $aHeader[] = "Authorization:".session('cargo_session');
+        curl_setopt( $ch, CURLOPT_HTTPHEADER, $aHeader);
+
+        curl_setopt( $ch, CURLOPT_POSTFIELDS, $json);
+
+        $output = curl_exec($ch);
+        $status = curl_getinfo($ch)['http_code'];
+
+        curl_close($ch);
+        if($status>250){
+            $this->error("前端与后台数据传输错误".$status);
+        }else{
+            return $output;
+        }    
     }
 
 }
