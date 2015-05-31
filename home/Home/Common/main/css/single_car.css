@@ -1,0 +1,144 @@
+/*车辆单页的css*/
+
+.single_car{
+    background-color: #F8F8FF;
+    margin: 3px;
+    padding: 20px;/*左右宽度相同*/
+    width: 65%;
+    height: 20%;
+    text-align: center;    
+
+}
+.s_image{     /*汽车图片*/
+    float: left;
+    width: 40%;
+    height:30%;
+    border:2px solid #aaa;
+}
+.clearfix{
+ clear:both;
+}
+.s_right{     /*汽车描述*/
+    float: right;
+    width: 55%;
+    height: 30%;
+    font-family: "微软雅黑";
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+.clearfix{
+ clear:both;
+}
+
+/*车辆详细参数的tab切换样式*/
+
+#s_detail{   
+    margin-top: 3px;
+    padding: 5px;/*左右宽度相同*/
+    width: 100%;
+    height: 40%;
+    text-align: center;  
+    font-size: 1.5em;
+}
+
+.clearfix{
+ clear:both;
+}
+
+#tabs {
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+}
+
+#tabs li{
+    float: left;
+    margin-right: 3px;
+}
+
+.clearfix{
+ clear:both;
+}
+
+#tabs li a {
+    display: block;
+    padding: 5px 15px;
+    background: #CD3000;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#tabs li a:hover {
+    background: #CD3000;
+}
+
+#tabs_container {   /*下面表格样式*/
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+    background: #F8F8FF;
+}
+
+#tabs_container div {
+    margin-right: 40px;
+}
+
+.transition {       /*设置切换速度*/
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+
+    -webkit-transition-delay: .2s;
+    -moz-transition-delay: .2s;
+    -o-transition-delay: .2s;
+    -ms-transition-delay: .2s;
+    transition-delay: .2s;
+}
+
+.make_transist {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.hidescaleup {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+.showscaleup {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+
+    -webkit-transition-delay: .2s;
+    -moz-transition-delay: .2s;
+    -o-transition-delay: .2s;
+    -ms-transition-delay: .2s;
+    transition-delay: .2s;
+}
+
+.tabulous_active {
+    background: #FFFFFF !important;
+    color: #655c89 !important;
+}
+
+.tabulousclear {
+    display: block;
+    clear: both;
+}

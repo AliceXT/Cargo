@@ -1,4 +1,39 @@
-<include file="header" /><!--包含到页面头部的标题和导航条-->
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet"
+          href="/cargo/home/Home/Common/main/css/bootstrap-combined.min.css"><!--调用bootstrap-->
+    <link href="/cargo/home/Home/Common/main/css/main.css" rel="stylesheet" type="text/css" />    <!--调用外部的css样式表-->
+    <script src="/cargo/home/Home/Common/main/js/html5shiv.min.js"></script>
+    <script src="/cargo/home/Home/Common/main/js/respond.min.js"></script>
+    <script src="/cargo/home/Home/Common/main/js/tinybox.js"></script><!--弹窗的js-->
+    <title>Car</title>
+
+<style type="text/css">
+#tinybox{position:absolute; display:none; padding:10px; background:#ffffff url(image/preload.gif) no-repeat 50% 50%; border:10px solid #e3e3e3; z-index:2000;}
+#tinymask{position:absolute; display:none; top:0; left:0; height:100%; width:100%; background:#000000; z-index:1500;}
+#tinycontent{background:#ffffff; font-size:1.1em;}
+</style>
+</head>
+<body>
+
+
+<div class="header">
+<img src="/cargo/home/Home/Common/main/image/run.png"
+ width="500px" height="40px">
+</div>
+<div class="header_box"> 
+    <h3>      
+        <span><a href="index.html">网站主页|&nbsp</a></span>
+        <span><a href="#">新款上市|&nbsp</a></span>
+        <span><a href="#">促销特价|&nbsp</a></span>
+        <span><a href="#">供销商入口|&nbsp</a></span>
+        <span><a href="#">售后评价|&nbsp</a></span>
+        <span><a href="#">联系我们</a></span>
+    </h3>
+</div>
+<!--包含到页面头部的标题和导航条-->
 
 <div class="contain"><!--主体容器-->
   <div class="container_left"> <!--左部内容-->
@@ -63,36 +98,34 @@
       </h4>  
     </div>
 
-<!--<volist name="requests" id="request"> 
-
-        <div class='navbar navbar-inverse'>
-            <div class='nav-collapse'>
-                <div class="car_image">{$request['id']}
-                    <a href="SingleCar.html">{$request['picture']}
-                        车辆单页
-                    </a></li>
-                </div>
-                <div class="right">
-                    <h3><a href="SingleCar.html">{$request['description']}</a></h3>
-                    <p>车源所在地：{$request['city']}</p>
-                    <p>限量：<strong>{$request['stock']}</strong></p>
-                    <p>咨询电话：<strong>400-8888-888</strong></p>
-                    <p>参考价：&yen;{$request['price']}</p>
-                    <span><button type="submit" class="btn btn-danger btn-lg" id="BuyInfo">我要买</button></span> 
-                    <span><button type="submit" class="btn btn-danger btn-lg" onclick="">加入收藏</button></span>
-                </div>
-            </div>
-        </div>
-    </div>
-  </volist>-->
-<div class="cars">
-<volist name="requests" id="request">
     <div class="car_body">
         <div class='navbar navbar-inverse'>
             <div class='nav-collapse'>
                 <div class="car_image">
                     <a href="#" target="_blank">
-                        <img src="__ROOT__/home/Home/Common/main/image/7.jpg">
+                        <img src="/cargo/home/Home/Common/main/image/9.jpg">
+                    </a></li>
+                </div>
+                <div class="right">
+                    <h3>2015款卡宴混合动力 S E-Hybrid</h3>
+                    <p>车源所在地：广东- 广州市  </p>
+                    <p>限量：：<strong>2台</strong></p>
+                    <p>咨询电话：<strong>400-8888-888</strong></p>
+                    <p><del>参考价：&yen;348,000</del></p>
+                    <p>限时特价：&yen;<strong>300,000</strong></p>
+                    <span><button type="submit" class="btn btn-danger btn-lg" id="click_test1">我要买</button></span> 
+                    <span><button type="submit" class="btn btn-danger btn-lg" onclick="">加入收藏</button></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="car_body">
+        <div class='navbar navbar-inverse'>
+            <div class='nav-collapse'>
+                <div class="car_image">
+                    <a href="#" target="_blank">
+                        <img src="/cargo/home/Home/Common/main/image/7.jpg">
                     </a></li>
                 </div>
                 <div class="right">
@@ -108,15 +141,13 @@
             </div>
         </div>
     </div>
-</volist>
-</div>
-<!--
+
     <div class="car_body">
         <div class='navbar navbar-inverse'>
             <div class='nav-collapse'>
                 <div class="car_image ">
                     <a href="#" target="_blank">
-                        <img src="__ROOT__/home/Home/Common/main/image/3.jpg">
+                        <img src="/cargo/home/Home/Common/main/image/3.jpg">
                     </a></li>
                 </div>
                 <div class="right">
@@ -138,7 +169,7 @@
             <div class='nav-collapse'>
                 <div class="car_image">
                     <a href="#" target="_blank">
-                        <img src="__ROOT__/home/Home/Common/main/image/112.jpg">
+                        <img src="/cargo/home/Home/Common/main/image/112.jpg">
                     </a></li>
                 </div>
                 <div class="right">
@@ -154,32 +185,45 @@
             </div>
         </div>
     </div>
-  -->
-    <style:text-algin='center';> 
+    <center> 
     <h4><a href='#'>首页 </a> |
     <a href='#'>上一页 </a> |
     <a href='#'>下一页 </a> |
     <a href='#'>尾页 </a></h4>
-    </style>
+    </center>
   </div>
 
- <div class="container_right">
-    <include file="login" />      
+ <div class="container_right"><!--右部内容-->
+    <h3>最新资讯</h3>
+        <p>日系车2015在华低调反击，主攻SUV;</p>
+        凯迪拉克XT5将成为凯迪拉克SRX的继任者;
+        <p>2015.1月汽车库存预警达56.3%; </p>       
+    <h3>车主晒单</h3>
+    <marquee direction="up"behavior="scroll" loop="3"
+             scrollamount="1"scrolldelay="20"
+             width="200">
+        <p>1.昨天我去深圳xx供销商的二手车点看了，价格算合理，服务人员态度也很不错。</br>
+        2.我和朋友去广州看了车，和网站内里介绍的一样，各种齐全，也上保险了，一切准备妥当，只等上路了。</br>
+        3.请问发动机出了点问题，去哪家汽修厂比较好些？；
+        </br><!--不换行标记-->
+        </p>
+    </marquee>
  </div>
 
 </div>
 </div>
-<!--设置用户点击时的弹窗-->
 <script type="text/javascript">
-      T$('BuyInfo').onclick = function(){
-        TINY.box.show('BuyInfo.html',1,400,350,1)
-        }//弹出填写购车需求的窗口
-      T$('SupplyRegister').onclick = function(){
-      TINY.box.show('SupplyRegister.html',1,400,550,1)
-      }//弹出供销商注册的窗口
-      T$('UsersRegister').onclick = function(){
-      TINY.box.show('UsersRegister.html',1,400,350,1)
-      }//弹出供销商注册的窗口
+        T$('click_test1').onclick = function(){TINY.box.show('BuyInfo.html',1,500,400,1)}//弹出填写购车需求的窗口
 </script>
-<div class="clearfix"></div>
-<include file="footer" />
+<div class="footer">
+</br>
+    <h3>联系我们</h3>
+    <p>客服电话：400-8888-888</p>
+    <p>邮箱：service@Cargo.com</p>
+    <p>地址：广州市大学城广东工业大学</p>
+    <p>邮编：510006</p>
+Copyright &copy; 2015-2020 Cargo.com All Rights Reserved　
+</div>
+
+</body>
+</html>

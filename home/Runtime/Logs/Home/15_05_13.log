@@ -1,0 +1,1236 @@
+[ 2015-05-13T22:31:05+08:00 ] 127.0.0.1 /cargo/index.php/Home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.059003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+NOTIC: [2] file_get_contents(http://10.10.211.80:8080/CarGo/ads):  G:\XA\htdocs\cargo\home\Home\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: strs G:\XA\htdocs\cargo\home\Home\Controller\IndexController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.241013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.242013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.057004s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.057004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-13T22:31:05+08:00 ] 127.0.0.1 /cargo/index.php/Home/css/bdsstyle.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Css
+
+[ 2015-05-13T22:33:52+08:00 ] 127.0.0.1 /cargo/index.php/Home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] file_get_contents(http://10.10.211.80:8080/CarGo/ads):  G:\XA\htdocs\cargo\home\Home\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: strs G:\XA\htdocs\cargo\home\Home\Controller\IndexController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-13T22:33:53+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.165009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.165009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-13T22:33:53+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-13T22:53:05+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-13T23:00:27+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-13T23:01:09+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-13T23:02:28+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-13T23:03:14+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-05-13T23:03:31+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-05-13T23:03:50+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-13T23:04:33+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-13T23:26:33+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: picture G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 105 行.
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 109 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 111 行.
+NOTIC: [8] Undefined variable: price G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-13T23:26:48+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/BuyInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-13T23:30:29+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/SingleCar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: username G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 24 行.
+NOTIC: [8] Undefined variable: picture G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 37 行.
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 41 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 43 行.
+NOTIC: [8] Undefined variable: price G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-13T23:31:37+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/SingleCar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: username G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 24 行.
+NOTIC: [8] Undefined variable: picture G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 37 行.
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 41 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 43 行.
+NOTIC: [8] Undefined variable: price G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-05-13T23:31:42+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/BuyInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2015-05-13T23:33:50+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/SingleCar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: username G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 24 行.
+NOTIC: [8] Undefined variable: picture G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 37 行.
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 41 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 43 行.
+NOTIC: [8] Undefined variable: price G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-05-13T23:33:53+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/BuyInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-13T23:34:21+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/SingleCar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: username G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 24 行.
+NOTIC: [8] Undefined variable: picture G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 37 行.
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 41 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 43 行.
+NOTIC: [8] Undefined variable: price G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-13T23:34:24+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/BuyInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-13T23:34:52+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/SingleCar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: username G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 24 行.
+NOTIC: [8] Undefined variable: picture G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 37 行.
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 41 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 43 行.
+NOTIC: [8] Undefined variable: price G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-13T23:34:54+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/BuyInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-13T23:35:42+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/SingleCar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: username G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 24 行.
+NOTIC: [8] Undefined variable: picture G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 37 行.
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 41 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 43 行.
+NOTIC: [8] Undefined variable: price G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-13T23:35:45+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/BuyInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2015-05-13T23:36:20+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/SingleCar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: username G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 24 行.
+NOTIC: [8] Undefined variable: picture G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 37 行.
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 41 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 43 行.
+NOTIC: [8] Undefined variable: price G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-13T23:36:21+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/SingleCar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: username G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 24 行.
+NOTIC: [8] Undefined variable: picture G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 37 行.
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 41 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 43 行.
+NOTIC: [8] Undefined variable: price G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-13T23:36:23+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/BuyInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2015-05-13T23:37:15+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/SingleCar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: username G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 24 行.
+NOTIC: [8] Undefined variable: picture G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 37 行.
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 41 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 43 行.
+NOTIC: [8] Undefined variable: price G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-13T23:37:17+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/BuyInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-13T23:37:43+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/SingleCar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: username G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 24 行.
+NOTIC: [8] Undefined variable: picture G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 37 行.
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 41 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 43 行.
+NOTIC: [8] Undefined variable: price G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-13T23:37:46+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/BuyInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-13T23:38:08+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/SingleCar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: username G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 24 行.
+NOTIC: [8] Undefined variable: picture G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 37 行.
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 41 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 43 行.
+NOTIC: [8] Undefined variable: price G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-13T23:38:09+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/SingleCar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: username G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 24 行.
+NOTIC: [8] Undefined variable: picture G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 37 行.
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 41 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 43 行.
+NOTIC: [8] Undefined variable: price G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-13T23:38:11+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/BuyInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-13T23:38:39+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/SingleCar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: username G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 24 行.
+NOTIC: [8] Undefined variable: picture G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 37 行.
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 41 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 43 行.
+NOTIC: [8] Undefined variable: price G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-13T23:38:40+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/BuyInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-13T23:39:02+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/SingleCar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: username G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 24 行.
+NOTIC: [8] Undefined variable: picture G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 37 行.
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 41 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 43 行.
+NOTIC: [8] Undefined variable: price G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-13T23:39:04+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/BuyInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-13T23:39:23+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/SingleCar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: username G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 24 行.
+NOTIC: [8] Undefined variable: picture G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 37 行.
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 41 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 43 行.
+NOTIC: [8] Undefined variable: price G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-13T23:39:25+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/BuyInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-13T23:55:05+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: list G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.033002s ]
+NOTIC: [8] Undefined variable: list G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113006s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.114006s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.149009s ]
+NOTIC: [8] Undefined variable: list G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.118007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.147008s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-13T23:55:39+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: picture G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 100 行.
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 104 行.
+NOTIC: [8] Undefined variable: list G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.037002s ]
+NOTIC: [8] Undefined variable: picture G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 100 行.
+NOTIC: [8] Undefined variable: list G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.175010s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.176010s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.241014s ]
+NOTIC: [8] Undefined variable: picture G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 100 行.
+NOTIC: [8] Undefined variable: list G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.223012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.236013s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-13T23:56:09+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: picture G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 100 行.
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 104 行.
+NOTIC: [8] Undefined variable: city G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 105 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 106 行.
+NOTIC: [8] Undefined variable: price G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.043002s ]
+NOTIC: [8] Undefined variable: picture G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 100 行.
+NOTIC: [8] Undefined variable: city G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 105 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 106 行.
+NOTIC: [8] Undefined variable: price G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088005s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.089005s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.110006s ]
+NOTIC: [8] Undefined variable: picture G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 100 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 106 行.
+NOTIC: [8] Undefined variable: price G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.092005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.143008s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-13T23:56:40+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: picture G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 100 行.
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 104 行.
+NOTIC: [8] Undefined variable: city G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 105 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 106 行.
+NOTIC: [8] Undefined variable: price G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.031002s ]
+NOTIC: [8] Undefined variable: picture G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 100 行.
+NOTIC: [8] Undefined variable: city G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 105 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 106 行.
+NOTIC: [8] Undefined variable: price G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.029002s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.060003s ]
+NOTIC: [8] Undefined variable: picture G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 100 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 106 行.
+NOTIC: [8] Undefined variable: price G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.058003s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-13T23:57:39+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 30 行.
+NOTIC: [8] Undefined variable: picture G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 100 行.
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 104 行.
+NOTIC: [8] Undefined variable: city G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 105 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 106 行.
+NOTIC: [8] Undefined variable: price G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.033002s ]
+NOTIC: [8] Undefined variable: picture G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 100 行.
+NOTIC: [8] Undefined variable: city G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 105 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 106 行.
+NOTIC: [8] Undefined variable: price G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.032002s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.069004s ]
+NOTIC: [8] Undefined variable: picture G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 100 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 106 行.
+NOTIC: [8] Undefined variable: price G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.068004s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2015-05-13T23:58:03+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 14 行.
+NOTIC: [8] Undefined variable: picture G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 100 行.
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 104 行.
+NOTIC: [8] Undefined variable: city G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 105 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 106 行.
+NOTIC: [8] Undefined variable: price G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.032002s ]
+NOTIC: [8] Undefined variable: picture G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 100 行.
+NOTIC: [8] Undefined variable: city G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 105 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 106 行.
+NOTIC: [8] Undefined variable: price G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.031002s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.068004s ]
+NOTIC: [8] Undefined variable: picture G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 100 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 106 行.
+NOTIC: [8] Undefined variable: price G:\XA\htdocs\cargo\home\Runtime\Cache\Home\0767f9cfd0fdcabc3d18efd25594e1f2.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.069004s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php:95) G:\XA\htdocs\cargo\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008000s ]
+
