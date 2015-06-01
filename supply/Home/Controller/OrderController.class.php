@@ -4,6 +4,7 @@ use Think\Controller;
 
 class OrderController extends Controller{
 	public $Title = "订单管理";
+	public $car_id;
 
 	function func_begin($curl,$type){
 		header("Content-Type:text/html; charset=utf-8");
@@ -32,6 +33,7 @@ class OrderController extends Controller{
 
 	function check(){
 		$admin = $this->func_begin();
+		$this->car_id = $_GET['car_id'];
 
 		$url = BACK_URL."/cars/".$_GET['car_id']."/orders";
 		
@@ -40,7 +42,7 @@ class OrderController extends Controller{
 		$requests = json_decode($output,$assoc = true);
 
 		//等待后台修复，下面注释去掉
-		/*
+		
 		foreach($requests as $r)//处理挑选本供销商的车辆
 		{
 			if($r['owner'] == session("id_session")){
@@ -48,7 +50,7 @@ class OrderController extends Controller{
 			}
 		}
 		$requests = $arr;
-*/
+
 		$requests = $admin->set_page($requests);//分页处理
 
 		$this->assign("requests",$requests);
@@ -75,7 +77,8 @@ class OrderController extends Controller{
 		$admin = $this->func_begin();
 
 		if($admin->patch_curl($url,$json)){
-			$this->success("修改成功");
+			$url= U("Car/check");
+			$this->success("修改成功",$url);
 		}
 	}
 
