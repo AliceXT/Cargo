@@ -211,7 +211,7 @@ document.cookie=name+"=cookiestr; expires="+date.toGMTString();
         <div class="tab-content default-tab" id="tab1">
           <!-- This is the target div. id must match the href of this div's tab -->
           <form action="/cargo/supply.php/Home/Car/<?php echo ($action); ?>" method="post" class="contentform">
-          <!--<h4>添加管理员</h4>-->
+          <!--<h4>添加车辆</h4>-->
           <fieldset>
             <?php
  if(isset($request)){ ?>  

@@ -50,18 +50,32 @@ class CarController extends Controller{
 	function search(){
 		$admin = $this->func_begin();
 
-		$url = BACK_URL."/search/";
+		$url = BACK_URL."/cars/search";
 
-		$url =$url.$_GET['key'];//将参数加到url后面
+		$url =$url."?brand=".$_GET['key'];//将参数加到url后面
+
+		//dump($url);
 		$this->assign("snow",$url);
-		$json= $admin->get_curl($url);
+		$output = $admin->get_curl($url);
+		//$this->assign("snow",$url);
+		//$assoc当该参数为 TRUE 时，将返回 array 而非 object 。 
+		$requests = json_decode($output,$assoc = true);
+		foreach($requests as $r)//处理挑选本供销商的车辆
+		{
+			if($r['owner'] == session("id_session")){
+				$arr[] = $r;
+			}
+		}
 
-		$requests = json_decode($json,true);
-		
-		$requests = $this->set_page($requests);
+		$requests = $arr;
+
+		$requests = $admin->set_page($requests);//分页处理
 
 		$this->assign("requests",$requests);
-		$this->assign("title","搜索".$_GET['key']);//小标题
+		//$this->assign("title","查看车辆");//小标题
+		$this->assign("title","搜索车辆");
+		//$this->assign("snow",session("cargo_session"));
+		//dump($requests);
 		$this->func_end("check");
 	}
 

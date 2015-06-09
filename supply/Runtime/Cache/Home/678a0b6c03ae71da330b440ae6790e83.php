@@ -224,8 +224,6 @@ document.cookie=name+"=cookiestr; expires="+date.toGMTString();
                 <th>状态</th>
                 <th>位置</th>
                 <th>文案</th>
-                <th>广告主ID</th>
-                <th>广告主</th>
               </tr>
             </thead>
             <tfoot>
@@ -250,8 +248,6 @@ document.cookie=name+"=cookiestr; expires="+date.toGMTString();
                 <td><?php echo ($request['adstate']); ?></td>
                 <td><?php echo ($request['position']); ?></td>
                 <td><?php echo ($request['word']); ?></td>
-                <td><?php echo ($request['account_id']); ?></td>
-                <td><?php echo ($request['account']); ?></td>
                 <td>
                   <!-- Icons -->
                   <!--<a href=<?="/cargo/supply.php/Home/Ticket/modify/id/".$request['booktic_id']; ?> title="Edit"><img src="/cargo/admin/Home/Common/resources/images/icons/pencil.png" alt="Edit" /></a>--><a href=<?="/cargo/supply.php/Home/Ticket/delete/id/".$request['booktic_id'];?> title="Delete"><img src="/cargo/admin/Home/Common/resources/images/icons/cross.png" alt="Delete" /></a></td>

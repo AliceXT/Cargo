@@ -200,10 +200,10 @@ document.cookie=name+"=cookiestr; expires="+date.toGMTString();
       <!-- Start Content Box -->
       <div class="content-box-header">
         <h3><?php echo ($title); ?></h3>
-        <!--<form id="search_form" action="/cargo/supply.php/Home/Car/search" method="get">
+        <form id="search_form" action="/cargo/supply.php/Home/Car/search" method="get">
           <input type="text" patten="输入关键词" id="key" name="key">
           <input type="submit" value="搜索">
-        </form>-->
+        </form>
         <ul class="content-box-tabs">
           <!--<li><a href="#tab1" class="default-tab">Table</a></li>-->
           <!-- href must be unique and match the id of target div -->
@@ -259,10 +259,10 @@ document.cookie=name+"=cookiestr; expires="+date.toGMTString();
                 <!--<td><?php echo ($request['owner']); ?></td>-->
                 <td>
                   <!-- Icons -->
-                  <a href=<?="/cargo/supply.php/Home/Car/modify/id/".$request['id']; ?> title="Edit"><img src="/cargo/admin/Home/Common/resources/images/icons/pencil.png" alt="Edit" /></a>
-                  <a href=<?="/cargo/supply.php/Home/Order/check/car_id/".$request['id']; ?> title="查看订单"><img src="/cargo/admin/Home/Common/resources/images/icons/pencil.png" alt="Edit" /></a>
-                  <a href=<?="/cargo/supply.php/Home/Adv/add/car_id/".$request['id']; ?> title="申请广告"><img src="/cargo/admin/Home/Common/resources/images/icons/pencil.png" alt="Edit" /></a>
-                  <a href=<?="/cargo/supply.php/Home/Car/delete/id/".$request['id'];?> title="Delete"><img src="/cargo/admin/Home/Common/resources/images/icons/cross.png" alt="Delete"></a></td>
+                  <a href=<?="/cargo/supply.php/Home/Car/modify/id/".$request['id']; ?> title="Edit"><img src="/cargo/supply/Home/Common/resources/images/icons/pencil.png" alt="Edit" /></a>
+                  <a href=<?="/cargo/supply.php/Home/Order/check/car_id/".$request['id']; ?> title="查看订单"><img src="/cargo/supply/Home/Common/resources/images/icons/order.jpg" alt="Edit" /></a>
+                  <a href=<?="/cargo/supply.php/Home/Adv/add/car_id/".$request['id']; ?> title="申请广告"><img src="/cargo/supply/Home/Common/resources/images/icons/adv.jpg" alt="Edit" /></a>
+                  <a href=<?="/cargo/supply.php/Home/Car/delete/id/".$request['id'];?> title="Delete"><img src="/cargo/supply/Home/Common/resources/images/icons/cross.png" alt="Delete"></a></td>
               </tr><?php endforeach; endif; else: echo "" ;endif; ?>
             </tbody>
           </table>

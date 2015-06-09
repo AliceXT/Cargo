@@ -1012,3 +1012,1211 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+[ 2015-06-09T19:48:23+08:00 ] 127.0.0.1 /cargo/supply.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-09T19:48:23+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Admin/showVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-09T19:48:50+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Index/makePost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\XA\htdocs\cargo\ThinkPHP\Common\functions.php 第 1190 行.
+NOTIC: [8] A session had already been started - ignoring session_start() G:\XA\htdocs\cargo\ThinkPHP\Common\functions.php 第 1190 行.
+NOTIC: [8] A session had already been started - ignoring session_start() G:\XA\htdocs\cargo\ThinkPHP\Common\functions.php 第 1190 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2015-06-09T19:48:51+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-09T19:48:55+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Adv/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\AdvController::func_end(), called in G:\XA\htdocs\cargo\supply\Home\Controller\AdvController.class.php on line 46 and defined G:\XA\htdocs\cargo\supply\Home\Controller\AdvController.class.php 第 31 行.
+NOTIC: [8] Undefined variable: str G:\XA\htdocs\cargo\supply\Home\Controller\AdvController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: account_name G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\678a0b6c03ae71da330b440ae6790e83.php 第 157 行.
+NOTIC: [8] Undefined variable: show G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\678a0b6c03ae71da330b440ae6790e83.php 第 233 行.
+NOTIC: [8] Undefined index: booktic_id G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\678a0b6c03ae71da330b440ae6790e83.php 第 243 行.
+NOTIC: [8] Undefined index: booktic_id G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\678a0b6c03ae71da330b440ae6790e83.php 第 243 行.
+NOTIC: [8] Undefined index: booktic_id G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\678a0b6c03ae71da330b440ae6790e83.php 第 243 行.
+NOTIC: [8] Undefined index: booktic_id G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\678a0b6c03ae71da330b440ae6790e83.php 第 253 行.
+NOTIC: [8] Undefined index: booktic_id G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\678a0b6c03ae71da330b440ae6790e83.php 第 253 行.
+NOTIC: [8] Undefined variable: snow G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\678a0b6c03ae71da330b440ae6790e83.php 第 266 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-09T19:48:58+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\supply\Home\Controller\AdminController.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: snow G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\5ed2c72324ddb1aa746b0e8c442c0322.php 第 278 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-09T19:49:06+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 228 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 233 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 246 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 251 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 256 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 261 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 266 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 271 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 291 行.
+NOTIC: [8] Undefined index: length G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined index: width G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined index: height G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined index: door G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined index: weight G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined index: fuelTank G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined index: trunkSpace G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 291 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 302 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 302 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 302 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 309 行.
+NOTIC: [8] Undefined index: displacement G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 309 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009001s ]
+
+[ 2015-06-09T19:49:06+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Admin/showVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-09T19:49:08+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\supply\Home\Controller\AdminController.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: snow G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\5ed2c72324ddb1aa746b0e8c442c0322.php 第 278 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-09T19:49:36+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\supply\Home\Controller\AdminController.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: snow G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\5ed2c72324ddb1aa746b0e8c442c0322.php 第 278 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018001s ]
+
+[ 2015-06-09T19:50:04+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\supply\Home\Controller\AdminController.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: snow G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\5ed2c72324ddb1aa746b0e8c442c0322.php 第 278 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018002s ]
+
+[ 2015-06-09T19:50:10+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/search?key=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-09T19:50:59+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\supply\Home\Controller\AdminController.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: snow G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\5ed2c72324ddb1aa746b0e8c442c0322.php 第 278 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-09T19:50:59+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\supply\Home\Controller\AdminController.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: snow G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\5ed2c72324ddb1aa746b0e8c442c0322.php 第 278 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-06-09T19:51:04+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/search?key=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-09T19:51:17+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/search?key=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-09T19:51:22+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\supply\Home\Controller\AdminController.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: snow G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\5ed2c72324ddb1aa746b0e8c442c0322.php 第 278 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-09T19:51:24+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/search?key=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-09T19:51:48+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/search?key=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-09T19:54:30+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/search?key=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-09T19:54:48+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/search?key=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-06-09T19:54:54+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\supply\Home\Controller\AdminController.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: snow G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\5ed2c72324ddb1aa746b0e8c442c0322.php 第 278 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019001s ]
+
+[ 2015-06-09T19:54:56+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/search?key=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-09T19:55:24+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/search?key=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-09T19:56:09+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\supply\Home\Controller\AdminController.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: snow G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\5ed2c72324ddb1aa746b0e8c442c0322.php 第 278 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-09T19:56:11+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 228 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 233 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 246 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 251 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 256 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 261 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 266 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 271 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 291 行.
+NOTIC: [8] Undefined index: length G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined index: width G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined index: height G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined index: door G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined index: weight G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined index: fuelTank G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined index: trunkSpace G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 291 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 302 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 302 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 302 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 309 行.
+NOTIC: [8] Undefined index: displacement G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 309 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024002s ]
+
+[ 2015-06-09T19:56:11+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Admin/showVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-09T19:56:13+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\supply\Home\Controller\AdminController.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: snow G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\5ed2c72324ddb1aa746b0e8c442c0322.php 第 278 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-09T19:56:17+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/search?key=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-06-09T19:57:14+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\supply\Home\Controller\AdminController.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: snow G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\5ed2c72324ddb1aa746b0e8c442c0322.php 第 278 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017001s ]
+
+[ 2015-06-09T19:57:16+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/search?key=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-09T19:58:24+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/search?key=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-09T19:58:56+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/search?key=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: Think\Controller:set_page方法不存在！
+
+[ 2015-06-09T19:59:05+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\supply\Home\Controller\AdminController.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: snow G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\5ed2c72324ddb1aa746b0e8c442c0322.php 第 278 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012001s ]
+
+[ 2015-06-09T19:59:21+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/search?key=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: Think\Controller:set_page方法不存在！
+
+[ 2015-06-09T20:01:10+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/search?key=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\supply\Home\Controller\AdminController.class.php 第 108 行.
+ERR: 模板不存在:./supply/Home/View/Car/search.html
+
+[ 2015-06-09T20:01:31+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/search?key=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\supply\Home\Controller\AdminController.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-09T21:04:52+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/search?key=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\supply\Home\Controller\AdminController.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-09T21:22:33+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\supply\Home\Controller\AdminController.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: snow G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\5ed2c72324ddb1aa746b0e8c442c0322.php 第 278 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-09T21:22:37+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/modify/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: length G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined index: width G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined index: height G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined index: door G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined index: weight G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined index: fuelTank G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined index: trunkSpace G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined index: displacement G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-09T21:22:37+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Admin/showVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-09T21:22:44+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Car/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 228 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 233 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 246 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 251 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 256 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 261 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 266 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 271 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 291 行.
+NOTIC: [8] Undefined index: length G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined index: width G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined index: height G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined index: door G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined index: weight G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined index: fuelTank G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined index: trunkSpace G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 291 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 302 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 302 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 302 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 309 行.
+NOTIC: [8] Undefined index: displacement G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 282 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 309 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+NOTIC: [8] Undefined variable: reuqest G:\XA\htdocs\cargo\supply\Runtime\Cache\Home\cf71322fdb14610d7ee62bacf015370f.php 第 300 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-06-09T21:22:44+08:00 ] 127.0.0.1 /cargo/supply.php/Home/Admin/showVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 5 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 6 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 7 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' G:\XA\htdocs\cargo\supply\Home\Conf\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

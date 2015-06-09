@@ -35,7 +35,7 @@
   <div class="container_left"> <!--左部内容-->
     <div class="left_header">
     <h4>
-      <form id="search_form" action="/cargo/index.php/Home/Car/search" method="get">
+      <form id="search_form" action="/cargo/index.php/Home/Main/index" method="get">
           <input type="text" id="key" name="key" value="关键词搜索"><br>
            <select name="">
                <option value="">选择品牌</option>
@@ -97,6 +97,7 @@
       </h4>  
     </div>
     <div class="cars">
+      <?php $j = 0;?>
         <?php if(is_array($requests)): $i = 0; $__LIST__ = $requests;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$request): $mod = ($i % 2 );++$i;?><div class="car_body">
             <div class='navbar navbar-inverse'>
               <div class='nav-collapse'>
@@ -111,7 +112,7 @@
                     <p>咨询电话：<strong>400-8888-888</strong></p>
                     <p><del>参考价：&yen;512,000</del></p>
                     <p>限时特价：&yen;<strong>480,000</strong></p>
-                    <span><button type="submit" class="btn btn-primary btn-lg" id="BuyInfo">我要买</button></span>
+                    <span><button type="submit" class="btn btn-primary btn-lg" id="BuyInfo<?=$j++;?>">我要买</button></span>
                     <span><button type="submit" class="btn btn-primary" onclick="">详细咨询</button></span>
                     <span><button type="submit" class="btn btn-primary" onclick="">加入收藏</button></span>
                 </div>
@@ -180,7 +181,7 @@
       TINY.box.show('SupplyRegister.html',1,400,550,1)
       }//弹出供销商注册的窗口
       T$('UsersRegister').onclick = function(){
-      TINY.box.show('UsersRegister.html',1,400,350,1)
+      TINY.box.show('',1,400,350,1)
       }//弹出供销商注册的窗口
 </script>
       
@@ -190,15 +191,25 @@
 
 <!--设置用户点击时的弹窗-->
 <script type="text/javascript">
-      T$('BuyInfo').onclick = function(){
+
+      for (var i = 0; i < 5; i++) {
+        var name = 'BuyInfo'+i;
+        T$(name).onclick = function(){
         TINY.box.show('BuyInfo.html',1,400,350,1)
         }//弹出填写购车需求的窗口
+      };
+      /*
+      T$('BuyInfo').onclick = function(){
+        TINY.box.show('BuyInfo.html',1,400,350,1)
+        }//弹出填写购车需求的窗口*/
       T$('SupplyRegister').onclick = function(){
       TINY.box.show('SupplyRegister.html',1,400,550,1)
       }//弹出供销商注册的窗口
+      var url = "http://"+window.location.hostname+":"+window.location.port+'/cargo/index.php/Home/Register/InsertUser';
+      alert(url);
       T$('UsersRegister').onclick = function(){
-      TINY.box.show('UsersRegister.html',1,400,350,1)
-      }//弹出供销商注册的窗口
+      TINY.box.show(url,1,400,350,1)
+      }//弹出用户注册的窗口
 </script>
 
 <div class="clearfix"></div>
