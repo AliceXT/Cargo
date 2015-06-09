@@ -29,7 +29,7 @@
         <div class="tab-content default-tab" id="tab1">
           <!-- This is the target div. id must match the href of this div's tab -->
           <form action="__APP__/Home/Car/{$action}" method="post" class="contentform">
-          <!--<h4>添加管理员</h4>-->
+          <!--<h4>添加车辆</h4>-->
           <fieldset>
             <?php
             if(isset($request)){
@@ -91,11 +91,7 @@
             <input class="text-input" required="required" type="number" min="1" name="stock" id="stock" value="{$request['stock']}">
             </p>
             <div class="clear"></div>
-
-
-
-
-            <p>
+        <p>
             <h4>车身参数</h4>
             </p>
             <div class="clear"></div>
@@ -140,7 +136,7 @@
                 'width'=>'宽',
                 'height'=>'高',
                 'door'=>'车身结构（X门X座）',
-                'wheelbase'=>'轴距（2040-3500mm）',
+                'wheelbase'=>'轴距（204 0-3500mm）',
                 'weight'=>'车重（kg）',
                 'fuelTank'=>'油箱容积（L）',
                 'trunkSpace'=>'行李箱容积（L）',
@@ -157,8 +153,6 @@
 
 
             ?>
-
-
 
             <p>
             <h4>技术参数</h4>

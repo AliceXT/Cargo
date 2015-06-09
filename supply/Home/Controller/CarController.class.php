@@ -198,9 +198,7 @@ class CarController extends Controller{
 			$this->success("添加成功",$url);
 		}else{
 			$this->error("添加失败");
-		}
-		
-		
+		}				
 	}
 	
 	function patch(){

@@ -8,21 +8,8 @@
     <link rel="stylesheet" href="__ROOT__/home/Home/Common/main/css/bootstrap-combined.min.css"><!--调用外部的css样式表-->
 </head>
 
-
-<script type="text/javascript">
-    function checkPasswords() {
-        var pass1 = document.getElementById("password1");
-        var pass2 = document.getElementById("password2");
- 
-        if (pass1.value != pass2.value)
-            pass1.setCustomValidity("两次输入的密码不匹配");
-        else
-            pass1.setCustomValidity("");
-    }
-</script>
-
 <body>
-    <form action="" method="POST" name="myform">
+    <form action="__APP__/Home/insertSupply" method="post">
       <div class="login">
         <h2>欢迎加入Car购</h2>
         <h4>申请条件：全国各地各厂商授权4S店及经销商</h4>
@@ -65,13 +52,13 @@
                 <tr>                    
                 <td><button class="btn btn-primary" >密码</button></td>
                 <td>
-                  <input type="password" id="password1" onchange="checkPasswords()" pattern="^[a-z A-Z 0-9 ]{8}" placeholder="8-20位，支持字母/数字" required/>
+                  <input type="password" name="password" id="password" pattern="^[a-z A-Z 0-9 ]{8}" placeholder="8-20位，支持字母/数字" required/>
                 </td>
                 </tr>
             <tr>                
                 <td><button class="btn btn-primary" >确认密码</button></td>
                 <td>
-                  <input type="password" id="password2" onchange="checkPasswords()" pattern="^\w+$" required/>
+                  <input type="password" name="passcheck" id="passcheck" pattern="^\w+$" required/>
                 </td>
             </tr>
             </table>

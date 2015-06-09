@@ -40,4 +40,16 @@
             未注册？<a href="#"id="SupplyRegister">点击注册</a>
     </div>
    </form>
-
+   
+<!--设置用户点击时的弹窗-->
+<script type="text/javascript">
+      T$('BuyInfo').onclick = function(){
+        TINY.box.show('BuyInfo.html',1,400,350,1)
+        }//弹出填写购车需求的窗口
+      T$('SupplyRegister').onclick = function(){
+      TINY.box.show('SupplyRegister.html',1,400,550,1)
+      }//弹出供销商注册的窗口
+      T$('UsersRegister').onclick = function(){
+      TINY.box.show('UsersRegister.html',1,400,350,1)
+      }//弹出供销商注册的窗口
+</script>

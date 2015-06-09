@@ -51,7 +51,6 @@
         </div>
 </div><!--End single_car-->
 
- <input type="checkbox" id="<?php echo ($request['id']); ?>" name="<?php echo ($request['id']); ?>" value="<?php echo ($request['id']); ?>" >
  <div id="s_detail">
     <div id="tabs">
     <ul>
@@ -155,7 +154,7 @@
         });//参数表tabs的js
     </script>
 
-
+<div class="clearfix"></div>
 <div class="footer">
 </br>
     <h3>联系我们</h3>
@@ -165,6 +164,6 @@
     <p>邮编：510006</p>
 Copyright &copy; 2015-2020 Cargo.com All Rights Reserved　
 </div>
-
+<hr>
 </body>
 </html>
