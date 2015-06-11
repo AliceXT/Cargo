@@ -3,7 +3,7 @@ namespace Home\Controller;
 use Think\Controller;
 use Think\Verify;
 use Think\Page;
-
+define(BOUNDARY,"---------------------------22139315522833");
 class AdminController extends Controller{
 
 	public function index(){
@@ -140,7 +140,28 @@ class AdminController extends Controller{
         }    
     }
 
-    public function upload($url,$name,$pic){
+    public function curl_upload($url,$add)
+    {
+        $post_data = array(
+            "data"=>"@".$add);
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_POST, 1);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $post_data);
+        $output = curl_exec($ch);
+        $status = curl_getinfo($ch)['http_code'];
+
+        curl_close($ch);
+        if($status>250){
+            $this->error("前端与后台数据传输错误".$status);
+        }else{
+            return $output;
+        }    
+        
+    }
+
+    public function upload($url,$name,$pic,$add){     
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt ( $ch, CURLOPT_RETURNTRANSFER, 1);
@@ -148,15 +169,22 @@ class AdminController extends Controller{
         curl_setopt ( $ch, CURLOPT_FRESH_CONNECT, false );
         curl_setopt ( $ch, CURLOPT_NOSIGNAL, true );
         curl_setopt ( $ch, CURLOPT_CUSTOMREQUEST, 'POST' );
+        //curl_setopt( $ch, CURLOPT_UPLOAD, true);
 
         //说明是json内容
-        $aHeader[] = "Content-Type:image/jpeg";
-        $aHeader[] = "Authorization:".session('cargo_session');
-        $aHeader[] = 'Content-Disposition: form-data; name="photo"; filename="'.date("Y_m_d",time()).$name.'"';
+        //$aHeader[] = "--".BOUNDARY;
+        $aHeader[] = "User-Agent:Mozilla/5.0 (Windows NT 5.1; rv:38.0) Gecko/20100101 Firefox/38.0";
+        $aHeader[] = "Accept:text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";
+        $aHeader[] = "Connection:keep-alive";
+        $aHeader[] ="Content-Type:multipart/form-data;";
+        
 
         curl_setopt( $ch, CURLOPT_HTTPHEADER, $aHeader);
 
-        curl_setopt( $ch, CURLOPT_POSTFIELDS, $pic);
+        $post_data = array(
+            "data"=>$add
+            );
+        curl_setopt( $ch, CURLOPT_POSTFIELDS, $post_data);
 
         $output = curl_exec($ch);
         $status = curl_getinfo($ch)['http_code'];

@@ -42,7 +42,7 @@ class CarController extends Controller{
 		$this->assign("requests",$requests);
 		//$this->assign("title","查看车辆");//小标题
 		$this->assign("title","查看车辆");
-		//$this->assign("snow",session("cargo_session"));
+		$this->assign("snow",session("cargo_session"));
 		//dump($requests);
 		$this->func_end();
 	}

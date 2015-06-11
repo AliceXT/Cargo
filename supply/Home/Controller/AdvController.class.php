@@ -54,11 +54,6 @@ class AdvController extends Controller{
 		$this->assign("submitName","提交申请");
 		$this->func_end();
 	}
-
-	function post1(){
-		dump($_POST);
-		dump($_FILES);
-	}
 	function post(){
 		$admin = $this->func_begin();
 
@@ -66,17 +61,18 @@ class AdvController extends Controller{
 
 		//先上传图片到后台
 		$url = BACK_URL."/upload";
-		$name = $_FILES['photo']['name'];
-		//由于上传过来的图片被保存在一个临时文件中，所以
-		//我们仅需要读取该文件就可以获取传过来的图片
-		$fp = fopen($_FILES["photo"]["tmp_name"],"rb");
-		$buf = addslashes(fread($fp,$_FILES["photo"]["size"])); 
-		//$output = $admin->upload($url,$name,$fp);
-		dump($url);
-/*
+		$add = $_FILES['photo']['tmp_name'];
+		$output = $admin->curl_upload($url,$add);
+		//dump($url);
+		
+		fclose($fp);
+		dump($output);
+		$_POST['picture'] =json_decode($output,1)['picture'];//后面的参数1为表示输出数组
 		//创建POST对象
-		$_POST['state'] = "Apply";
-		$json = $this->make_json($_POST);
+		$_POST['adstate'] = "Apply";
+		//dump($_POST);
+		
+		$json = json_encode($_POST);
 		//dump($json);
 		
 		//POST数据
@@ -90,7 +86,7 @@ class AdvController extends Controller{
 		}else{
 			$this->error("添加失败");
 		}
-*/		
+		
 		
 	}
 }

@@ -110,7 +110,7 @@
   window.onload = function(){
 
     /****************下面是导航菜单的js代码****************/
-    var url = "/cargo/supply.php/Home/Car/add";
+    var url = "/cargo/supply.php/Home/Car/modify";
     
 
     var model = getName(url,4);
@@ -210,7 +210,7 @@ document.cookie=name+"=cookiestr; expires="+date.toGMTString();
       <div class="content-box-content">
         <div class="tab-content default-tab" id="tab1">
           <!-- This is the target div. id must match the href of this div's tab -->
-          <form action="/cargo/supply.php/Home/Car/<?php echo ($action); ?>" method="post" class="contentform">
+          <form action="/cargo/supply.php/Home/Car/<?php echo ($action); ?>" method="post" class="contentform" enctype="multipart/form-data">
           <!--<h4>添加车辆</h4>-->
           <fieldset>
             <?php
@@ -253,7 +253,7 @@ document.cookie=name+"=cookiestr; expires="+date.toGMTString();
             <div class="clear"></div>
             <p>
             <label>车辆图片地址：</label>
-            <input class="text-input" required="required" type="text" name="picture" id="picture" value="<?php echo ($request['picture']); ?>">
+            <input type="file" name="picture" id="picture" requested="requested"  accept="image/gif, image/jpeg" value="<?php echo ($request['picture']); ?>">
             </p>
             <div class="clear"></div>
             <p>
