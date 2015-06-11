@@ -44,8 +44,8 @@
                     <p>限量：<strong><?php echo ($stock); ?></strong></p>
                     <p>咨询电话：<strong>400-8888-888</strong></p>
                     <p>参考价：&yen;<?php echo ($car["price"]); ?></p>
-                    <span><button type="submit" class="btn btn-danger btn-lg" id="BuyInfo">我要买</button></span> 
-                    <span><button type="submit" class="btn btn-danger btn-lg" id="">加入收藏</button></span>                
+                    <span><button type="submit" class="btn btn-primary btn-lg" id="BuyInfo">我要买</button></span> 
+                    <span><button type="submit" class="btn btn-primary btn-lg" id="">加入收藏</button></span>                
                </div>
             </div>
         </div>
@@ -132,17 +132,18 @@
               </tr>                   
             </table><hr>
         </div>
-        <div id="tabs-5">
+    <div id="tabs-5">
+  
 <h4>一、保修期内，用户在规定的使用条件下使用，而车辆由于材料、装配及质量问题所造成的故障或零部件的损坏,经厂家授权维修站检验并确认后均由厂家提供无偿维修或更换相应备件。</h4>
 <h4>二、购买新车后，厂家都会给用户一个“免费强制保养”，这次保养中的机油、机油滤芯等及相应的工时费由汽车公司支付。若用户不按规定的时间进行强制保养，就会被视为自动放弃保修和质量担保服务权利。</h4>
 <h4>三 、在发生故障后，没有及时到维修店维修而继续使用所导致的故障扩大，厂家会酌情赔偿引发原事故的原零部件，而扩大部分的损失由车主自己负责。</h4>
 <h4>四 、对于服务站维修操作不当造成的损坏,服务站应当承担由此产生的责任并进行修复；因车辆故障引起的附加费损失均不属于质量担保范围。</h4><hr>
-        </div>
-        <div id="tabs-6">
-            hello
-        </div>
-    </div><!--End tabs container-->
-  </div><!--End tabs-->
+  </div><!--End tabs-5-->
+    <div id="tabs-6">
+       hello
+    </div>
+  </div><!--End tabs container-->
+</div><!--End tabs-->
 </div><!--End s_detail-->
     
     <script type="text/javascript" >
@@ -153,15 +154,14 @@
             $('#tabs').tabulous({effect: 'scaleUp' });
         });//参数表tabs的js
     </script>
-
 <div class="clearfix"></div>
 <div class="footer">
 </br>
     <h3>联系我们</h3>
+    <p>邮编：510006</p>
     <p>客服电话：400-8888-888</p>
     <p>邮箱：service@Cargo.com</p>
     <p>地址：广东工业大学计算机软件工程1班Car购小组</p>
-    <p>邮编：510006</p>
 Copyright &copy; 2015-2020 Cargo.com All Rights Reserved　
 </div>
 <hr>

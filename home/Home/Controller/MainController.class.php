@@ -8,8 +8,65 @@ class MainController extends Controller {
 	 	header("Content-Type:text/html; charset=utf-8");
   		$this->display("index");//跨控制器访问
 
-
 	}*/
+
+     public function makePost(){
+        header("Content-Type:text/html; charset=utf-8");
+
+        //判断验证码
+        $action = A("Admin");
+       // $action->checkVerify($_POST['verify']);
+
+        $url = BACK_URL."/accounts/login";
+
+        $post_data = array("name"=>$_POST['supplyname'],
+            "password"=>$_POST['password']);
+        $post_data = json_encode($post_data);//编码为json格式
+
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        //得到的数据不直接输出
+        curl_setopt ( $ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt ( $ch, CURLOPT_FILETIME, true );
+        curl_setopt ( $ch, CURLOPT_FRESH_CONNECT, false );
+        curl_setopt ( $ch, CURLOPT_NOSIGNAL, true );
+        curl_setopt ( $ch, CURLOPT_CUSTOMREQUEST, 'POST' );
+        curl_setopt ( $ch, CURLOPT_CONNECTTIMEOUT, 3);
+
+        //说明是json内容
+        $aHeader[] = "Content-Type:application/json;charset=UTF-8";
+        curl_setopt( $ch, CURLOPT_HTTPHEADER, $aHeader);
+
+        curl_setopt( $ch, CURLOPT_POSTFIELDS, $post_data);
+        //curl_exec($ch);
+        $output = curl_exec($ch);
+        $status = curl_getinfo($ch)['http_code'];//获取返回状态
+        //dump($output);
+
+        //把curl关闭
+        curl_close($ch);
+        $data = json_decode($output,true);
+        //dump($data);
+        //dump($output);
+        //dump($status);
+        
+        if($status =="200" && $data['type'] == "Solder"){
+            //验证用户的cookie
+            session(array('name'=>'cargo_session','expire'=>3600));//初始化cargo_session
+            session(array('name'=>'name_session','expire'=>3600));//初始化name_session
+            session(array('name'=>'id_session','expire'=>3600));//初始化name_session
+            session('cargo_session',$data['auth_token']);//将cargo_session赋值为token的值
+            session('name_session',$data['name']);//将name_session赋值为用户名
+            session('id_session',$data['id']);//将id_session赋值为用户id
+            //$url = U("supply.php/Home/Admin/index");
+            $url="http://localhost:8080/cargo/supply.php/Home/Admin/index.html";
+            //$url = U("http://"+window.location.hostname+":"+window.location.port+'/cargo/supply.php/Home/Admin/index');
+            $this->success("登录成功",$url);
+        }else{
+            $this->error('该用户没有管理员功能,错误代码'.$status);
+        }
+        
+    }
 	function get_curl($url){
 		$ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
@@ -18,11 +75,6 @@ class MainController extends Controller {
         curl_setopt ( $ch, CURLOPT_FRESH_CONNECT, false );
         curl_setopt ( $ch, CURLOPT_NOSIGNAL, true );
         curl_setopt ( $ch, CURLOPT_CUSTOMREQUEST, 'GET' );
-
-        //说明是json内容
-        //$aHeader[] = "Content-Type:application/json;charset=UTF-8";
-        //$aHeader[] = "Authorization:".session('cargo_session');
-        //curl_setopt( $ch, CURLOPT_HTTPHEADER, $aHeader);
 
         $output = curl_exec($ch);
         $status = curl_getinfo($ch)['http_code'];
@@ -49,7 +101,7 @@ class MainController extends Controller {
 
 
 	function make(){
-		$str = '    <div class="car_body">
+		/*$str = '    <div class="car_body">
         <div class="navbar navbar-inverse">
             <div class="nav-collapse">
                 <div class="car_image">
@@ -71,7 +123,7 @@ class MainController extends Controller {
         </div>
     </div>
     <div class="clearfix"></div>';
-    return $str;
+    return $str;*/
 	}
 	function index(){
 
@@ -84,7 +136,7 @@ class MainController extends Controller {
 		//$this->assign("snow",$url);
 		//$assoc当该参数为 TRUE 时，将返回 array 而非 object 。 
 		//$requests = json_decode($output,$assoc = true);
-		for($i=1;$i<10;++$i){
+		for($i=1;$i<5;++$i){
 			$requests[] = $this->make();
 		}
 		//dump($requests);

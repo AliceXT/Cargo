@@ -26,30 +26,22 @@ class RegisterController extends Controller{
 		//dump($json);
 		
 		//POST数据
-		$url = BACK_URL."/accounts";	//链接到后台的用户表
+		$url = BACK_URL."/cars/{car_id}/orders";//连接到后台的订单表
 		$output = $admin->post_curl($url,$json);//得到返回结果
 		
 		//返回操作提示
 		if($output){
 			$url = U('Main/index/');
-			$this->success("恭喜成为Car购新成员！请返回登录！",$url);
+			$this->success("订单已提交，客服人员会尽快与您联系！",$url);
 		}else{
-			$this->error("注册失败，请再试试");
+			$this->error("预订失败，请再试试");
 		}				
 	}
 //用户注册时，在后台创建新用户
-	function InsertUser()
+	function ordermessage()
 		{
 			$admin = $this->func_begin();
-			$this->assign("InsertUser","Register/post");//触发添加动作，post数据
-			$this->assign("submitName","注册");//用户点击确认按钮
-			$this->func_end();
-			//dump("ok");
-		}
-	function InsertSupply()
-		{
-			$admin = $this->func_begin();
-			$this->assign("InsertSupply","Register/post");//触发添加动作，post数据
+			$this->assign("ordermessage","orders/post");//触发添加动作，post数据
 			$this->assign("submitName","注册");//用户点击确认按钮
 			$this->func_end();
 			//dump("ok");

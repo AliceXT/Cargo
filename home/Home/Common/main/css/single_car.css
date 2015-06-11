@@ -62,13 +62,13 @@
 #tabs li a {
     display: block;
     padding: 5px 15px;
-    background: #CD3000;
+    background: #1874CD;
     text-decoration: none;
     color: #FFFFFF;
 }
 
 #tabs li a:hover {
-    background: #CD3000;
+    background: #436EEE;
 }
 
 #tabs_container {   /*下面表格样式*/

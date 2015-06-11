@@ -40,3 +40,18 @@
             未注册？<a href="#"id="SupplyRegister">点击注册</a>
     </div>
    </form>
+   
+<!--设置用户点击时的弹窗-->
+<script type="text/javascript">
+      
+      var url1 = "http://"+window.location.hostname+":"+window.location.port+'/cargo/index.php/Home/Register/InsertSupply';
+     //alert(url1);
+      T$('SupplyRegister').onclick = function(){
+      TINY.box.show(url1,1,400,450,1)
+      }//弹出供销商注册的窗口
+      var url2 = "http://"+window.location.hostname+":"+window.location.port+'/cargo/index.php/Home/Register/InsertUser';
+      T$('UsersRegister').onclick = function(){
+      TINY.box.show(url2,1,400,450,1)
+      }//弹出用户注册的窗口
+
+</script>
