@@ -1,31 +1,31 @@
-<include file="header" /><!--包含到页面头部的标题和导航条-->
+<include file="Main:header" /><!--包含到页面头部的标题和导航条-->
 
 <div class="contain"><!--主体容器-->
   <div class="container_left"> <!--左部内容-->
     <div class="left_header">
     <h4>
-      <form id="search_form" action="__APP__/Home/Main/index/search" method="get">
-          <input type="text" placeholder="关键词搜索" id="key" name="key" value=""><br>
+      <form id="search_form" action="__APP__/Home/Car/search" method="get">      
            <select name="brand">
-               <option value="1">奔驰</option>
-               <option value="2">丰田</option>
-               <option value="3">骐铃</option>
-               <option value="4">奥迪</option>
-               <option value="5">阿斯顿·马丁</option>
-               <option value="6">宝马</option>
-               <option value="7">本田</option>
-               <option value="8">别克</option>
+               <option value="奔驰">奔驰</option>
+               <option value="丰田">丰田</option>
+               <option value="骐铃">骐铃</option>
+               <option value="奥迪">奥迪</option>
+               <option value="阿斯顿·马丁">阿斯顿·马丁</option>
+               <option value="宝马">宝马</option>
+               <option value="本田">本田</option>
+               <option value="别克">别克</option>
            </select>
            <select name="city">
                <option value="">选择车源地</option>
-               <option value="">北京</option>
-               <option value="">广州</option>
-               <option value="">深圳</option>
-               <option value="">成都</option>
-               <option value="">上海</option>
-               <option value="">东北</option>
-               <option value="">杭州</option>
+               <option value="北京">北京</option>
+               <option value="广州">广州</option>
+               <option value="深圳">深圳</option>
+               <option value="成都">成都</option>
+               <option value="上海">上海</option>
+               <option value="东北">东北</option>
+               <option value="杭州">杭州</option>
            </select>   
+        <input type="text" placeholder="关键词搜索" id="key" name="key" value="">
          </form>     
          <table class="table" bgcolor="#E0E0E0" algin="center">
         <tr>
@@ -100,7 +100,7 @@
   </div><!--End container_left-->
 
   <div class="container_right">
-    <include file="login" />      
+    <include file="Main:login" />      
  </div><!--End container_right-->
 
 </div><!--End contain-->
@@ -117,4 +117,4 @@
 </script>
 
 <div class="clearfix"></div>
-<include file="footer" />
+<include file="Main:footer" />

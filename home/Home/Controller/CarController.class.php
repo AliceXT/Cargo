@@ -70,17 +70,17 @@ class CarController extends Controller{
                 //dump($requests);
                 $this->func_end();
         }
-
         function search(){
 
 		$url = BACK_URL."/cars/search?";
+
 		$data = http_build_query($_GET);
 		$url =$url.$data;//将参数加到url后面
 		//dump($url);
 		
 		$this->assign("snow",$url);
 		$json= $this->get_curl($url);
-
+                $url = urlencode($url);
 		$requests = json_decode($json,true);
 
 		$requests = $this->set_page($requests);
@@ -89,7 +89,7 @@ class CarController extends Controller{
 		$this->assign("title","搜索".$_GET['brand']);//小标题
 		$this->assign("snow",$url);
 
-		$this->display("index");
+		$this->display("Main/index");
 
 	}
 }

@@ -10,7 +10,17 @@ class MainController extends Controller {
 
 	}*/
 
-     public function makePost(){
+      function func_begin(){
+                header("Content-Type:text/html; charset=utf-8");
+                $admin = A('Admin');
+                return $admin;
+        }
+        function func_end($str = ""){
+                $this->assign("Title",$this->Title);
+                $this->display($str);
+        }
+
+      function makePost(){
         header("Content-Type:text/html; charset=utf-8");
 
         //判断验证码
@@ -101,7 +111,7 @@ class MainController extends Controller {
 
 
 	function make(){
-		/*$str = '    <div class="car_body">
+		$str = '    <div class="car_body">
         <div class="navbar navbar-inverse">
             <div class="nav-collapse">
                 <div class="car_image">
@@ -123,24 +133,22 @@ class MainController extends Controller {
         </div>
     </div>
     <div class="clearfix"></div>';
-    return $str;*/
+    return $str;
 	}
-	function index(){
+	function index(){  
+        
+       /* $this->func_begin();
 
-		//$url = BACK_URL."/cars";//cars
-		//dump($url);
-		
-		//$output = $this->get_curl($url);
-		//dump($output);
-		
-		//$this->assign("snow",$url);
-		//$assoc当该参数为 TRUE 时，将返回 array 而非 object 。 
-		//$requests = json_decode($output,$assoc = true);
+        $url = BACK_URL."/cars";//cars
+                
+        $output = $this->get_curl($url);*/
+
 		for($i=1;$i<5;++$i){
 			$requests[] = $this->make();
 		}
 		//dump($requests);
 		
+       // $requests = json_decode($output,$assoc = true);
 
 		$requests = $this->set_page($requests);
 
@@ -151,6 +159,24 @@ class MainController extends Controller {
 		//dump($requests);
 	}	
 	
-	
+	/*function check(){
+                       
+                $this->func_begin();
 
+                $url = BACK_URL."/cars";//cars
+                
+                $output = $this->get_curl($url);
+                //$this->assign("snow",$url);
+                //$assoc当该参数为 TRUE 时，将返回 array 而非 object 。 
+                $requests = json_decode($output,$assoc = true);
+
+                $requests = $this->set_page($requests);
+
+                $this->assign("requests",$requests);
+                //$this->assign("title","查看车辆");//小标题
+                $this->assign("title","查看车辆");
+                //dump($requests);
+                $this->func_end();
+        }
+*/
 }

@@ -76,8 +76,8 @@ class CarController extends Controller{
 
 	function search(){
 		$this->func_begin();
-		$url = BACK_URL."/cars/search";
-		$data = http_build_query($_GET);
+		$url = BACK_URL."/cars/search?";
+		$data = urlencode(http_build_query($_GET));
 		$url =$url.$data;//将参数加到url后面
 		//dump($url);
 		

@@ -110,7 +110,7 @@
   window.onload = function(){
 
     /****************下面是导航菜单的js代码****************/
-    var url = "/cargo/supply.php/Home/Car/modify";
+    var url = "/cargo/supply.php/Home/Car/add";
     
 
     var model = getName(url,4);

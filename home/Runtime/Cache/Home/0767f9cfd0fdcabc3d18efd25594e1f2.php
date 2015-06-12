@@ -35,10 +35,10 @@
   <div class="container_left"> <!--左部内容-->
     <div class="left_header">
     <h4>
-      <form id="search_form" action="/cargo/index.php/Home/Main/index/search" method="get">
+      <form id="search_form" action="/cargo/index.php/Home/Car/search" method="get">
           <input type="text" placeholder="关键词搜索" id="key" name="key" value=""><br>
            <select name="brand">
-               <option value="1">奔驰</option>
+               <option value="奔驰">奔驰</option>
                <option value="2">丰田</option>
                <option value="3">骐铃</option>
                <option value="4">奥迪</option>
@@ -49,13 +49,13 @@
            </select>
            <select name="city">
                <option value="">选择车源地</option>
-               <option value="">北京</option>
-               <option value="">广州</option>
-               <option value="">深圳</option>
-               <option value="">成都</option>
-               <option value="">上海</option>
-               <option value="">东北</option>
-               <option value="">杭州</option>
+               <option value="北京">北京</option>
+               <option value="广州">广州</option>
+               <option value="深圳">深圳</option>
+               <option value="成都">成都</option>
+               <option value="上海">上海</option>
+               <option value="东北">东北</option>
+               <option value="杭州">杭州</option>
            </select>   
          </form>     
          <table class="table" bgcolor="#E0E0E0" algin="center">
