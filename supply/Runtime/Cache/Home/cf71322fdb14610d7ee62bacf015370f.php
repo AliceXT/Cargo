@@ -110,7 +110,7 @@
   window.onload = function(){
 
     /****************下面是导航菜单的js代码****************/
-    var url = "/cargo/supply.php/Home/Car/modify";
+    var url = "/cargo/supply.php/Home/Car/add";
     
 
     var model = getName(url,4);
@@ -252,8 +252,16 @@ document.cookie=name+"=cookiestr; expires="+date.toGMTString();
             </p>
             <div class="clear"></div>
             <p>
-            <label>车辆图片地址：</label>
-            <input type="file" name="picture" id="picture" requested="requested"  accept="image/gif, image/jpeg" value="<?php echo ($request['picture']); ?>">
+              <?php if($title !="修改车辆"){ ?>
+                <label>车辆图片地址：</label>
+                <?php
+ }else{ ?>
+                <label>更改车辆图片：</label>
+                <input type="hidden" min="1"name="picture" id="picture" value="<?php echo ($request['picture']); ?>">
+                <?php
+ } ?>
+            
+            <input type="file" name="photo" id="photo" requested="requested"  accept="image/gif, image/jpeg">
             </p>
             <div class="clear"></div>
             <p>
@@ -299,8 +307,8 @@ document.cookie=name+"=cookiestr; expires="+date.toGMTString();
             <label>'.$value.'</label>
             <select name="'.$name.'" id="'.$name.'">'; foreach($option[$name] as $v){ if($v == $reuqest[$name]){ $str .='<option value="'.$v.'" selected="selected">'.$v.'</option>'; continue; } $str .='<option value="'.$v.'">'.$v.'</option>'; } $str .='</select>
             </p>
-            <div class="clear"></div>'; echo $str; } } $arr = array( 'gearbox'=>'变速箱（MT,AT,CVT,DSG）', 'driveType'=>'驱动方式', 'resistanceType'=>'助力类型（电动助力,液压助力）' ); $option = array( 'gearbox'=>array('MT', 'AT', 'CVT', 'DSG'), 'driveType'=>array('前置前驱', '前置后驱', '前置四驱', '中置后驱', '中置四驱', '后置后驱', '后置四驱'), 'resistanceType'=>array('电动阻力', '液压助力') ); get_select_inputs($arr,$option,$request); $arr = array( 'trye' =>'轮胎规格'); get_text_inputs($arr,$request); $arr = array( 'maxSpeed'=>'最高车速（180-210Km/h）', 'gearNum'=>'挡位个数（4-8挡）' ); $len = array( 'maxSpeed'=>array('min'=>'180','max'=>'210'), 'gearNum'=>array('min'=>'4','max'=>'8') ); get_number_inputs($arr,$len,$request); ?>
-
+            <div class="clear"></div>'; echo $str; } } $arr = array( 'gearbox'=>'变速箱（MT,AT,CVT,DSG）', 'driveType'=>'驱动方式', 'resistanceType'=>'助力类型（电动助力,液压助力）' ); $option = array( 'gearbox'=>array('MT', 'AT', 'CVT', 'DSG'), 'driveType'=>array('前置前驱', '前置后驱', '前置四驱', '中置后驱', '中置四驱', '后置后驱', '后置四驱'), 'resistanceType'=>array('电动阻力', '液压助力') ); get_select_inputs($arr,$option,$request); $arr = array( 'maxSpeed'=>'最高车速（180-210Km/h）', 'gearNum'=>'挡位个数（4-8挡）' ); $len = array( 'maxSpeed'=>array('min'=>'180','max'=>'210'), 'gearNum'=>array('min'=>'4','max'=>'8') ); get_number_inputs($arr,$len,$request); ?>
+                <!--<input type="hidden" name="trye" id="trye" value="">-->
 
             <p>
             <h4>发动机参数</h4>

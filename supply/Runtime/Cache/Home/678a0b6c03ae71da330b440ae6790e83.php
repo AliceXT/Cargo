@@ -250,7 +250,7 @@ document.cookie=name+"=cookiestr; expires="+date.toGMTString();
                 <td><?php echo ($request['word']); ?></td>
                 <td>
                   <!-- Icons -->
-                  <!--<a href=<?="/cargo/supply.php/Home/Ticket/modify/id/".$request['booktic_id']; ?> title="Edit"><img src="/cargo/admin/Home/Common/resources/images/icons/pencil.png" alt="Edit" /></a>--><a href=<?="/cargo/supply.php/Home/Ticket/delete/id/".$request['booktic_id'];?> title="Delete"><img src="/cargo/admin/Home/Common/resources/images/icons/cross.png" alt="Delete" /></a></td>
+                  <a href=<?="/cargo/supply.php/Home/Ticket/modify/id/".$request['booktic_id']; ?> title="Edit"><img src="/cargo/admin/Home/Common/resources/images/icons/pencil.png" alt="Edit" /></a><a href=<?="/cargo/supply.php/Home/Ticket/delete/id/".$request['booktic_id'];?> title="Delete"><img src="/cargo/admin/Home/Common/resources/images/icons/cross.png" alt="Delete" /></a></td>
               </tr><?php endforeach; endif; else: echo "" ;endif; ?>
             </tbody>
           </table>

@@ -145,7 +145,59 @@ class CarController extends Controller{
 
 		//被替换的数组
 		$searchs["model"] = '"model":"testc1"';
-		$searchs['trye'] = '"trye":"185/60R14"';
+		//$searchs['trye'] = '"trye":"185/60R14"';
+		$searchs['maxSpeed'] = '"maxSpeed":120';
+		$searchs['resistanceType'] = '"resistanceType":"液压助力"';
+		$searchs['driveType'] = '"driveType":"中置后驱"';
+		$searchs['gearbox'] = '"gearbox":"AT"';
+		$searchs['gearNum'] = '"gearNum":4';
+		$searchs['type'] = '"type":"MPV商务车"';
+		$searchs['discount'] = '"discount":20000';	
+		$searchs['picture'] = '"picture":"f://..."';
+		$searchs['oilFeed'] = '"oilFeed":"化油器"';
+		$searchs['intake'] = '"intake":"机械增压"';
+		$searchs['maxTorque'] = '"maxTorque":100';
+		$searchs['displacement'] = '"displacement":400';
+		$searchs['fuelLabel'] = '"fuelLabel":90';
+		$searchs['cylinder'] = '"cylinder":4';
+		$searchs['maxPower'] = '"maxPower":80';
+		$searchs['environmental'] = '"environmental":"test环保标准001"';
+		$searchs['price'] = '"price":20001';
+		$searchs['stock'] = '"stock":20001';
+		$searchs['description'] = '"description":"testc1"';
+		$searchs['owner'] = '"owner":1';
+		$searchs['brand'] = '"brand":"123"';
+		$searchs['wheelbase'] = '"wheelbase":2040';
+		$searchs['weight'] = '"weight":400';
+		$searchs['height'] = '"height":140';
+		$searchs['seat'] = '"seat":4';
+		$searchs['width'] = '"width":240';
+		$searchs['length'] = '"length":400';
+		$searchs['guarantee'] = '"guarantee":"4年4万公里"';
+		$searchs['groundClearance'] = '"groundClearance":140';
+		$searchs['door'] = '"door":4';
+		$searchs['trunkSpace'] = '"trunkSpace":4';
+		$searchs['fuelTank'] = '"fuelTank":4';
+		
+		//遍历表单的每一项
+		foreach($data as $name=>$key){
+			$replace = '"'.$name.'":"'.$key.'"';
+			if($name == "verify")
+				continue;
+			$str = str_replace($searchs[$name], $replace, $str);
+		}
+
+		return $str;
+	}
+	function make_patch_json($data)
+	{
+		//一个正常的可以创建新数据的json
+		$str = '{"model":"testc1","carTechnique":{"id":1,"trye":"185/60R14","maxSpeed":120,"resistanceType":"液压助力","driveType":"中置后驱","gearbox":"AT","gearNum":4},"type":"MPV商务车","discount":20000,"id":1,"picture":"f://...","carEngine":{"id":1,"oilFeed":"化油器","intake":"机械增压","maxTorque":100,"displacement":400,"fuelLabel":90,"cylinder":4,"maxPower":80,"environmental":"test环保标准001"},"price":20001,"stock":20001,"description":"testc1","owner":1,"brand":"123","carBody":{"id":1,"wheelbase":2040,"weight":400,"height":140,"seat":4,"width":240,"length":400,"guarantee":"4年4万公里","groundClearance":140,"door":4,"trunkSpace":4,"fuelTank":4}}';
+
+		//被替换的数组
+		$searchs["id"] = '"id":1';
+		$searchs["model"] = '"model":"testc1"';
+		//$searchs['trye'] = '"trye":"185/60R14"';
 		$searchs['maxSpeed'] = '"maxSpeed":120';
 		$searchs['resistanceType'] = '"resistanceType":"液压助力"';
 		$searchs['driveType'] = '"driveType":"中置后驱"';
@@ -195,16 +247,26 @@ class CarController extends Controller{
 
 		//$admin->checkVerify($_POST['verify']);
 
+		//先上传图片到后台
+		$url = BACK_URL."/upload";
+		$add = $_FILES['photo']['tmp_name'];
+		$output = $admin->curl_upload($url,$add);
+		//dump($url);
+		fclose($fp);
+		//dump($output);
+		$_POST['picture'] =json_decode($output,1)['picture'];//后面的参数1为表示输出数组
+
 		//创建POST对象
 		$_POST['owner']=session('id_session');
+		dump($_POST['owner']);
 		$json = $this->make_json($_POST);
 		//dump($json);
 		
 		//POST数据
 		$url = BACK_URL."/cars";
-		//$json = json_encode($data);
-		//$json = '{"model":"testc1","carTechnique":{"id":6,"trye":"185/60R14","maxSpeed":120,"resistanceType":"液压助力","driveType":"中置后驱","gearbox":"AT","gearNum":4},"type":"MPV商务车","discount":20000,"id":6,"picture":"f://...","carEngine":{"id":6,"oilFeed":"化油器","intake":"机械增压","maxTorque":100,"displacement":400,"fuelLabel":90,"cylinder":4,"maxPower":80,"environmental":"test环保标准001"},"price":20001,"stock":20001,"description":"testc1","owner":1,"brand":"123","carBody":{"id":6,"wheelbase":2040,"weight":400,"height":140,"seat":4,"width":240,"length":400,"guarantee":"4年4万公里","groundClearance":140,"door":4,"trunkSpace":4,"fuelTank":4}}';
+		$output = 0;	
 		$output = $admin->post_curl($url,$json);//得到返回结果
+		dump($output);
 		
 		//返回操作提示
 		if($output){
@@ -212,7 +274,8 @@ class CarController extends Controller{
 			$this->success("添加成功",$url);
 		}else{
 			$this->error("添加失败");
-		}				
+		}	
+			
 	}
 	
 	function patch(){
@@ -220,16 +283,31 @@ class CarController extends Controller{
 
 		//$admin->checkVerify($_POST['verify']);
 
+		//先上传图片到后台
+		if(isset($_FILES['photo']))
+		{
+		$url = BACK_URL."/upload";
+		$add = $_FILES['photo']['tmp_name'];
+		$output = $admin->curl_upload($url,$add);
+		//dump($url);
+		fclose($fp);
+		dump($output);
+		
+		$_POST['picture'] =json_decode($output,1)['picture'];//后面的参数1为表示输出数组
+		}
 		//创建POST对象
 		$_POST['owner']=session('id_session');
-		$json = $this->make_json($_POST);
+		$json = $this->make_patch_json($_POST);
 		
-		
+		dump($json);
+
 		//POST数据
-		$url = BACK_URL."/cars/".$_GET['id'];
-		//dump($url);
+		$url = BACK_URL."/cars/".$_GET['id'];	
+		dump($url);
+		/*
 		$output = $admin->patch_curl($url,$json);//得到返回结果
-		
+		dump($output);
+		/*
 		//返回操作提示
 		if($output){
 			$url = U('Car/check');
@@ -237,7 +315,7 @@ class CarController extends Controller{
 		}else{
 			$this->error("修改失败");
 		}
-		
+		*/
 		
 	}
 }

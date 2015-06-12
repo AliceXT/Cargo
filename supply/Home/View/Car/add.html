@@ -72,8 +72,19 @@
             </p>
             <div class="clear"></div>
             <p>
-            <label>车辆图片地址：</label>
-            <input type="file" name="picture" id="picture" requested="requested"  accept="image/gif, image/jpeg" value="{$request['picture']}">
+              <?php if($title !="修改车辆"){
+                ?>
+                <label>车辆图片地址：</label>
+                <?php
+              }else{
+                ?>
+                <label>更改车辆图片：</label>
+                <input type="hidden" min="1"name="picture" id="picture" value="{$request['picture']}">
+                <?php
+              }
+            ?>
+            
+            <input type="file" name="photo" id="photo" requested="requested"  accept="image/gif, image/jpeg">
             </p>
             <div class="clear"></div>
             <p>
@@ -189,10 +200,11 @@
                 'resistanceType'=>array('电动阻力', '液压助力')
                 );
               get_select_inputs($arr,$option,$request);
-
+/*
               $arr = array(
                 'trye' =>'轮胎规格');
               get_text_inputs($arr,$request);
+              */
 
               $arr = array(
                 'maxSpeed'=>'最高车速（180-210Km/h）',
@@ -204,7 +216,7 @@
                 );
               get_number_inputs($arr,$len,$request);
             ?>
-
+                <!--<input type="hidden" name="trye" id="trye" value="">-->
 
             <p>
             <h4>发动机参数</h4>
