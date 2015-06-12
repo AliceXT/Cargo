@@ -33,7 +33,7 @@
     <table width="100%" cellpadding="0" cellspacing="0">
        <tr>           
            <td><button class="btn btn-primary">您的姓名</button></td>
-           <td><input type="text" id="buyername" autofocus="autofocus" pattern="[\u4e00-\u9fa5]" required/></td>
+           <td><input type="text" id="buyername" autofocus="autofocus"  required/></td><!--pattern="[\u4e00-\u9fa5]"-->
         </tr>
         <tr>       
              <td><button class="btn btn-primary">联系方式</button></td>

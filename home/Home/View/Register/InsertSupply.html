@@ -9,14 +9,14 @@
 </head>
 
 <body>
-    <form action="__APP__/Home/{$InsertUser}" method="post">
+    <form action="__APP__/Home/{$InsertSupply}" method="post">
       <div class="login"> 
             <input type="hidden" name="id" id="id" value="{$request['id']}">
         <h2>欢迎加入Car购</h2>
         <hr>
         <table width="100%" cellpadding="0" cellspacing="0">
                 <tr>
-                    <td><button class="btn btn-primary">用户名</button></td>
+                    <td><button class="btn btn-primary">商家名称</button></td>
                     <td>
                         <input type="text" autofocus="autofocus" placeholder="5-12位字符，支持字母/数字/下划线" pattern="^\w{5,10}$" id="name" name="name" value="{$request['name']}" required/ >
                     </td>
@@ -32,13 +32,13 @@
                     <td>
                         <input type="password" id="passcheck" name="passcheck" pattern="^\w{6,20}$" required/>
                     </td>
-                </tr>               
-                
-                    <input type="hidden" id="gender" name="gender" value="Man"/>
-                    <input type="hidden"  id="type" name="type" value="Buyer"/> 
-                      <!--<input type="radio" id="gender" name="gender" value="Man" checked/>男
-                        <input type="radio" id="gender" name="gender" value="Lady" />女<br> -->
-                    <!--隐藏了用户类型和性别，默认为供销商和男性-->
+                </tr>-                               
+                     <input type="hidden" id="gender" name="gender" value="Man"/>
+                        <!--<input type="radio" id="gender" name="gender" value="Man" checked/>男
+                        <input type="radio" id="gender" name="gender" value="Lady" />女<br> -->               
+                      <input type="hidden"  id="type" name="type" value="Solder" >
+                    </td><!--隐藏了用户类型和性别，默认为普通用户和男性-->
+                </tr>
                 <tr>                    
                    <td><button class="btn btn-primary" >手机号码</button></td>
                     <td>
@@ -51,7 +51,7 @@
                   <input type="email" placeholder="xxx@yyy" id="email" name="email" value="{$request['email']}"required/>
                 </td>
             </tr>
-                 <input type="hidden" id="address" name="address" value="暂无"/>
+                <input type="hidden" id="address" name="address" value="暂无"/>
             <tr>            
                 <td><button class="btn btn-primary" >所在城市</button></td>
                 <td>

@@ -2237,3 +2237,1289 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+[ 2015-06-09T21:42:13+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\home\Home\Controller\MainController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-09T21:42:18+08:00 ] 127.0.0.1 /cargo/index.php/Home/Register/InsertSupply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-09T21:42:28+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-09T21:43:17+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\home\Home\Controller\MainController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-06-09T21:44:59+08:00 ] 127.0.0.1 /cargo/index.php/Home/Register/InsertUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\3baba3a9147809de0aef54fbb1d6ffe5.php 第 25 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\3baba3a9147809de0aef54fbb1d6ffe5.php 第 31 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\3baba3a9147809de0aef54fbb1d6ffe5.php 第 43 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\3baba3a9147809de0aef54fbb1d6ffe5.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-06-09T21:45:27+08:00 ] 127.0.0.1 /cargo/index.php/Home/Register/post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given G:\XA\htdocs\cargo\home\Home\Controller\RegisterController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: admin G:\XA\htdocs\cargo\home\Home\Controller\RegisterController.class.php 第 21 行.
+
+[ 2015-06-09T21:47:50+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\home\Home\Controller\MainController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013001s ]
+
+[ 2015-06-09T21:47:52+08:00 ] 127.0.0.1 /cargo/index.php/Home/Register/InsertUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\3baba3a9147809de0aef54fbb1d6ffe5.php 第 25 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\3baba3a9147809de0aef54fbb1d6ffe5.php 第 31 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\3baba3a9147809de0aef54fbb1d6ffe5.php 第 43 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\3baba3a9147809de0aef54fbb1d6ffe5.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-06-09T21:48:10+08:00 ] 127.0.0.1 /cargo/index.php/Home/Register/post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given G:\XA\htdocs\cargo\home\Home\Controller\RegisterController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: admin G:\XA\htdocs\cargo\home\Home\Controller\RegisterController.class.php 第 22 行.
+
+[ 2015-06-09T21:50:18+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\home\Home\Controller\MainController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013001s ]
+
+[ 2015-06-09T21:50:24+08:00 ] 127.0.0.1 /cargo/index.php/Home/Register/InsertUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\3baba3a9147809de0aef54fbb1d6ffe5.php 第 25 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\3baba3a9147809de0aef54fbb1d6ffe5.php 第 31 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\3baba3a9147809de0aef54fbb1d6ffe5.php 第 43 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\3baba3a9147809de0aef54fbb1d6ffe5.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-09T21:50:40+08:00 ] 127.0.0.1 /cargo/index.php/Home/Register/post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given G:\XA\htdocs\cargo\home\Home\Controller\RegisterController.class.php 第 151 行.
+NOTIC: [8] Undefined variable: admin G:\XA\htdocs\cargo\home\Home\Controller\RegisterController.class.php 第 156 行.
+
+[ 2015-06-09T21:51:19+08:00 ] 127.0.0.1 /cargo/index.php/Home/Register/post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given G:\XA\htdocs\cargo\home\Home\Controller\RegisterController.class.php 第 151 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-09T21:52:17+08:00 ] 127.0.0.1 /cargo/index.php/Home/Register/post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given G:\XA\htdocs\cargo\home\Home\Controller\RegisterController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-09T21:54:43+08:00 ] 127.0.0.1 /cargo/index.php/Home/Register/post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given G:\XA\htdocs\cargo\home\Home\Controller\RegisterController.class.php 第 44 行.
+NOTIC: [8] Undefined variable: InsertUser G:\XA\htdocs\cargo\home\Home\Controller\RegisterController.class.php 第 49 行.
+
+[ 2015-06-09T21:57:08+08:00 ] 127.0.0.1 /cargo/index.php/Home/Register/post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given G:\XA\htdocs\cargo\home\Home\Controller\RegisterController.class.php 第 45 行.
+NOTIC: [8] Undefined variable: admin G:\XA\htdocs\cargo\home\Home\Controller\RegisterController.class.php 第 50 行.
+
+[ 2015-06-09T21:59:47+08:00 ] 127.0.0.1 /cargo/index.php/Home/Register/post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given G:\XA\htdocs\cargo\home\Home\Controller\RegisterController.class.php 第 50 行.
+NOTIC: [8] Undefined variable: admin G:\XA\htdocs\cargo\home\Home\Controller\RegisterController.class.php 第 55 行.
+
+[ 2015-06-09T22:00:41+08:00 ] 127.0.0.1 /cargo/index.php/Home/Register/post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given G:\XA\htdocs\cargo\home\Home\Controller\RegisterController.class.php 第 50 行.
+
+[ 2015-06-09T22:03:15+08:00 ] 127.0.0.1 /cargo/index.php/Home/Register/post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: Think\Controller:make_json方法不存在！
+
+[ 2015-06-09T22:03:37+08:00 ] 127.0.0.1 /cargo/index.php/Home/Register/post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given G:\XA\htdocs\cargo\home\Home\Controller\RegisterController.class.php 第 50 行.
+
+[ 2015-06-09T22:45:46+08:00 ] 127.0.0.1 /cargo/index.php/Home/Register/post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given G:\XA\htdocs\cargo\home\Home\Controller\RegisterController.class.php 第 50 行.
+
+[ 2015-06-09T22:50:47+08:00 ] 127.0.0.1 /cargo/index.php/Home/Register/post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Think\Controller:make_json方法不存在！
+
+[ 2015-06-09T22:51:12+08:00 ] 127.0.0.1 /cargo/index.php/Home/Register/post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given G:\XA\htdocs\cargo\home\Home\Controller\RegisterController.class.php 第 105 行.
+
+[ 2015-06-09T22:51:44+08:00 ] 127.0.0.1 /cargo/index.php/Home/Register/post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given G:\XA\htdocs\cargo\home\Home\Controller\RegisterController.class.php 第 105 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014001s ]
+
+[ 2015-06-09T22:51:47+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\home\Home\Controller\MainController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010001s ]
+
+[ 2015-06-09T22:53:14+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/index?key=%E5%85%B3%E9%94%AE%E8%AF%8D123%E6%90%9C%E7%B4%A2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\home\Home\Controller\MainController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-09T22:53:18+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/index?key=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\home\Home\Controller\MainController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-06-09T22:53:26+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/BuyInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-09T23:03:02+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\home\Home\Controller\MainController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-09T23:03:51+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: requests G:\XA\htdocs\cargo\home\Home\Controller\MainController.class.php 第 93 行.
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\home\Home\Controller\MainController.class.php 第 42 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given G:\XA\htdocs\cargo\home\Home\Controller\MainController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2015-06-09T23:04:00+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\home\Home\Controller\MainController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013000s ]
+
+[ 2015-06-09T23:04:16+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\home\Home\Controller\MainController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-09T23:05:52+08:00 ] 10.10.144.197 /cargo/index.php/Home/Main/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\home\Home\Controller\MainController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-09T23:06:39+08:00 ] 10.10.144.197 /cargo/index.php/Home/Main/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\home\Home\Controller\MainController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-06-09T23:07:08+08:00 ] 10.10.144.197 /cargo/index.php/Home/Main/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\home\Home\Controller\MainController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-09T23:07:58+08:00 ] 10.10.144.197 /cargo/index.php/Home/Main/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\home\Home\Controller\MainController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-06-09T23:08:22+08:00 ] 10.10.144.197 /cargo/index.php/Home/Main/BuyInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-06-09T23:09:41+08:00 ] 10.10.144.197 /cargo/index.php/Home/Main/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\home\Home\Controller\MainController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-09T23:10:08+08:00 ] 10.10.144.197 /cargo/index.php/Home/Main/BuyInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-09T23:11:03+08:00 ] 10.10.144.197 /cargo/index.php/Home/Main/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\home\Home\Controller\MainController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-09T23:30:06+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/BuyInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-09T23:30:49+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/BuyInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-09T23:30:58+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/BuyInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-09T23:31:08+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/BuyInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-09T23:35:29+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: p G:\XA\htdocs\cargo\home\Home\Controller\MainController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-09T23:35:38+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/SingleCar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 42 行.
+NOTIC: [8] Undefined variable: car G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 43 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 44 行.
+NOTIC: [8] Undefined variable: car G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 46 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 68 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 69 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 72 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 73 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 76 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 77 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 84 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 85 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 86 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 89 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 90 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 91 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 94 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 95 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 98 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 99 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 106 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 107 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 108 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 111 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 112 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 113 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 120 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 121 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 122 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 125 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 126 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 127 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 130 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-09T23:44:30+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/SingleCar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 42 行.
+NOTIC: [8] Undefined variable: car G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 43 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 44 行.
+NOTIC: [8] Undefined variable: car G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 46 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 68 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 69 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 72 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 73 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 76 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 77 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 84 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 85 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 86 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 89 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 90 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 91 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 94 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 95 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 98 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 99 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 106 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 107 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 108 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 111 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 112 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 113 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 120 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 121 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 122 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 125 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 126 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 127 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 130 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-09T23:44:54+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/SingleCar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 42 行.
+NOTIC: [8] Undefined variable: car G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 43 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 44 行.
+NOTIC: [8] Undefined variable: car G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 46 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 68 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 69 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 72 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 73 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 76 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 77 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 84 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 85 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 86 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 89 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 90 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 91 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 94 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 95 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 98 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 99 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 106 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 107 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 108 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 111 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 112 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 113 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 120 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 121 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 122 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 125 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 126 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 127 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 130 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-09T23:45:10+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/SingleCar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 42 行.
+NOTIC: [8] Undefined variable: car G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 43 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 44 行.
+NOTIC: [8] Undefined variable: car G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 46 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 68 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 69 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 72 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 73 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 76 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 77 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 84 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 85 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 86 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 89 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 90 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 91 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 94 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 95 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 98 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 99 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 106 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 107 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 108 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 111 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 112 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 113 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 120 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 121 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 122 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 125 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 126 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 127 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 130 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-09T23:45:35+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/SingleCar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 42 行.
+NOTIC: [8] Undefined variable: car G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 43 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 44 行.
+NOTIC: [8] Undefined variable: car G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 46 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 68 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 69 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 72 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 73 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 76 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 77 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 84 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 85 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 86 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 89 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 90 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 91 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 94 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 95 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 98 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 99 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 106 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 107 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 108 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 111 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 112 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 113 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 120 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 121 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 122 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 125 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 126 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 127 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 130 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-09T23:46:02+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/SingleCar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 42 行.
+NOTIC: [8] Undefined variable: car G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 43 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 44 行.
+NOTIC: [8] Undefined variable: car G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 46 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 68 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 69 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 72 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 73 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 76 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 77 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 84 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 85 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 86 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 89 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 90 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 91 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 94 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 95 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 98 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 99 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 106 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 107 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 108 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 111 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 112 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 113 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 120 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 121 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 122 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 125 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 126 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 127 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 130 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-06-09T23:46:05+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/SingleCar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 42 行.
+NOTIC: [8] Undefined variable: car G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 43 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 44 行.
+NOTIC: [8] Undefined variable: car G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 46 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 68 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 69 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 72 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 73 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 76 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 77 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 84 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 85 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 86 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 89 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 90 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 91 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 94 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 95 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 98 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 99 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 106 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 107 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 108 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 111 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 112 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 113 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 120 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 121 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 122 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 125 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 126 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 127 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 130 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-06-09T23:46:58+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/SingleCar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 42 行.
+NOTIC: [8] Undefined variable: car G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 43 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 44 行.
+NOTIC: [8] Undefined variable: car G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 46 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 68 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 69 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 72 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 73 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 76 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 77 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 84 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 85 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 86 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 89 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 90 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 91 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 94 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 95 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 98 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 99 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 106 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 107 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 108 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 111 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 112 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 113 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 120 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 121 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 122 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 125 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 126 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 127 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 130 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-09T23:47:44+08:00 ] 127.0.0.1 /cargo/index.php/Home/Main/SingleCar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: description G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 42 行.
+NOTIC: [8] Undefined variable: car G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 43 行.
+NOTIC: [8] Undefined variable: stock G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 44 行.
+NOTIC: [8] Undefined variable: car G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 46 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 68 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 69 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 72 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 73 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 76 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 77 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 84 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 85 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 86 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 89 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 90 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 91 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 94 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 95 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 98 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 99 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 106 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 107 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 108 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 111 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 112 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 113 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 120 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 121 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 122 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 125 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 126 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 127 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 130 行.
+NOTIC: [8] Undefined variable: request G:\XA\htdocs\cargo\home\Runtime\Cache\Home\8d06f1fa3da2f92e4ac2a05807edf182.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
