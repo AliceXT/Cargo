@@ -228,7 +228,7 @@ class CarController extends Controller{
 "driveType":"后置四驱",
 "gearbox":"CVT",
 "resistanceType":"电动阻力",
-"trye":"tyre"},
+"tyre":"tyre"},
 
 "carEngine":{
 "cylinder":100,
@@ -246,7 +246,7 @@ class CarController extends Controller{
 		//被替换的数组
 		//$searchs["id"] = '"id":1';
 		$searchs["model"] = '"model":"model12345"';
-		//$searchs['trye'] = '"trye":"185/60R14"';
+		$searchs['tyre'] = '"tyre":"tyre"';
 		$searchs['maxSpeed'] = '"maxSpeed":110';
 		$searchs['resistanceType'] = '"resistanceType":"电动阻力"';
 		$searchs['driveType'] = '"driveType":"中置后驱"';
@@ -285,7 +285,7 @@ class CarController extends Controller{
 			
 			if($name == "verify")
 				continue;
-			if(gettype($key) ==  "string"){
+			if(!is_numeric($key)){
 				$replace = '"'.$name.'":"'.$key.'"';
 			}else{
 				$replace = '"'.$name.'":'.$key;
@@ -359,9 +359,9 @@ class CarController extends Controller{
 		$url = BACK_URL."/cars/".$_GET['id'];	
 		dump($url);
 		
-		//$output = $admin->patch_curl($url,$json);//得到返回结果
+		$output = $admin->patch_curl($url,$json);//得到返回结果
 		dump($output);
-		/*
+		
 		//返回操作提示
 		if($output){
 			$url = U('Car/check');
@@ -369,7 +369,7 @@ class CarController extends Controller{
 		}else{
 			$this->error("修改失败");
 		}
-		*/
+		
 		
 	}
 }
