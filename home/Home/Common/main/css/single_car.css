@@ -1,29 +1,31 @@
 /*车辆单页的css*/
 
-.single_car{
-    margin: 3px;
-    padding: 20px;/*左右宽度相同*/
-    width: 65%;
-    height: 20%;
-    text-align: center;    
 
+.single_car{
+    margin: 5px;
+    padding: 8px;
+    width: 80%;
+    height: 18%;
+    float:left;  
+    
+}
+.clearfix{
+ clear:both;
 }
 .s_image{     /*汽车图片*/
-    float: left;
+   float: left;
     width: 40%;
-    height:30%;
-    border:2px solid #aaa;
+    height:25%;
 }
 .clearfix{
  clear:both;
 }
 .s_right{     /*汽车描述*/
-    float: right;
+   float: right;
     width: 55%;
-    height: 30%;
-    font-family: "微软雅黑";
-    font-size: 1.5em;
-    margin-top: 15px;
+    height: 12%;
+    font-family: "courier";
+    font-size: 1.9em;
 }
 .clearfix{
  clear:both;

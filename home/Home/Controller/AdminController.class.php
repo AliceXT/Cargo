@@ -7,6 +7,7 @@ use Think\Page;
 class AdminController extends Controller{
 
 	public function index(){
+        
 		header("Content-Type:text/html; charset=utf-8");
 		$this->checkLegal();//验证用户合法性
         $this->assign('account_name',session('name_session'));
@@ -196,4 +197,33 @@ class AdminController extends Controller{
         }    
     }
 
+
+    function vip(){
+        if(isset($_GET)){
+            $url = BACK_URL."/cars/search?";
+            $data = http_build_query($_GET);
+            $url =$url.$data;//将参数加到url后面
+        }else{
+            $url = BACK_URL."/cars/search";
+        }
+        //dump($url);
+        
+        //$this->assign("snow",$url);
+        $json= $this->get_curl($url);
+        $requests = json_decode($json,true);
+
+        $requests = $this->set_page($requests);
+
+
+        //修改图片路径
+        foreach($requests as $r){
+            $r['picture'] = BACK_URL."/".$r['picture'];
+            $arr[] = $r;
+        }
+                
+        $this->assign("requests",$arr);
+        $this->assign("snow",$url);
+                
+        $this->display("Main/index");
+    }
 }

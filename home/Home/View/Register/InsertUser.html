@@ -18,7 +18,7 @@
                 <tr>
                     <td><button class="btn btn-primary">用户名</button></td>
                     <td>
-                        <input type="text" autofocus="autofocus" placeholder="5-12位字符，支持字母/数字/下划线" pattern="^\w{5,10}$" id="name" name="name" value="{$request['name']}" required/ >
+                        <input type="text" autofocus="autofocus" placeholder="中英文/数字/下划线" pattern="^[\u4E00-\u9FA5A-Za-z0-9_]+$" id="name" name="name" value="{$request['name']}" required/ >
                     </td>
                 </tr>              
                 <tr>                    

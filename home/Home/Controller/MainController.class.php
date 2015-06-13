@@ -3,12 +3,21 @@ namespace Home\Controller;
 use Think\Controller;
 use Think\Page;
 class MainController extends Controller {
-/*	public function index(){
+    
+	/*public function index(){
 			
 	 	header("Content-Type:text/html; charset=utf-8");
-  		$this->display("index");//跨控制器访问
+  		$this->display("check");//跨控制器访问
 
 	}*/
+
+    //验证用户的合法性，每个函数开头都要先调用这个函数
+    public function checkLegal() {
+        if(!session('?cargo_session')){
+            $url=U('Main/index');
+            $this->error('登录超时，请重新登录',$url);
+        }//dump(session('cargo_session'));
+    }
 
       function func_begin(){
                 header("Content-Type:text/html; charset=utf-8");
@@ -19,8 +28,57 @@ class MainController extends Controller {
                 $this->assign("Title",$this->Title);
                 $this->display($str);
         }
+    //用户登录时的触发
+      function userPost(){
+        header("Content-Type:text/html; charset=utf-8");
 
-      function makePost(){
+        //判断验证码
+        $action = A("Admin");
+
+        $url = BACK_URL."/accounts/login";
+
+        $post_data = array("name"=>$_POST['username'],
+            "password"=>$_POST['pw']);
+        $post_data = json_encode($post_data);//编码为json格式
+
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        //得到的数据不直接输出
+        curl_setopt ( $ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt ( $ch, CURLOPT_FILETIME, true );
+        curl_setopt ( $ch, CURLOPT_FRESH_CONNECT, false );
+        curl_setopt ( $ch, CURLOPT_NOSIGNAL, true );
+        curl_setopt ( $ch, CURLOPT_CUSTOMREQUEST, 'POST' );
+        curl_setopt ( $ch, CURLOPT_CONNECTTIMEOUT, 3);
+
+        //说明是json内容
+        $aHeader[] = "Content-Type:application/json;charset=UTF-8";
+        curl_setopt( $ch, CURLOPT_HTTPHEADER, $aHeader);
+
+        curl_setopt( $ch, CURLOPT_POSTFIELDS, $post_data);
+        //curl_exec($ch);
+        $output = curl_exec($ch);
+        $status = curl_getinfo($ch)['http_code'];//获取返回状态
+        curl_close($ch);
+        $data = json_decode($output,true);
+      
+        if($status =="200" && $data['type'] == "Buyer"){
+            //验证用户的cookie
+            session(array('name'=>'cargo_session','expire'=>3600));//初始化cargo_session
+            session(array('name'=>'name_session','expire'=>3600));//初始化name_session
+            session(array('name'=>'id_session','expire'=>3600));//初始化name_session
+            session('cargo_session',$data['auth_token']);//将cargo_session赋值为token的值
+            session('name_session',$data['name']);//将name_session赋值为用户名
+            session('id_session',$data['id']);//将id_session赋值为用户id
+            $url="http://localhost:8080/cargo1/index.php/Home/Main/index.html";
+            $this->success("登录成功",$url);
+        }else{
+            $this->error('登录失败，请检查信息'.$status);
+        }
+        
+    }
+//供销商登录时的触发
+     function supplyPost(){
         header("Content-Type:text/html; charset=utf-8");
 
         //判断验证码
@@ -51,15 +109,9 @@ class MainController extends Controller {
         //curl_exec($ch);
         $output = curl_exec($ch);
         $status = curl_getinfo($ch)['http_code'];//获取返回状态
-        //dump($output);
-
-        //把curl关闭
         curl_close($ch);
         $data = json_decode($output,true);
-        //dump($data);
-        //dump($output);
-        //dump($status);
-        
+      
         if($status =="200" && $data['type'] == "Solder"){
             //验证用户的cookie
             session(array('name'=>'cargo_session','expire'=>3600));//初始化cargo_session
@@ -69,14 +121,15 @@ class MainController extends Controller {
             session('name_session',$data['name']);//将name_session赋值为用户名
             session('id_session',$data['id']);//将id_session赋值为用户id
             //$url = U("supply.php/Home/Admin/index");
-            $url="http://localhost:8080/cargo/supply.php/Home/Admin/index.html";
+            $url="http://localhost:8080/cargo1/supply.php/Home/Admin/index.html";
             //$url = U("http://"+window.location.hostname+":"+window.location.port+'/cargo/supply.php/Home/Admin/index');
             $this->success("登录成功",$url);
         }else{
-            $this->error('该用户没有管理员功能,错误代码'.$status);
+            $this->error('登录注册，请检查用户名和密码是否正确'.$status);
         }
         
     }
+
 	function get_curl($url){
 		$ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
@@ -110,73 +163,50 @@ class MainController extends Controller {
 	}
 
 
-	function make(){
-		$str = '    <div class="car_body">
-        <div class="navbar navbar-inverse">
-            <div class="nav-collapse">
-                <div class="car_image">
-                    <a href="#" target="_blank">
-                        <img src="__ROOT__/home/Home/Common/main/image/112.jpg">
-                    </a></li>
-                </div>
-                <div class="right">
-                    <h3>2015款碧莲 4.5L 尊贵VIP版(12座)</h3>
-                    <p>车源所在地：广东- 广州市</p>
-                    <p>咨询电话：<strong>400-8888-888</strong></p>
-                    <p><del>参考价：&yen;348,000</del></p>
-                    <p>限时特价：&yen;<strong>300,000</strong></p>
-                    <span><button type="submit" class="btn btn-danger" onclick="">我要买</button></span>
-                    <span><button type="submit" class="btn btn-danger" onclick="">详细咨询</button></span>
-                    <span><button type="submit" class="btn btn-danger" onclick="">加入收藏</button></span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="clearfix"></div>';
-    return $str;
-	}
-	function index(){  
+	function index(){
+        $admin = $this->func_begin(); 
+
+        $this->assign('account_name',session('name_session'));
+
+        $admin->vip();       
+
         
-       /* $this->func_begin();
+    }
 
-        $url = BACK_URL."/cars";//cars
-                
-        $output = $this->get_curl($url);*/
+//拿到订单信息后传到后台
+    function post(){
+        $admin = $this->func_begin();
 
-		for($i=1;$i<5;++$i){
-			$requests[] = $this->make();
-		}
-		//dump($requests);
-		
-       // $requests = json_decode($output,$assoc = true);
+        //创建POST对象
+        $data = array("book_time"=>date('Y-m-d H:i:s',time()));
+        $json = json_encode($data);
+        dump($json);
+        //POST数据
+        $url = BACK_URL."/cars/".$_POST['id']."/orders";    //链接到后台的订单表
+        dump($url);
+        $output = $admin->post_curl($url,$json);//得到返回结果
+        
+        //返回操作提示
+        if($output){
+            $url = U('Main/index');
+            $this->success("预订成功！请等候工作人员与您联系！",$url);
+        }else{
+            $this->error("预订失败，请再试试");
+        }              
+    }
 
-		$requests = $this->set_page($requests);
+    function order()
+    {
+        $admin = $this->func_begin();
+        $this->assign("id",$_GET['id']);  
+        $this->assign('account_name',session('name_session'));
+        $this->assign("order","Main/post");//触发添加动作，post数据
+        $this->assign("submitName","提交");//用户点击确认按钮
 
-		$this->assign("requests",$requests);
-		//$this->assign("title","查看车辆");//小标题
-		$this->assign("title","查看车辆");
-		$this->display();
-		//dump($requests);
-	}	
-	
-	/*function check(){
-                       
-                $this->func_begin();
+        $this->func_end();
+       // $this->display();
+    }
 
-                $url = BACK_URL."/cars";//cars
-                
-                $output = $this->get_curl($url);
-                //$this->assign("snow",$url);
-                //$assoc当该参数为 TRUE 时，将返回 array 而非 object 。 
-                $requests = json_decode($output,$assoc = true);
 
-                $requests = $this->set_page($requests);
 
-                $this->assign("requests",$requests);
-                //$this->assign("title","查看车辆");//小标题
-                $this->assign("title","查看车辆");
-                //dump($requests);
-                $this->func_end();
-        }
-*/
 }

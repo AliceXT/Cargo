@@ -31,7 +31,7 @@ class RegisterController extends Controller{
 		
 		//返回操作提示
 		if($output){
-			$url = U('Main/index/');
+			$url = U('Main/index');
 			$this->success("恭喜成为Car购新成员！请返回登录！",$url);
 		}else{
 			$this->error("注册失败，请再试试");

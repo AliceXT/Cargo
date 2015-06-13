@@ -3,20 +3,20 @@
 <head lang="en">
     <meta charset="UTF-8">
     <link rel="stylesheet"
-          href="/cargo/home/Home/Common/main/css/bootstrap-combined.min.css"><!--调用bootstrap-->
-    <link href="/cargo/home/Home/Common/main/css/main.css" rel="stylesheet" type="text/css" />    <!--调用外部的css样式表-->
-    <link href="/cargo/home/Home/Common/main/css/single_car.css" rel="stylesheet" type="text/css" /> 
-    <script src="/cargo/home/Home/Common/main/js/html5shiv.min.js"></script>
-    <script src="/cargo/home/Home/Common/main/js/respond.min.js"></script>
-    <script src="/cargo/home/Home/Common/main/js/tinybox.js"></script><!--弹窗的js--> <script src="/cargo/home/Home/Common/main/js/tab-jquery.min.js"></script>
-    <script src="/cargo/home/Home/Common/main/js/tabulous.js"></script>
+          href="/cargo1/home/Home/Common/main/css/bootstrap-combined.min.css"><!--调用bootstrap-->
+    <link href="/cargo1/home/Home/Common/main/css/main.css" rel="stylesheet" type="text/css" />    <!--调用外部的css样式表-->
+    <link href="/cargo1/home/Home/Common/main/css/single_car.css" rel="stylesheet" type="text/css" /> 
+    <script src="/cargo1/home/Home/Common/main/js/html5shiv.min.js"></script>
+    <script src="/cargo1/home/Home/Common/main/js/respond.min.js"></script>
+    <script src="/cargo1/home/Home/Common/main/js/tinybox.js"></script><!--弹窗的js--> <script src="/cargo1/home/Home/Common/main/js/tab-jquery.min.js"></script>
+    <script src="/cargo1/home/Home/Common/main/js/tabulous.js"></script>
 
     <title>Cargo|汽车网上交易平台</title>
 </head>
 
 <body>
 <div class="header">
-<img src="/cargo/home/Home/Common/main/image/run.png"
+<img src="/cargo1/home/Home/Common/main/image/run.png"
  width="500px" height="100%">
 </div>
 <!--
@@ -36,7 +36,7 @@
         <div class='navbar navbar-inverse'>
             <div class='nav-collapse'>
                 <div class="s_image">
-                    <img src="/cargo/home/Home/Common/main/image/7.jpg">           
+                    <img src="/cargo1/home/Home/Common/main/image/7.jpg">           
                 </div>
                 <div class="s_right">
                     <h3><?php echo ($description); ?></h3>

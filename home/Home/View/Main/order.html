@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <!--<link rel="stylesheet"
-          href="__ROOT__/home/Home/Common/main/css/bootstrap-combined.min.css">
-   <script src="__ROOT__/home/Home/Common/main/js/html5shiv.min.js"></script>
-    <script src="__ROOT__/home/Home/Common/main/js/respond.min.js"></script>-->
-    <title>填写需求</title>
+    <link href="__ROOT__/home/Home/Common/main/css/main.css" rel="stylesheet" type="text/css" />    
+    <link rel="stylesheet" href="__ROOT__/home/Home/Common/main/css/bootstrap-combined.min.css"><!--调用外部的css样式表-->
+    <script src="__ROOT__/home/Home/Common/main/js/tab-jquery.min.js"></script>
+    <script src="__ROOT__/home/Home/Common/main/js/tabulous.js"></script>
+    <script src="__ROOT__/home/Home/Common/main/js/tab-js.js"></script>
 </head>
+<body>
 
 <style type="text/css">
+
     #main{
         border:2px solid #269abc;
         width: 100%;
@@ -23,9 +25,9 @@
 
 </style>
 
-<body>   
-<div id="main">
-  <form action="__APP__/Home/{$ordermessage}" method="POST" name="myform">
+ <div id="main">
+  <form action="__APP__/Home/{$order}" method="post">
+    <input type="hidden" value="{$id}" name="id">
     <h3>填写购车需求</h3>
     <p>请务必填写真实有效的信息</p>
     <p>以确保我们的工作人员会第一时间联系您!</p>
@@ -33,24 +35,19 @@
     <table width="100%" cellpadding="0" cellspacing="0">
        <tr>           
            <td><button class="btn btn-primary">您的姓名</button></td>
-           <td><input type="text" id="buyername" pattern="[\u4e00-\u9fa5]" autofocus="autofocus"  required/></td>
+           <td><input type="text" value="{$account_name}" readonly></td>
         </tr>
-        <tr>       
-             <td><button class="btn btn-primary">联系方式</button></td>
-             <td><input type="tel" id="telphone" pattern="\d{3}\d{4}\d{4}" placeholder="xxx-xxxx-xxxx" required/><!--正则表达式匹配-->
-             </td>
-        </tr>
-        <tr>
+        <!--<tr>
             <td><button class="btn btn-primary">预计购车时间</button></td>
             <td>
-             <input type="date" pattern="^\d{4}-\d{1,2}-\d{1,2}" placeholder="2015-6-10" id="book_time" required/>
+             <input type="date" pattern="^\d{4}-\d{1,2}-\d{1,2}" placeholder="2015-6-10" id="book_time" autofocus="autofocus" required/>
              </td>          
-        </tr> 
+        </tr>--> 
     </table>
     </br>
         <button type="submit" class="btn btn-primary" name="submit" value="{$submitName}"/>提交</button>
         <button type="reset" class="btn btn-primary" name="reset"/>重置</button> 
-  </form>    
-</div>
+  </form> 
+</div>   
 </body>
 </html>

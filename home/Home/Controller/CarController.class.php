@@ -72,24 +72,9 @@ class CarController extends Controller{
         }
         function search(){
 
-		$url = BACK_URL."/cars/search?";
+		$admin = $this->func_begin();
 
-		$data = http_build_query($_GET);
-		$url =$url.$data;//将参数加到url后面
-		//dump($url);
-		
-		$this->assign("snow",$url);
-		$json= $this->get_curl($url);
-                $url = urlencode($url);
-		$requests = json_decode($json,true);
-
-		$requests = $this->set_page($requests);
-
-		$this->assign("requests",$requests);
-		$this->assign("title","搜索".$_GET['brand']);//小标题
-		$this->assign("snow",$url);
-
-		$this->display("Main/index");
+                $admin->vip();
 
 	}
 }
