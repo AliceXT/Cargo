@@ -112,7 +112,7 @@
   window.onload = function(){
 
     /****************下面是导航菜单的js代码****************/
-    var url = "/cargo/admin.php/Home/Adv/wait";
+    var url = "/cargo/admin.php/Home/Adv/check";
     
 
     var model = getName(url,4);
@@ -259,7 +259,7 @@ document.cookie=name+"=cookiestr; expires="+date.toGMTString();
                 <td><?php echo ($request['account']); ?></td>
                 <td>
                   <!-- Icons -->
-                  <!--<a href=<?="/cargo/admin.php/Home/Ticket/modify/id/".$request['booktic_id']; ?> title="Edit"><img src="/cargo/admin/Home/Common/resources/images/icons/pencil.png" alt="Edit" /></a>--><a href=<?="/cargo/admin.php/Home/Ticket/delete/id/".$request['booktic_id'];?> title="Delete"><img src="/cargo/admin/Home/Common/resources/images/icons/cross.png" alt="Delete" /></a></td>
+                  <a href=<?="/cargo/admin.php/Home/Adv/modify/id/".$request['id']; ?> title="Edit"><img src="/cargo/admin/Home/Common/resources/images/icons/pencil.png" alt="Edit" /></a><!--<a href=<?="/cargo/admin.php/Home/Ticket/delete/id/".$request['booktic_id'];?> title="Delete"><img src="/cargo/admin/Home/Common/resources/images/icons/cross.png" alt="Delete" /></a>--></td>
               </tr><?php endforeach; endif; else: echo "" ;endif; ?>
             </tbody>
           </table>

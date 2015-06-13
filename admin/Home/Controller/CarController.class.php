@@ -83,7 +83,7 @@ class CarController extends Controller{
 		
 		
 		//$url = urlencode($url);
-		$this->assign("snow",$url);
+		//$this->assign("snow",$url);
 		//$json= $this->get_curl($url);
 
 		$requests = json_decode($json,true);
@@ -93,7 +93,7 @@ class CarController extends Controller{
 		$this->assign("requests",$requests);
 		$this->assign("title","搜索".$_GET['key']);//小标题
 		$this->assign("title","搜索".$_GET['brand']);//小标题
-		$this->assign("snow",$url);
+		//$this->assign("snow",$url);
 		$this->func_end("check");
 	}
 

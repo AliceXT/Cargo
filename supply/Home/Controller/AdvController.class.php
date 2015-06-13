@@ -21,10 +21,11 @@ class AdvController extends Controller{
 		foreach($requests as $r){
 			if($r['account_id'] == $id){
 				if($flag){
-					if($r['state'] == "Approval"){
+					if($r['adstate'] == "Approval"){
 						$arr[] = $r;
 					}
 				}else{
+					if($r['adstate'] != "Approval")
 						$arr[] = $r;
 				}
 			}
@@ -36,6 +37,7 @@ class AdvController extends Controller{
 
 	function func_end($str){
 		$this->assign("Title",$this->Title);
+		$this->assign("account_name",session("name_session"));
 		$this->display($str);
 	}
 	function wait(){
@@ -49,6 +51,7 @@ class AdvController extends Controller{
 		$url = BACK_URL."/ads/";
 		$this->func_begin($url,session('id_session'),true);
 		$this->assign("title","在线广告");
+		$this->assign("flag",true);//是否显示删除按钮
 		$this->func_end();
 	}
 
@@ -95,5 +98,27 @@ class AdvController extends Controller{
 		}
 		
 		
+	}
+
+	function delete()
+	{
+		$admin = $this->func_begin();
+
+		//得到json
+		$url = BACK_URL."/ads/".$_GET['id'];
+		//dump($url);
+		$data = array("adstate"=>"Revoke");
+		$json = json_encode($data);
+		//dump($json);
+
+		$output = $admin->patch_curl($url,$json);
+
+		//返回操作提示
+		if($output){
+			$url = U('Adv/check');
+			$this->success("撤销成功",$url);
+		}else{
+			$this->error("撤销失败");
+		}
 	}
 }

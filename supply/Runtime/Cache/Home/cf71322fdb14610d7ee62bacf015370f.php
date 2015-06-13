@@ -110,7 +110,7 @@
   window.onload = function(){
 
     /****************下面是导航菜单的js代码****************/
-    var url = "/cargo/supply.php/Home/Car/add";
+    var url = "/cargo/supply.php/Home/Car/modify";
     
 
     var model = getName(url,4);
@@ -213,12 +213,6 @@ document.cookie=name+"=cookiestr; expires="+date.toGMTString();
           <form action="/cargo/supply.php/Home/Car/<?php echo ($action); ?>" method="post" class="contentform" enctype="multipart/form-data">
           <!--<h4>添加车辆</h4>-->
           <fieldset>
-            <?php
- if(isset($request)){ ?>  
-
-            <input type="hidden" name="id" id="id" value="<?php echo ($request['id']); ?>">
-            <?php
- } ?>
             <p>
             <h4>车辆基本信息</h4>
             </p>

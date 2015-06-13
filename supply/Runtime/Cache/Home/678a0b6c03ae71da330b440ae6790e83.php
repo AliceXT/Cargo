@@ -110,7 +110,7 @@
   window.onload = function(){
 
     /****************下面是导航菜单的js代码****************/
-    var url = "/cargo/supply.php/Home/Adv/wait";
+    var url = "/cargo/supply.php/Home/Adv/check";
     
 
     var model = getName(url,4);
@@ -250,7 +250,11 @@ document.cookie=name+"=cookiestr; expires="+date.toGMTString();
                 <td><?php echo ($request['word']); ?></td>
                 <td>
                   <!-- Icons -->
-                  <a href=<?="/cargo/supply.php/Home/Ticket/modify/id/".$request['booktic_id']; ?> title="Edit"><img src="/cargo/admin/Home/Common/resources/images/icons/pencil.png" alt="Edit" /></a><a href=<?="/cargo/supply.php/Home/Ticket/delete/id/".$request['booktic_id'];?> title="Delete"><img src="/cargo/admin/Home/Common/resources/images/icons/cross.png" alt="Delete" /></a></td>
+                  <?php if($flag){ ?>
+                  
+                  <!--<a href=<?="/cargo/supply.php/Home/Adv/modify/id/".$request['booktic_id']; ?> title="Edit"><img src="/cargo/admin/Home/Common/resources/images/icons/pencil.png" alt="Edit" /></a>--><a href=<?="/cargo/supply.php/Home/Adv/delete/id/".$request['id'];?> title="Delete"><img src="/cargo/admin/Home/Common/resources/images/icons/cross.png" alt="撤销" /></a></td>
+                  <?php
+ } ?>
               </tr><?php endforeach; endif; else: echo "" ;endif; ?>
             </tbody>
           </table>
@@ -263,7 +267,7 @@ document.cookie=name+"=cookiestr; expires="+date.toGMTString();
 
 
       <!-- End .content-box-content -->
-    </div><div><?php echo ($snow); ?></div>
+    </div>
     <!-- End .content-box -->
 
 

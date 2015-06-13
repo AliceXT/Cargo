@@ -3,7 +3,7 @@ namespace Home\Controller;
 use Think\Controller;
 use Think\Verify;
 use Think\Page;
-define(BOUNDARY,"---------------------------22139315522833");
+//define(BOUNDARY,"---------------------------22139315522833");
 class AdminController extends Controller{
 
 	public function index(){
