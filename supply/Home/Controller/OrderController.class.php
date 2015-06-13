@@ -42,7 +42,7 @@ class OrderController extends Controller{
 		$requests = json_decode($output,$assoc = true);
 
 		//等待后台修复，下面注释去掉
-		
+		/*
 		foreach($requests as $r)//处理挑选本供销商的车辆
 		{
 			if($r['owner'] == session("id_session")){
@@ -50,7 +50,7 @@ class OrderController extends Controller{
 			}
 		}
 		$requests = $arr;
-
+		*/
 		$requests = $admin->set_page($requests);//分页处理
 
 		$this->assign("requests",$requests);
