@@ -12,7 +12,7 @@
     <form action="__APP__/Home/{$InsertUser}" method="post">
       <div class="login"> 
             <input type="hidden" name="id" id="id" value="{$request['id']}">
-        <h2>欢迎加入Car购</h2>
+        <h2>资料设置</h2>
         <hr>
         <table width="100%" cellpadding="0" cellspacing="0">
                 <tr>
@@ -20,17 +20,28 @@
                     <td>
                         <input type="text" autofocus="autofocus" placeholder="中英文/数字/下划线" pattern="^[\u4E00-\u9FA5A-Za-z0-9_]+$" id="name" name="name" value="{$request['name']}" required/ >
                     </td>
-                </tr>              
+                </tr>    
+                <?php if($InsertUser == "Register/patch"){
+                    ?>
+                <tr>                    
+                    <td><button class="btn btn-primary" >原密码</button></td>
+                    <td>
+                        <input type="password"  pattern="^\w{6,20}$" placeholder="6-20位，支持字母/数字" name="passold" id="passold"required/>
+                    </td>
+                </tr>
+                <?php
+                } 
+                ?>        
                 <tr>                    
                     <td><button class="btn btn-primary" >密码</button></td>
                     <td>
-                        <input type="password"  pattern="^\w{6,20}$" placeholder="6-20位，支持字母/数字" name="password" id="password" value="{$request['password']}" required/>
+                        <input type="password"  pattern="^\w{6,20}$" placeholder="6-20位，支持字母/数字" name="passnew" id="passnew" {$require}/>
                     </td>
                 </tr>
                 <tr>                
                     <td><button class="btn btn-primary" >确认密码</button></td>
                     <td>
-                        <input type="password" id="passcheck" name="passcheck" pattern="^\w{6,20}$" required/>
+                        <input type="password" id="passcheck" name="passcheck" pattern="^\w{6,20}$" {$require}/>
                     </td>
                 </tr>               
                 

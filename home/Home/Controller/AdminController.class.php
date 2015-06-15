@@ -226,4 +226,30 @@ class AdminController extends Controller{
                 
         $this->display("Main/index");
     }
+
+    function ads()
+    {
+        
+        $url = BACK_URL."/ads/";
+        //dump($url);
+        //$this->assign("snow",$url);
+        $json= $this->get_curl($url);
+        $requests = json_decode($json,true);
+
+        //修改图片路径
+        foreach($requests as $r){
+            $r['picture'] = BACK_URL."/".$r['picture'];
+            $arr[] = $r;
+        }
+        //dump($arr);
+        foreach($arr as $a){
+            if($a['adstate'] == "Approval"){
+                $approval[] = $a;
+            }
+        }
+        //dump($approval);        
+        $this->assign("ads",$approval);
+        $this->assign("snow",$url);
+                
+    }
 }

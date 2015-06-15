@@ -7,12 +7,12 @@
                     <img src="{$request['picture']}">           
                 </div>
                 <div class="s_right">
-                    <h3>{$request['brand']}{$request['description']}</h3>
-                    <p>限量：<strong>{$request['stock']}</strong></p>
-                    <p>咨询电话：<strong>400-8888-888</strong></p>
-                    <p>参考价：&yen;{$request['price']}</p>
-                    <span><button class="btn btn-primary btn-lg" id="Buy">我要买</button></span> 
-                    <span><button type="submit" class="btn btn-primary btn-lg" id="">加入收藏</button></span>                
+                    <h2>{$request['description']}</h2>        
+                    <p>参考价：<strong>&yen;{$request['price']}万</strong></p>
+                    <p>限量：<strong>{$request['stock']}台</strong></p>
+                    <p>咨询电话：<strong>400-8888-888</strong></p>     
+                    <span><a href="#" id="Buy"><img src="__ROOT__/home/Home/Common/main/image/61.png" width=15% heght=50% /></a></span>
+                    <span><img src="__ROOT__/home/Home/Common/main/image/60.png" width=15% heght=50% /></span>               
                </div>
             </div>
         </div><hr>
@@ -27,7 +27,7 @@
      <li><a href="#tabs-3">发动机参数</a></li>
      <li><a href="#tabs-4">技术参数</a></li>
      <li><a href="#tabs-5">保修政策</a></li>
-     <li><a href="#tabs-6">累计评价</a></li>
+     <li><a href="#tabs-6">累计评价(3)</a></li>
     </ul>            
     <div id="tabs_container">
         <div id="tabs-1">
@@ -116,9 +116,25 @@
 <h4>三 、在发生故障后，没有及时到维修店维修而继续使用所导致的故障扩大，厂家会酌情赔偿引发原事故的原零部件，而扩大部分的损失由车主自己负责。</h4>
 <h4>四 、对于服务站维修操作不当造成的损坏,服务站应当承担由此产生的责任并进行修复；因车辆故障引起的附加费损失均不属于质量担保范围。</h4><hr>
   </div><!--End tabs-5-->
-    <div id="tabs-6">
-       hello
-    </div>
+    <div id="tabs-6"> 
+     <form action="" method="">    
+        <input type="text" placeholder="说点什么吧..." value=""required/>
+        <button type="submit" class="btn btn-primary" name="submit" value=""/>评价</button>
+        <table border="0" width=100% align="center" cellpadding="10">
+              <tr>
+                <td>xiaoyajie:</td>
+                <td>今天把它带回家了,在外面兜风了一晚上!开心！</td>
+              <tr>               
+                <td>龙女：</td>
+                <td>这辆车支不支持贷款啊？首付是多少？</td>  
+              </tr>
+              <tr>               
+                <td>婷婷：</td>
+                <td>已经预定了，不知道是如何，期待看到产品！</td>
+              </tr>
+        </table>
+    </form> 
+    </div><!--End tabs-6-->
   </div><!--End tabs container-->
 </div><!--End tabs-->
 </div><!--End s_detail-->
@@ -127,8 +143,8 @@
 
     T$('Buy').onclick = function(){
         
-          var url = "http://"+window.location.hostname+":"+window.location.port+'/cargo1/index.php/Home/Main/order/id/'+{$request['id']};
-          TINY.box.show(url,1,400,300,1)
+          var url = "http://"+window.location.hostname+":"+window.location.port+'/cargo/index.php/Home/Main/order/id/'+{$request['id']};
+          TINY.box.show(url,1,400,270,1)
 
     }//弹出填写购车需求的窗口
 

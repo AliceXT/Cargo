@@ -4,7 +4,7 @@ use Think\Controller;
 class UserloginController extends Controller {
     public function index(){    //为页面的名称
         header("Content-Type:text/html; charset=utf-8");
-        $this->display("login");//跨控制器访问
+        $this->display("Login");//跨控制器访问
     }
      public function makePost(){    //供销商登录时与后台的参数交互
         header("Content-Type:text/html; charset=utf-8");

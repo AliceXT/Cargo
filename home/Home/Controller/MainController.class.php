@@ -19,7 +19,7 @@ class MainController extends Controller {
         }//dump(session('cargo_session'));
     }
 
-      function func_begin(){
+        function func_begin(){
                 header("Content-Type:text/html; charset=utf-8");
                 $admin = A('Admin');
                 return $admin;
@@ -28,6 +28,18 @@ class MainController extends Controller {
                 $this->assign("Title",$this->Title);
                 $this->display($str);
         }
+    //处理用户退出
+        function logout(){
+
+        header("Content-Type:text/html; charset=utf-8");
+
+        session('cargo_session',null);
+        session('id_session',null);
+        session('name_session',null);
+
+        $url = U("Main/index");
+        $this->success("退出成功",$url);
+     }
     //用户登录时的触发
       function userPost(){
         header("Content-Type:text/html; charset=utf-8");
@@ -70,7 +82,7 @@ class MainController extends Controller {
             session('cargo_session',$data['auth_token']);//将cargo_session赋值为token的值
             session('name_session',$data['name']);//将name_session赋值为用户名
             session('id_session',$data['id']);//将id_session赋值为用户id
-            $url="http://localhost:8080/cargo1/index.php/Home/Main/index.html";
+            $url=U("index");
             $this->success("登录成功",$url);
         }else{
             $this->error('登录失败，请检查信息'.$status);
@@ -121,11 +133,11 @@ class MainController extends Controller {
             session('name_session',$data['name']);//将name_session赋值为用户名
             session('id_session',$data['id']);//将id_session赋值为用户id
             //$url = U("supply.php/Home/Admin/index");
-            $url="http://localhost:8080/cargo1/supply.php/Home/Admin/index.html";
+            $url="http://localhost:8080/cargo/supply.php/Home/Admin/index.html";
             //$url = U("http://"+window.location.hostname+":"+window.location.port+'/cargo/supply.php/Home/Admin/index');
             $this->success("登录成功",$url);
         }else{
-            $this->error('登录注册，请检查用户名和密码是否正确'.$status);
+            $this->error('登录失败，请检查用户名和密码是否正确'.$status);
         }
         
     }
@@ -150,8 +162,9 @@ class MainController extends Controller {
         return $output;
 	}
 
+//首页车辆显示和广告的分页处理
 	function set_page($requests){
-		//分页处理
+
 		$count=count($requests);//总共多少条
         $Page= new Page($count,NUM_PER_PAGE);//调用Page类，每页NUM_PER_PAGE条
         $index=(intval($_GET['p'])-1)*NUM_PER_PAGE;//定位当前的条数
@@ -163,10 +176,13 @@ class MainController extends Controller {
 	}
 
 
+    
 	function index(){
         $admin = $this->func_begin(); 
 
-        $this->assign('account_name',session('name_session'));
+        $this->assign('account_username',session('name_session'));
+
+        $admin->ads();
 
         $admin->vip();       
 
@@ -199,7 +215,7 @@ class MainController extends Controller {
     {
         $admin = $this->func_begin();
         $this->assign("id",$_GET['id']);  
-        $this->assign('account_name',session('name_session'));
+        $this->assign('account_username',session('name_session'));
         $this->assign("order","Main/post");//触发添加动作，post数据
         $this->assign("submitName","提交");//用户点击确认按钮
 

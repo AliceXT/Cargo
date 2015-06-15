@@ -7,6 +7,7 @@ body{
     height:5%;
     margin-top: 5px;
     margin-bottom: 15px;
+    padding-left: 40px;
     text-align: center;
 }
 .header_box{        /*导航框*/
@@ -26,7 +27,7 @@ body{
     background-color: white;
     float: left;
     margin: 3px;
-    padding: 5px;/*左右宽度相同*/
+    padding: 2px;/*左右宽度相同*/
     width: 70%;
     height: 100%;
     text-align: center;
@@ -55,26 +56,27 @@ body{
 .car_image{     /*汽车图片*/
     float: left;
     width: 40%;
-    height:30%;
+    height:28%;
 }
 .clearfix{
  clear:both;
 }
 .right{     /*汽车描述*/
     float: right;
-    width: 55%;
+    width: 50%;
     height: 12%;
     font-family: "courier";
-    font-size: 1.7em;
+    font-size: 1.8em;
+    line-height: 1.7em;
 }
 .clearfix{
  clear:both;
 }
 .container_right{    /*右部容器*/
     float: right;
-    width: 26%;
+    width: 28%;
     height: 90%;
-    padding-right: 10px;
+    padding-right: 5px;
     font-family: "微软雅黑";
 }
 .clearfix{
@@ -88,14 +90,23 @@ body{
     line-height:20px;
 }
  .login{        /*登录注册时的css*/
-    border: 3px;
+    border: 3px bolder solid #333;
     margin-top: 3px;
     width: 100%;
-    height: 100%;
+    height: 50%;
     font-family: "微软雅黑";
     text-align: center;
     font-size: 1.2em;
 }
+.ads{    /*广告的css*/
+    border: 1px bold solid #222;
+    width: 90%;
+    height: 50%;
+    font-family: "微软雅黑";
+    text-align: center;
+    font-size: 1.2em;    
+}
+
 h1,h2,h3,h4{
     font-family: "verdana";
     font-weight: bolder;

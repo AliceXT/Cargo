@@ -3,7 +3,6 @@
 <div class="contain"><!--主体容器-->
   <div class="container_left"> <!--左部内容-->
     <div class="left_header">
-    <h3>欢迎你，{$account_name}<hr></h3>    
     <h4>
       <form id="search_form" action="__APP__/Home/Car/search" method="get">  
       <?php $url = "__APP__/Home/Car/search?";?>
@@ -18,7 +17,7 @@
                <option value="本田">本田</option>
                <option value="别克">别克</option>
            </select>      
-         <span><button type="hidden" class="btn-primary">搜索</button></span>
+           <span><button type="hidden" class="btn-primary">搜索</button></span>
       </form>
          <table class="table" bgcolor="#E0E0E0" algin="center">
         <tr>
@@ -56,26 +55,23 @@
         </tr>      
       </table> 
       </h4>  
-
     </div>
     <div class="cars">
       <?php $j = 0;?>
-       <form id="search_form" action="__APP__/Home/Main/index" method="post">
+        <form id="search_form" action="__APP__/Home/Car/search?displacement=2" method="get">
         <volist name="requests" id="request">
           <div class="car_body">
-            <div class='navbar navbar-inverse'>{$request['type']}
+            <div class='navbar navbar-inverse'>
               <div class='nav-collapse'>
                 <div class="car_image">
                     <a href="__APP__/Home/Single/check/id/{$request['id']}" target="_blank"><img src="{$request['picture']}"></a></li>
                 </div>
                 <div class="right">
-                  <h3>{$request['brand']}{$request['description']}</h3>
-                  <p>限量：<strong>{$request['stock']}</strong></p>
-                  <!--<p><del>参考价：&yen;480,000</del></p>-->
+                  <h3>{$request['description']}</h3>
+                  <p><strong>{$request['type']}--仅存{$request['stock']}台</strong></p>
                   <p>限时特价：<strong>&yen;{$request['price']}万</strong></p>
-                  <p>咨询电话：400-8888-888</p>
-                  <span><a href="__APP__/Home/Single/check/id/{$request['id']}/name/{$account_name}" class="btn btn-primary btn-lg">仔细看看</a></span>
-                  <span><button type="submit" class="btn btn-primary" onclick="">加入收藏</button></span>
+                  <span><a href="__APP__/Home/Single/check/id/{$request['id']}/name/{$account_username}" ><img src="__ROOT__/home/Home/Common/main/image/61.png" width=25% heght=60% /></a></span>
+                  <span><img src="__ROOT__/home/Home/Common/main/image/60.png" width=25% heght=60% /></span>
                 </div>
               </div>
             </div>
@@ -84,29 +80,24 @@
       </form>
     </div>
     <div> 
-      <h4><a href='#'>首页 </a> |
-        <a href='#'>上一页 </a> |
-        <a href='#'>下一页 </a> |
-        <a href='#'>尾页 </a></h4>
+      <h3>{$show}</h3>
     </div>
   </div><!--End container_left-->
 
   <div class="container_right">
-    <include file="Main:login" />      
+    <include file="Main:login" /><hr><!--登录的文件--></div>
+    <!--广告位的推荐-->
+    <div class="container_right">
+      <hr>
+    <div class="ads">
+        <volist name="ads" id="ad">        
+                <a href="__APP__/Home/Single/check/id/{$ad['id']}" target="_blank"><img src="{$ad['picture']}" width="75%"></a><hr>                   
+        </volist>
+    </div>      
  </div><!--End container_right-->
 
 </div><!--End contain-->
 
-<!--设置用户点击时的弹窗
-<script type="text/javascript">
-  
-      T$('IndexBuy').onclick = function(){
-        var url = "http://"+window.location.hostname+":"+window.location.port+'/cargo1/index.php/Home/Main/order';       
-        TINY.box.show(url,1,400,350,1)
-
-        }//弹出填写购车需求的窗口
-
-</script>-->
 
 <div class="clearfix"></div>
 <include file="Main:footer" />

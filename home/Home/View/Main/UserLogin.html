@@ -1,11 +1,7 @@
 <div class="login"> 
-<h3> 
-欢迎你，<a href="#"id="UsersMessage">{$account_username}</a>用户&nbsp;&nbsp;
-<a href="__APP__/Home/Main/logout">【退出】</a>
-</h3>
- <div id="tabs">         
-  <div id="tabs_container">
-        <form action="__URL__/userPost" method="post">                  
+ 
+  <form action="__URL__/userPost" method="post">      
+        <h3>用户登录</h3>             
         <table width="100%" cellpadding="0" cellspacing="0">
                 <tr>
                     <td><button class="btn btn-primary">用户名</button></td>
@@ -23,11 +19,10 @@
             </br>
             <button type="submit" class="btn btn-primary" name="submit"/>登录</button> 
             未注册？<a href="#"id="UsersRegister">点击注册</a>
-         <hr>
-        </form>
-      </div>
-      <!--<div id="tabs-2">
-        <form action="__URL__/supplyPost" method="post">             
+      <hr>
+    </form>
+    <form action="__URL__/supplyPost" method="post">
+        <h3>供销商登录</h3>             
         <table width="100%" cellpadding="0" cellspacing="0">
                 <tr>
                     <td><button class="btn btn-primary">公司名</button></td>
@@ -42,40 +37,24 @@
                     </td>
                 </tr>            
             </table>
-             <button type="submit" class="btn btn-primary" name="signin"/>登录</button> 
+            </br>
+            <button type="submit" class="btn btn-primary" name="signin"/>登录</button> 
             未注册？<a href="#"id="SupplyRegister">点击注册</a>
-          </form>-->
-        <!--</div>End tabs-2-->
-      </div><!--End tab_container-->
-    </div><!--End tabs-->
-  </div><!--End login-->
-
-
-
+          </form>
+    </div>
+   
+   
 <!--设置用户点击时的弹窗-->
 <script type="text/javascript">
       
-      T$('SupplyRegister').onclick = function()
-      {
       var url1 = "http://"+window.location.hostname+":"+window.location.port+'/cargo/index.php/Home/Register/InsertSupply';
-      //alert(url1);
+     //alert(url1);
+      T$('SupplyRegister').onclick = function(){
       TINY.box.show(url1,1,400,450,1)
-     
       }//弹出供销商注册的窗口
-
-      T$('UsersRegister').onclick = function()
-      {
-
       var url2 = "http://"+window.location.hostname+":"+window.location.port+'/cargo/index.php/Home/Register/InsertUser';
+      T$('UsersRegister').onclick = function(){
       TINY.box.show(url2,1,400,450,1)
-      
       }//弹出用户注册的窗口
-
-      T$('UsersMessage').onclick = function(){
-
-      var url3 = "http://"+window.location.hostname+":"+window.location.port+'/cargo/index.php/Home/Register/modify';
-      TINY.box.show(url3,1,400,450,1)
-
-      }//弹出修改资料的窗口
 
 </script>

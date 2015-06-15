@@ -4,9 +4,10 @@
 .single_car{
     margin: 5px;
     padding: 8px;
-    width: 80%;
+    width: 100%;
     height: 18%;
-    float:left;  
+    float:left; 
+    background-color: #F8F8FF; 
     
 }
 .clearfix{
@@ -14,14 +15,17 @@
 }
 .s_image{     /*汽车图片*/
    float: left;
-    width: 40%;
-    height:25%;
+    width: 25%;
+    height:15%;
+     padding-left: 50px;
+
 }
 .clearfix{
  clear:both;
 }
 .s_right{     /*汽车描述*/
-   float: right;
+   float: left;
+   padding-left: 100px;
     width: 55%;
     height: 12%;
     font-family: "courier";
@@ -52,6 +56,10 @@
     float: left;
 }
 
+.clearfix{
+ clear:both;
+}
+
 #tabs li{
     float: left;
     margin-right: 3px;
@@ -74,7 +82,7 @@
 }
 
 #tabs_container {   /*下面表格样式*/
-    padding: 20px;
+    padding: 10px;
     overflow: hidden;
     position: relative;
     background: #F8F8FF;
